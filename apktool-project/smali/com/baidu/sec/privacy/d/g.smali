@@ -1,0 +1,689 @@
+.class public Lcom/baidu/sec/privacy/d/g;
+.super Ljava/lang/Object;
+.source "PrvMethodHelper.java"
+
+
+# direct methods
+.method public static varargs a(Landroid/content/Context;ILjava/lang/String;IZLcom/baidu/sec/privacy/c/a/a;[Ljava/lang/Object;)I
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "I",
+            "Ljava/lang/String;",
+            "IZ",
+            "Lcom/baidu/sec/privacy/c/a/a<",
+            "Ljava/lang/Integer;",
+            ">;[",
+            "Ljava/lang/Object;",
+            ")I"
+        }
+    .end annotation
+
+    .line 9
+    :try_start_0
+    invoke-static {p1}, Lcom/baidu/sec/privacy/b/a;->a(I)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    return p3
+
+    .line 13
+    :cond_0
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ""
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 14
+    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    .line 15
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/String;->getBytes()[B
+
+    move-result-object v0
+
+    const/4 v2, 0x0
+
+    invoke-static {v0, v2}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 17
+    :cond_1
+    invoke-static {v0}, Lcom/baidu/sec/privacy/d/g;->a(Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_5
+
+    .line 18
+    invoke-static {v0}, Lcom/baidu/sec/privacy/b/a;->c(Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    .line 20
+    invoke-static {v0, p3}, Lcom/baidu/sec/privacy/b/a;->a(Ljava/lang/String;I)I
+
+    move-result v1
+
+    if-eq v1, p3, :cond_2
+
+    return v1
+
+    .line 25
+    :cond_2
+    invoke-static {p0, p1}, Lcom/baidu/sec/privacy/d/g;->b(Landroid/content/Context;I)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_4
+
+    .line 27
+    invoke-interface {p5, p2, p6}, Lcom/baidu/sec/privacy/c/a/a;->b(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Integer;
+
+    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
+
+    move-result p0
+
+    if-eq p0, p3, :cond_3
+
+    .line 29
+    invoke-static {v0, p0}, Lcom/baidu/sec/privacy/b/a;->b(Ljava/lang/String;I)V
+
+    :cond_3
+    return p0
+
+    .line 33
+    :cond_4
+    invoke-static {p0, p3, p4}, Lcom/baidu/sec/privacy/d/g;->a(Landroid/content/Context;IZ)I
+
+    move-result p0
+
+    return p0
+
+    .line 37
+    :cond_5
+    invoke-static {p0, p1}, Lcom/baidu/sec/privacy/d/g;->b(Landroid/content/Context;I)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_8
+
+    .line 39
+    invoke-interface {p5, p2, p6}, Lcom/baidu/sec/privacy/c/a/a;->b(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Integer;
+
+    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
+
+    move-result p0
+
+    if-ne p0, p3, :cond_7
+
+    .line 41
+    invoke-static {v0}, Lcom/baidu/sec/privacy/b/a;->c(Ljava/lang/String;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_6
+
+    .line 43
+    invoke-static {v0, p3}, Lcom/baidu/sec/privacy/b/a;->a(Ljava/lang/String;I)I
+
+    move-result p0
+
+    return p0
+
+    :cond_6
+    return p3
+
+    .line 48
+    :cond_7
+    invoke-static {v0, p0}, Lcom/baidu/sec/privacy/b/a;->b(Ljava/lang/String;I)V
+
+    return p0
+
+    .line 52
+    :cond_8
+    invoke-static {v0}, Lcom/baidu/sec/privacy/b/a;->c(Ljava/lang/String;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_a
+
+    .line 54
+    invoke-static {v0, p3}, Lcom/baidu/sec/privacy/b/a;->a(Ljava/lang/String;I)I
+
+    move-result p1
+
+    if-ne p1, p3, :cond_9
+
+    .line 56
+    invoke-static {p0, p3, p4}, Lcom/baidu/sec/privacy/d/g;->a(Landroid/content/Context;IZ)I
+
+    move-result p0
+
+    return p0
+
+    :cond_9
+    return p1
+
+    .line 61
+    :cond_a
+    invoke-static {p0, p3, p4}, Lcom/baidu/sec/privacy/d/g;->a(Landroid/content/Context;IZ)I
+
+    move-result p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    return p0
+
+    :catchall_0
+    move-exception p0
+
+    .line 66
+    invoke-static {p0}, Lcom/baidu/sec/privacy/d/c;->a(Ljava/lang/Throwable;)V
+
+    return p3
+.end method
+
+.method public static a(Landroid/content/Context;IZ)I
+    .locals 0
+
+    if-nez p2, :cond_0
+
+    return p1
+
+    .line 146
+    :cond_0
+    invoke-static {p0}, Lcom/baidu/sec/privacy/d/c;->b(Landroid/content/Context;)Z
+
+    move-result p0
+
+    if-nez p0, :cond_1
+
+    const/16 p0, -0x3e8
+
+    return p0
+
+    :cond_1
+    const/16 p0, -0x3e9
+
+    return p0
+.end method
+
+.method public static varargs a(Landroid/content/Context;ILjava/lang/String;ZLcom/baidu/sec/privacy/c/a/a;[Ljava/lang/Object;)Ljava/lang/String;
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "I",
+            "Ljava/lang/String;",
+            "Z",
+            "Lcom/baidu/sec/privacy/c/a/a<",
+            "Ljava/lang/String;",
+            ">;[",
+            "Ljava/lang/Object;",
+            ")",
+            "Ljava/lang/String;"
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x1
+
+    const/16 v2, 0x40
+
+    if-ne p1, v2, :cond_0
+
+    .line 67
+    :try_start_0
+    invoke-static {}, Lcom/baidu/sec/privacy/b/a;->c()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    const/4 v2, 0x0
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p0
+
+    goto/16 :goto_1
+
+    :cond_0
+    const/4 v2, 0x1
+
+    :goto_0
+    if-eqz v2, :cond_1
+
+    .line 73
+    invoke-static {p1}, Lcom/baidu/sec/privacy/b/a;->a(I)Z
+
+    move-result v3
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    if-nez v3, :cond_1
+
+    const-string p0, ""
+
+    return-object p0
+
+    .line 80
+    :cond_1
+    :try_start_1
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v4, ""
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    .line 81
+    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v4
+
+    if-nez v4, :cond_2
+
+    .line 82
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/String;->getBytes()[B
+
+    move-result-object v3
+
+    invoke-static {v3, v0}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    .line 84
+    :cond_2
+    invoke-static {v3}, Lcom/baidu/sec/privacy/d/g;->a(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_7
+
+    .line 85
+    invoke-static {v3}, Lcom/baidu/sec/privacy/b/a;->c(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    const-string v0, ""
+
+    .line 87
+    invoke-static {v3, v0}, Lcom/baidu/sec/privacy/b/a;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 88
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v4
+
+    if-nez v4, :cond_3
+
+    return-object v0
+
+    :cond_3
+    if-eqz v2, :cond_4
+
+    .line 95
+    invoke-static {p0, p1}, Lcom/baidu/sec/privacy/d/g;->b(Landroid/content/Context;I)Z
+
+    move-result v1
+
+    :cond_4
+    if-eqz v1, :cond_6
+
+    .line 99
+    invoke-interface {p4, p2, p5}, Lcom/baidu/sec/privacy/c/a/a;->b(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/String;
+
+    .line 100
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_5
+
+    .line 101
+    invoke-static {v3, p0}, Lcom/baidu/sec/privacy/b/a;->b(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_5
+    return-object p0
+
+    .line 105
+    :cond_6
+    invoke-static {p0, p3}, Lcom/baidu/sec/privacy/d/g;->a(Landroid/content/Context;Z)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_7
+    if-eqz v2, :cond_8
+
+    .line 110
+    invoke-static {p0, p1}, Lcom/baidu/sec/privacy/d/g;->b(Landroid/content/Context;I)Z
+
+    move-result v1
+
+    :cond_8
+    if-eqz v1, :cond_b
+
+    .line 113
+    invoke-interface {p4, p2, p5}, Lcom/baidu/sec/privacy/c/a/a;->b(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/String;
+
+    .line 114
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_a
+
+    .line 115
+    invoke-static {v3}, Lcom/baidu/sec/privacy/b/a;->c(Ljava/lang/String;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_9
+
+    const-string p0, ""
+
+    .line 117
+    invoke-static {v3, p0}, Lcom/baidu/sec/privacy/b/a;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    return-object p0
+
+    :cond_9
+    const-string p0, ""
+
+    return-object p0
+
+    .line 122
+    :cond_a
+    :try_start_2
+    invoke-static {v3, p0}, Lcom/baidu/sec/privacy/b/a;->b(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-object p0
+
+    .line 126
+    :cond_b
+    invoke-static {v3}, Lcom/baidu/sec/privacy/b/a;->c(Ljava/lang/String;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_d
+
+    const-string p1, ""
+
+    .line 128
+    invoke-static {v3, p1}, Lcom/baidu/sec/privacy/b/a;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 129
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_c
+
+    .line 130
+    invoke-static {p0, p3}, Lcom/baidu/sec/privacy/d/g;->a(Landroid/content/Context;Z)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_c
+    return-object p1
+
+    .line 135
+    :cond_d
+    invoke-static {p0, p3}, Lcom/baidu/sec/privacy/d/g;->a(Landroid/content/Context;Z)Ljava/lang/String;
+
+    move-result-object p0
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    return-object p0
+
+    .line 140
+    :goto_1
+    invoke-static {p0}, Lcom/baidu/sec/privacy/d/c;->a(Ljava/lang/Throwable;)V
+
+    const-string p0, ""
+
+    return-object p0
+.end method
+
+.method public static varargs a(Landroid/content/Context;IZLcom/baidu/sec/privacy/c/a/a;[Ljava/lang/Object;)Ljava/lang/String;
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "IZ",
+            "Lcom/baidu/sec/privacy/c/a/a<",
+            "Ljava/lang/String;",
+            ">;[",
+            "Ljava/lang/Object;",
+            ")",
+            "Ljava/lang/String;"
+        }
+    .end annotation
+
+    const/4 v2, 0x0
+
+    move-object v0, p0
+
+    move v1, p1
+
+    move v3, p2
+
+    move-object v4, p3
+
+    move-object v5, p4
+
+    .line 141
+    invoke-static/range {v0 .. v5}, Lcom/baidu/sec/privacy/d/g;->a(Landroid/content/Context;ILjava/lang/String;ZLcom/baidu/sec/privacy/c/a/a;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static a(Landroid/content/Context;Z)Ljava/lang/String;
+    .locals 0
+
+    if-nez p1, :cond_0
+
+    const-string p0, ""
+
+    return-object p0
+
+    .line 145
+    :cond_0
+    invoke-static {p0}, Lcom/baidu/sec/privacy/d/c;->b(Landroid/content/Context;)Z
+
+    move-result p0
+
+    if-nez p0, :cond_1
+
+    const-string p0, "-1000"
+
+    return-object p0
+
+    :cond_1
+    const-string p0, "-1001"
+
+    return-object p0
+.end method
+
+.method public static a(Landroid/content/Context;I)Z
+    .locals 1
+
+    .line 1
+    invoke-static {p1}, Lcom/baidu/sec/privacy/b/a;->a(I)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 p0, 0x0
+
+    return p0
+
+    .line 8
+    :cond_0
+    invoke-static {p0, p1}, Lcom/baidu/sec/privacy/d/g;->b(Landroid/content/Context;I)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static a(Ljava/lang/String;)Z
+    .locals 6
+
+    .line 142
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p0, "la_in"
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const-wide/16 v0, 0x0
+
+    invoke-static {p0, v0, v1}, Lcom/baidu/sec/privacy/b/a;->a(Ljava/lang/String;J)J
+
+    move-result-wide v0
+
+    .line 144
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v2
+
+    sub-long v4, v2, v0
+
+    const-wide/32 v0, 0x5265c00
+
+    cmp-long p0, v4, v0
+
+    if-gez p0, :cond_0
+
+    const/4 p0, 0x0
+
+    return p0
+
+    :cond_0
+    const/4 p0, 0x1
+
+    return p0
+.end method
+
+.method public static b(Landroid/content/Context;I)Z
+    .locals 0
+
+    .line 1
+    invoke-static {p1}, Lcom/baidu/sec/privacy/b/a;->b(I)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p0, 0x1
+
+    return p0
+
+    .line 8
+    :cond_0
+    invoke-static {p0}, Lcom/baidu/sec/privacy/d/c;->a(Landroid/content/Context;)Z
+
+    move-result p0
+
+    return p0
+.end method

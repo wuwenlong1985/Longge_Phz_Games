@@ -1,0 +1,905 @@
+{
+  "ID": "2252df95-065c-4029-a23e-302189434137",
+  "Version": "2.3.4",
+  "Name": "LotteryMyAward",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 101,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 204,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 635.392,
+              "Y": 363.168
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.4964,
+              "Y": 0.5044
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -4.608,
+            "RightMargin": 4.608,
+            "TopMargin": -3.168,
+            "BottomMargin": 3.168,
+            "Tag": 169,
+            "ActionTag": 2041372724,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Alpha": 204,
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "chat/bac_03.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 241,
+            "Scale9OriginY": 192,
+            "Scale9Width": 675,
+            "Scale9Height": 285,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.9039,
+              "Y": 0.9292
+            },
+            "LeftMargin": 61.5,
+            "RightMargin": 61.5,
+            "TopMargin": 25.5,
+            "BottomMargin": 25.5,
+            "Tag": 170,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/Title_wodejiangli.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 126,
+                "Scale9OriginY": 25,
+                "Scale9Width": 41,
+                "Scale9Height": 36,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 578.5,
+                  "Y": 600.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8969
+                },
+                "PreSize": {
+                  "X": 0.2532,
+                  "Y": 0.1286
+                },
+                "LeftMargin": 432.0,
+                "RightMargin": 432.0,
+                "TopMargin": 26.0,
+                "BottomMargin": 557.0,
+                "Tag": 171,
+                "ActionTag": -2079374354,
+                "Size": {
+                  "X": 293.0,
+                  "Y": 86.0
+                },
+                "Name": "title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "email/close_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "email/close.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 52,
+                "Scale9Height": 60,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1003.3015,
+                  "Y": 604.5294
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8672,
+                  "Y": 0.9036
+                },
+                "PreSize": {
+                  "X": 0.0709,
+                  "Y": 0.1226
+                },
+                "LeftMargin": 962.3015,
+                "RightMargin": 112.6985,
+                "TopMargin": 23.4706,
+                "BottomMargin": 563.5294,
+                "Tag": 172,
+                "ActionTag": 1499648739,
+                "Size": {
+                  "X": 82.0,
+                  "Y": 82.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "获奖时间",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 225.1824,
+                  "Y": 531.7332
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 107,
+                  "G": 12,
+                  "B": 12
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1946,
+                  "Y": 0.7948
+                },
+                "PreSize": {
+                  "X": 0.0899,
+                  "Y": 0.0389
+                },
+                "LeftMargin": 173.1824,
+                "RightMargin": 879.8176,
+                "TopMargin": 124.2668,
+                "BottomMargin": 518.7332,
+                "Tag": 176,
+                "ActionTag": -1213940870,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 26.0
+                },
+                "Name": "timeTip",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "奖品",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 566.5829,
+                  "Y": 524.7269
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 107,
+                  "G": 12,
+                  "B": 12
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.4897,
+                  "Y": 0.7843
+                },
+                "PreSize": {
+                  "X": 0.0449,
+                  "Y": 0.0389
+                },
+                "LeftMargin": 540.5829,
+                "RightMargin": 564.4171,
+                "TopMargin": 131.2731,
+                "BottomMargin": 511.7269,
+                "Tag": 177,
+                "ActionTag": 53625677,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 26.0
+                },
+                "Name": "contentTip",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "状态",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 976.6553,
+                  "Y": 526.2149
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 107,
+                  "G": 12,
+                  "B": 12
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8441,
+                  "Y": 0.7866
+                },
+                "PreSize": {
+                  "X": 0.0449,
+                  "Y": 0.0389
+                },
+                "LeftMargin": 950.6553,
+                "RightMargin": 154.3447,
+                "TopMargin": 129.7851,
+                "BottomMargin": 513.2149,
+                "Tag": 178,
+                "ActionTag": -682219642,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 26.0
+                },
+                "Name": "statusTip",
+                "ctype": "TextObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 578.5,
+                  "Y": 295.4973
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4417
+                },
+                "PreSize": {
+                  "X": 0.7848,
+                  "Y": 0.5979
+                },
+                "LeftMargin": 124.5,
+                "RightMargin": 124.5,
+                "TopMargin": 173.5027,
+                "BottomMargin": 95.4973,
+                "Tag": 46,
+                "ActionTag": 1516011100,
+                "Size": {
+                  "X": 908.0,
+                  "Y": 400.0
+                },
+                "Name": "container",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/btn_guild_confirm_p.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/btn_guild_confirm_n.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 166,
+                "Scale9Height": 48,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 578.5,
+                  "Y": 51.8529
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0775
+                },
+                "PreSize": {
+                  "X": 0.1694,
+                  "Y": 0.1046
+                },
+                "LeftMargin": 480.5,
+                "RightMargin": 480.5,
+                "TopMargin": 582.1471,
+                "BottomMargin": 16.8529,
+                "Tag": 245,
+                "ActionTag": 1272327807,
+                "Size": {
+                  "X": 196.0,
+                  "Y": 70.0
+                },
+                "Name": "sure",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 499551407,
+            "Size": {
+              "X": 1157.0,
+              "Y": 669.0
+            },
+            "Name": "background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lottery/diban002.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 299,
+            "Scale9OriginY": 27,
+            "Scale9Width": 310,
+            "Scale9Height": 30,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.4535,
+              "Y": 434.4431
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5004,
+              "Y": 0.6034
+            },
+            "PreSize": {
+              "X": 0.7094,
+              "Y": 0.1167
+            },
+            "LeftMargin": 186.4535,
+            "RightMargin": 185.5465,
+            "TopMargin": 243.5569,
+            "BottomMargin": 392.4431,
+            "Tag": 485,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "2017.12.15 12:00",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 23.1223,
+                  "Y": 43.4028
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 146,
+                  "G": 78,
+                  "B": 42
+                },
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0255,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.2115,
+                  "Y": 0.2857
+                },
+                "LeftMargin": 23.1223,
+                "RightMargin": 692.8777,
+                "TopMargin": 28.5972,
+                "BottomMargin": 31.4028,
+                "Tag": 486,
+                "ActionTag": -1859453467,
+                "Size": {
+                  "X": 192.0,
+                  "Y": 24.0
+                },
+                "Name": "time",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/rewards/10yuan.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 27,
+                "Scale9OriginY": 17,
+                "Scale9Width": 123,
+                "Scale9Height": 160,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 258.9692,
+                  "Y": 39.4429
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2852,
+                  "Y": 0.4696
+                },
+                "PreSize": {
+                  "X": 0.1949,
+                  "Y": 2.3095
+                },
+                "LeftMargin": 258.9692,
+                "RightMargin": 472.0308,
+                "TopMargin": -52.4429,
+                "BottomMargin": -57.5571,
+                "Tag": 487,
+                "ActionTag": 2019570674,
+                "Size": {
+                  "X": 177.0,
+                  "Y": 194.0
+                },
+                "Name": "reward",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "50元话费",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 403.2428,
+                  "Y": 42.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 146,
+                  "G": 78,
+                  "B": 42
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4441,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1057,
+                  "Y": 0.2857
+                },
+                "LeftMargin": 403.2428,
+                "RightMargin": 408.7572,
+                "TopMargin": 30.0,
+                "BottomMargin": 30.0,
+                "Tag": 488,
+                "ActionTag": 585755447,
+                "Size": {
+                  "X": 96.0,
+                  "Y": 24.0
+                },
+                "Name": "rewardname",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "已领取",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 817.2,
+                  "Y": 42.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 77,
+                  "G": 21,
+                  "B": 21
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0925,
+                  "Y": 0.3333
+                },
+                "LeftMargin": 775.2,
+                "RightMargin": 48.8,
+                "TopMargin": 28.0,
+                "BottomMargin": 28.0,
+                "Tag": 489,
+                "ActionTag": 2035621790,
+                "Size": {
+                  "X": 84.0,
+                  "Y": 28.0
+                },
+                "Name": "yilingqu",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/lingqu_down.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/lingqu_up.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 102,
+                "Scale9Height": 29,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 810.0,
+                  "Y": 42.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8921,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1454,
+                  "Y": 0.6071
+                },
+                "LeftMargin": 744.0,
+                "RightMargin": 32.0,
+                "TopMargin": 16.5,
+                "BottomMargin": 16.5,
+                "Tag": 490,
+                "ActionTag": 419670486,
+                "Size": {
+                  "X": 132.0,
+                  "Y": 51.0
+                },
+                "Name": "lingqu",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 564511492,
+            "Size": {
+              "X": 908.0,
+              "Y": 84.0
+            },
+            "Name": "rewarditem",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "chat/bac_03.png",
+        "Default/Button_Disable.png",
+        "email/close.png",
+        "email/close_press.png",
+        "guild/btn_guild_confirm_n.png",
+        "guild/btn_guild_confirm_p.png",
+        "lottery/diban002.png",
+        "lottery/lingqu_down.png",
+        "lottery/lingqu_up.png",
+        "lottery/rewards/10yuan.png",
+        "lottery/Title_wodejiangli.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,506 @@
+{
+  "ID": "3a54463c-2ed7-4865-a74a-95e42714ce7a",
+  "Version": "2.3.4",
+  "Name": "Email",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 178,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 221,
+            "ActionTag": 1934410830,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "back",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "chat/bac_03.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 324,
+            "Scale9OriginY": 215,
+            "Scale9Width": 509,
+            "Scale9Height": 239,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.9039,
+              "Y": 0.9292
+            },
+            "LeftMargin": 61.5,
+            "RightMargin": 61.5,
+            "TopMargin": 25.5,
+            "BottomMargin": 25.5,
+            "Tag": 225,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "email/close_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "email/close.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 52,
+                "Scale9Height": 60,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1001.0498,
+                  "Y": 608.6375
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8652,
+                  "Y": 0.9098
+                },
+                "PreSize": {
+                  "X": 0.0709,
+                  "Y": 0.1226
+                },
+                "LeftMargin": 960.0498,
+                "RightMargin": 114.9502,
+                "TopMargin": 19.3625,
+                "BottomMargin": 567.6375,
+                "Tag": 294,
+                "ActionTag": 731350291,
+                "Size": {
+                  "X": 82.0,
+                  "Y": 82.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "email/title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 96,
+                "Scale9OriginY": 28,
+                "Scale9Width": 101,
+                "Scale9Height": 30,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 578.5,
+                  "Y": 605.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9043
+                },
+                "PreSize": {
+                  "X": 0.2532,
+                  "Y": 0.1286
+                },
+                "LeftMargin": 432.0,
+                "RightMargin": 432.0,
+                "TopMargin": 21.0,
+                "BottomMargin": 562.0,
+                "Tag": 867,
+                "ActionTag": -1944482363,
+                "Size": {
+                  "X": 293.0,
+                  "Y": 86.0
+                },
+                "Name": "titleimage",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "chat/floor_05.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 247,
+                "Scale9OriginY": 114,
+                "Scale9Width": 379,
+                "Scale9Height": 163,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 578.5,
+                  "Y": 269.6424
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4031
+                },
+                "PreSize": {
+                  "X": 0.7545,
+                  "Y": 0.5845
+                },
+                "LeftMargin": 142.0,
+                "RightMargin": 142.0,
+                "TopMargin": 203.8576,
+                "BottomMargin": 74.1424,
+                "Tag": 226,
+                "ActionTag": 2045534305,
+                "Size": {
+                  "X": 873.0,
+                  "Y": 391.0
+                },
+                "Name": "board",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "亲爱的玩家：",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 250.1187,
+                  "Y": 433.591
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 88,
+                  "G": 50,
+                  "B": 5
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2162,
+                  "Y": 0.6481
+                },
+                "PreSize": {
+                  "X": 0.1245,
+                  "Y": 0.0359
+                },
+                "LeftMargin": 178.1187,
+                "RightMargin": 834.8813,
+                "TopMargin": 223.409,
+                "BottomMargin": 421.591,
+                "Tag": 229,
+                "ActionTag": -1869225989,
+                "Size": {
+                  "X": 144.0,
+                  "Y": 24.0
+                },
+                "Name": "title",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "湖南跑胡子在此申明:\n    本游戏绝无外挂，请各位玩家放心娱乐，打着外挂名号的APP经证实都抱着广告或窃取用户手机个人信息等不良目的，大家切勿受骗上当。健康娱乐，远离赌博！\n",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 578.5,
+                  "Y": 261.9595
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 88,
+                  "G": 50,
+                  "B": 5
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3916
+                },
+                "PreSize": {
+                  "X": 0.6914,
+                  "Y": 0.4484
+                },
+                "LeftMargin": 178.5,
+                "RightMargin": 178.5,
+                "TopMargin": 257.0405,
+                "BottomMargin": 111.9595,
+                "Tag": 230,
+                "ActionTag": -903845392,
+                "Size": {
+                  "X": 800.0,
+                  "Y": 300.0
+                },
+                "Name": "content",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "email/news_h.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 124,
+                "Scale9OriginY": 23,
+                "Scale9Width": 191,
+                "Scale9Height": 19,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 361.6257,
+                  "Y": 497.0009
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3126,
+                  "Y": 0.7429
+                },
+                "PreSize": {
+                  "X": 0.3794,
+                  "Y": 0.0972
+                },
+                "LeftMargin": 142.1257,
+                "RightMargin": 575.8743,
+                "TopMargin": 139.4991,
+                "BottomMargin": 464.5009,
+                "Tag": 228,
+                "ActionTag": 1403786665,
+                "Size": {
+                  "X": 439.0,
+                  "Y": 65.0
+                },
+                "Name": "news",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "email/contact.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 124,
+                "Scale9OriginY": 23,
+                "Scale9Width": 191,
+                "Scale9Height": 19,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 794.96,
+                  "Y": 497.0009
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6871,
+                  "Y": 0.7429
+                },
+                "PreSize": {
+                  "X": 0.3794,
+                  "Y": 0.0972
+                },
+                "LeftMargin": 575.46,
+                "RightMargin": 142.54,
+                "TopMargin": 139.4991,
+                "BottomMargin": 464.5009,
+                "Tag": 227,
+                "ActionTag": 1279147965,
+                "Size": {
+                  "X": 439.0,
+                  "Y": 65.0
+                },
+                "Name": "contact",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -390367293,
+            "Size": {
+              "X": 1157.0,
+              "Y": 669.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "chat/bac_03.png",
+        "chat/floor_05.png",
+        "Default/Button_Disable.png",
+        "email/close.png",
+        "email/close_press.png",
+        "email/contact.png",
+        "email/news_h.png",
+        "email/title.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

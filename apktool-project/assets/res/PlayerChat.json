@@ -1,0 +1,1575 @@
+{
+  "ID": "d7186d8e-0acc-4a65-a034-ed083ba45db9",
+  "Version": "2.3.4",
+  "Name": "PlayerChat",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 134,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 129,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 170,
+            "ActionTag": 413411161,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "chat/floor_lt.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 15,
+            "Scale9Width": 475,
+            "Scale9Height": 690,
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 1280.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.3945,
+              "Y": 1.0
+            },
+            "LeftMargin": 775.0,
+            "Tag": 138,
+            "ActionTag": -2067650784,
+            "Size": {
+              "X": 505.0,
+              "Y": 720.0
+            },
+            "Name": "backImage",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 1280.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.3945,
+              "Y": 1.0
+            },
+            "LeftMargin": 775.0,
+            "Tag": 180,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "chat/floor_lt02.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 402,
+                "Scale9Height": 450,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 505.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.8554,
+                  "Y": 0.6667
+                },
+                "LeftMargin": 73.0,
+                "TopMargin": 240.0,
+                "Tag": 686,
+                "Children": [
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_phrase_normal.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_phrase_press.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_phrase_normal.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_phrase_press.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_phrase_normal.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 410.4432,
+                      "Y": 242.256
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.9501,
+                      "Y": 0.5047
+                    },
+                    "PreSize": {
+                      "X": 0.1481,
+                      "Y": 0.4542
+                    },
+                    "LeftMargin": 346.4432,
+                    "RightMargin": 21.5568,
+                    "TopMargin": 19.744,
+                    "BottomMargin": 242.256,
+                    "Tag": 176,
+                    "ActionTag": -1792542857,
+                    "Size": {
+                      "X": 64.0,
+                      "Y": 218.0
+                    },
+                    "Name": "changyong",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_expression_normal.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_expression_press.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_expression_normal.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_expression_press.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_expression_normal.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 410.4432,
+                      "Y": 242.256
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.9501,
+                      "Y": 0.5047
+                    },
+                    "PreSize": {
+                      "X": 0.1481,
+                      "Y": 0.4542
+                    },
+                    "LeftMargin": 346.4432,
+                    "RightMargin": 21.5568,
+                    "TopMargin": 237.744,
+                    "BottomMargin": 24.256,
+                    "Tag": 177,
+                    "ActionTag": 447726356,
+                    "Size": {
+                      "X": 64.0,
+                      "Y": 218.0
+                    },
+                    "Name": "emoji",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": -1840053694,
+                "Size": {
+                  "X": 432.0,
+                  "Y": 480.0
+                },
+                "Name": "back",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "chat/floor_fs.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 19,
+                "Scale9Width": 372,
+                "Scale9Height": 28,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 496.0615,
+                  "Y": 512.5009
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.9823,
+                  "Y": 0.7118
+                },
+                "PreSize": {
+                  "X": 0.796,
+                  "Y": 0.0917
+                },
+                "LeftMargin": 94.0615,
+                "RightMargin": 8.9385,
+                "TopMargin": 174.4991,
+                "BottomMargin": 479.5009,
+                "Tag": 173,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 0,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 34.584
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.524
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PreSize": {
+                      "X": 0.6,
+                      "Y": 0.6061
+                    },
+                    "RightMargin": 160.8,
+                    "TopMargin": 11.416,
+                    "BottomMargin": 14.584,
+                    "Tag": 62,
+                    "ActionTag": 750085663,
+                    "Size": {
+                      "X": 241.2,
+                      "Y": 40.0
+                    },
+                    "Name": "input",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -592319972,
+                "Size": {
+                  "X": 402.0,
+                  "Y": 66.0
+                },
+                "Name": "inputimg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "chat/btn_send_normal.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "chat/btn_send_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "chat/btn_send_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 104,
+                "Scale9Height": 42,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 415.4412,
+                  "Y": 510.192
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8227,
+                  "Y": 0.7086
+                },
+                "PreSize": {
+                  "X": 0.3287,
+                  "Y": 0.0972
+                },
+                "LeftMargin": 332.4412,
+                "RightMargin": 6.5588,
+                "TopMargin": 174.808,
+                "BottomMargin": 475.192,
+                "Tag": 174,
+                "ActionTag": 2046280070,
+                "Size": {
+                  "X": 166.0,
+                  "Y": 70.0
+                },
+                "Name": "send_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 90.9,
+                  "Y": 21.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.18,
+                  "Y": 0.03
+                },
+                "PreSize": {
+                  "X": 0.6535,
+                  "Y": 0.6111
+                },
+                "LeftMargin": 90.9,
+                "RightMargin": 84.1,
+                "TopMargin": 258.4,
+                "BottomMargin": 21.6,
+                "Tag": 174,
+                "Children": [
+                  {
+                    "DirectionType": "Vertical",
+                    "IsBounceEnabled": true,
+                    "ScrollDirectionType": 0,
+                    "ClipAble": true,
+                    "BackColorAlpha": 0,
+                    "ComboBoxIndex": 1,
+                    "SingleColor": {},
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 150
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 165.0,
+                      "Y": 220.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 242,
+                    "ActionTag": 1753859565,
+                    "Size": {
+                      "X": 330.0,
+                      "Y": 440.0
+                    },
+                    "Name": "list",
+                    "ctype": "ListViewObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 0,
+                    "ComboBoxIndex": 1,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 161.9503,
+                      "Y": 360.09
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4908,
+                      "Y": 0.8184
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 0.1591
+                    },
+                    "LeftMargin": -3.0497,
+                    "RightMargin": 3.0497,
+                    "TopMargin": 44.91,
+                    "BottomMargin": 325.09,
+                    "Tag": 175,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 22,
+                        "LabelText": "各位，真不好意思我得离开一\n真的不好意思啊啊啊啊啊",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 165.0,
+                          "Y": 35.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.9697,
+                          "Y": 0.6286
+                        },
+                        "LeftMargin": 5.0,
+                        "RightMargin": 5.0,
+                        "TopMargin": 13.0,
+                        "BottomMargin": 13.0,
+                        "Tag": 250,
+                        "ActionTag": 1374689268,
+                        "Size": {
+                          "X": 320.0,
+                          "Y": 44.0
+                        },
+                        "Name": "text",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "chat/line.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 104,
+                        "Scale9Width": 109,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 165.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.9606,
+                          "Y": 0.0143
+                        },
+                        "LeftMargin": 6.5,
+                        "RightMargin": 6.5,
+                        "TopMargin": 69.5,
+                        "BottomMargin": -0.5,
+                        "Tag": 251,
+                        "ActionTag": -1988443366,
+                        "Size": {
+                          "X": 317.0,
+                          "Y": 1.0
+                        },
+                        "Name": "Image_12",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1352447258,
+                    "Size": {
+                      "X": 330.0,
+                      "Y": 70.0
+                    },
+                    "Name": "item",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -79369077,
+                "Size": {
+                  "X": 330.0,
+                  "Y": 440.0
+                },
+                "Name": "emoji_bg_chat",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 90.9,
+                  "Y": 21.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.18,
+                  "Y": 0.03
+                },
+                "PreSize": {
+                  "X": 0.6535,
+                  "Y": 0.6111
+                },
+                "LeftMargin": 90.9,
+                "RightMargin": 84.1,
+                "TopMargin": 258.4,
+                "BottomMargin": 21.6,
+                "Tag": 98,
+                "Children": [
+                  {
+                    "DisplayState": false,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_hou_01.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_hou_01.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_hou_01.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_hou_01.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_hou_02.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 247.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7485,
+                      "Y": 0.0568
+                    },
+                    "PreSize": {
+                      "X": 0.4939,
+                      "Y": 0.1182
+                    },
+                    "LeftMargin": 165.5,
+                    "RightMargin": 1.5,
+                    "TopMargin": 389.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 177,
+                    "ActionTag": 1880894349,
+                    "Size": {
+                      "X": 163.0,
+                      "Y": 52.0
+                    },
+                    "Name": "monkeyBtn",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "DisplayState": false,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_xm_02.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_xm_01.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_xm_02.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_xm_01.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "chat/btn_xm_02.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.0,
+                      "Y": 25.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2515,
+                      "Y": 0.0568
+                    },
+                    "PreSize": {
+                      "X": 0.4939,
+                      "Y": 0.1182
+                    },
+                    "LeftMargin": 1.5,
+                    "RightMargin": 165.5,
+                    "TopMargin": 389.0,
+                    "BottomMargin": -1.0,
+                    "Tag": 178,
+                    "ActionTag": 1133273549,
+                    "Size": {
+                      "X": 163.0,
+                      "Y": 52.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "pandaBtn",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/happy.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 36,
+                    "Scale9OriginY": 39,
+                    "Scale9Width": 69,
+                    "Scale9Height": 63,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.7,
+                      "Y": 396.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.19,
+                      "Y": 0.9
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": -7.8,
+                    "RightMargin": 196.8,
+                    "TopMargin": -26.5,
+                    "BottomMargin": 325.5,
+                    "Tag": 281,
+                    "ActionTag": 1963491844,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "happy",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/ziya.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 36,
+                    "Scale9OriginY": 39,
+                    "Scale9Width": 69,
+                    "Scale9Height": 63,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 165.0,
+                      "Y": 220.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": 94.5,
+                    "RightMargin": 94.5,
+                    "TopMargin": 149.5,
+                    "BottomMargin": 149.5,
+                    "Tag": 285,
+                    "ActionTag": 1409739287,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "ziya",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/huaixiao.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 41,
+                    "Scale9OriginY": 40,
+                    "Scale9Width": 59,
+                    "Scale9Height": 61,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 267.3,
+                      "Y": 396.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.81,
+                      "Y": 0.9
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": 196.8,
+                    "RightMargin": -7.8,
+                    "TopMargin": -26.5,
+                    "BottomMargin": 325.5,
+                    "Tag": 294,
+                    "ActionTag": 332183502,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "huaixiao",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/han.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 37,
+                    "Scale9OriginY": 42,
+                    "Scale9Width": 67,
+                    "Scale9Height": 57,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.7,
+                      "Y": 308.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.19,
+                      "Y": 0.7
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": -7.8,
+                    "RightMargin": 196.8,
+                    "TopMargin": 61.5,
+                    "BottomMargin": 237.5,
+                    "Tag": 284,
+                    "ActionTag": -677407057,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "han",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/shaoxiang.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 39,
+                    "Scale9OriginY": 41,
+                    "Scale9Width": 63,
+                    "Scale9Height": 59,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.7,
+                      "Y": 220.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.19,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": -7.8,
+                    "RightMargin": 196.8,
+                    "TopMargin": 149.5,
+                    "BottomMargin": 149.5,
+                    "Tag": 295,
+                    "ActionTag": 1766733185,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "shaoxiang",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/fennu.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 35,
+                    "Scale9OriginY": 46,
+                    "Scale9Width": 71,
+                    "Scale9Height": 49,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 165.0,
+                      "Y": 308.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.7
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": 94.5,
+                    "RightMargin": 94.5,
+                    "TopMargin": 61.5,
+                    "BottomMargin": 237.5,
+                    "Tag": 289,
+                    "ActionTag": 1160830327,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "fennu",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/sleep.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 43,
+                    "Scale9OriginY": 45,
+                    "Scale9Width": 55,
+                    "Scale9Height": 51,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 267.3,
+                      "Y": 308.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.81,
+                      "Y": 0.7
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": 196.8,
+                    "RightMargin": -7.8,
+                    "TopMargin": 61.5,
+                    "BottomMargin": 237.5,
+                    "Tag": 288,
+                    "ActionTag": -500014315,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "sleep",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/shihua.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 35,
+                    "Scale9OriginY": 38,
+                    "Scale9Width": 71,
+                    "Scale9Height": 65,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.7,
+                      "Y": 132.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.19,
+                      "Y": 0.3
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": -7.8,
+                    "RightMargin": 196.8,
+                    "TopMargin": 237.5,
+                    "BottomMargin": 61.5,
+                    "Tag": 286,
+                    "ActionTag": 1874160478,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "shihua",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/yun.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 42,
+                    "Scale9OriginY": 42,
+                    "Scale9Width": 57,
+                    "Scale9Height": 57,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 165.0,
+                      "Y": 132.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.3
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": 94.5,
+                    "RightMargin": 94.5,
+                    "TopMargin": 237.5,
+                    "BottomMargin": 61.5,
+                    "Tag": 290,
+                    "ActionTag": 470954650,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "yun",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/se.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 29,
+                    "Scale9OriginY": 52,
+                    "Scale9Width": 83,
+                    "Scale9Height": 37,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 165.0,
+                      "Y": 396.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.9
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": 94.5,
+                    "RightMargin": 94.5,
+                    "TopMargin": -26.5,
+                    "BottomMargin": 325.5,
+                    "Tag": 293,
+                    "ActionTag": 1544354999,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "se",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/lihai.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 29,
+                    "Scale9OriginY": 50,
+                    "Scale9Width": 83,
+                    "Scale9Height": 41,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 267.3,
+                      "Y": 220.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.81,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": 196.8,
+                    "RightMargin": -7.8,
+                    "TopMargin": 149.5,
+                    "BottomMargin": 149.5,
+                    "Tag": 291,
+                    "ActionTag": -868759575,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "lihai",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "chat/touxiang.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 53,
+                    "Scale9OriginY": 38,
+                    "Scale9Width": 35,
+                    "Scale9Height": 65,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 267.3,
+                      "Y": 132.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.68,
+                      "ScaleY": 0.68
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.81,
+                      "Y": 0.3
+                    },
+                    "PreSize": {
+                      "X": 0.4273,
+                      "Y": 0.3205
+                    },
+                    "LeftMargin": 196.8,
+                    "RightMargin": -7.8,
+                    "TopMargin": 237.5,
+                    "BottomMargin": 61.5,
+                    "Tag": 292,
+                    "ActionTag": -518082050,
+                    "Size": {
+                      "X": 141.0,
+                      "Y": 141.0
+                    },
+                    "Name": "touxiang",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1800827646,
+                "Size": {
+                  "X": 330.0,
+                  "Y": 440.0
+                },
+                "VisibleForFrame": false,
+                "Name": "emoji_bg",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 2033725215,
+            "Size": {
+              "X": 505.0,
+              "Y": 720.0
+            },
+            "Name": "back",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "chat/btn_expression_normal.png",
+        "chat/btn_expression_press.png",
+        "chat/btn_hou_01.png",
+        "chat/btn_hou_02.png",
+        "chat/btn_phrase_normal.png",
+        "chat/btn_phrase_press.png",
+        "chat/btn_send_normal.png",
+        "chat/btn_send_press.png",
+        "chat/btn_xm_01.png",
+        "chat/btn_xm_02.png",
+        "chat/fennu.png",
+        "chat/floor_fs.png",
+        "chat/floor_lt.png",
+        "chat/floor_lt02.png",
+        "chat/han.png",
+        "chat/happy.png",
+        "chat/huaixiao.png",
+        "chat/lihai.png",
+        "chat/line.png",
+        "chat/se.png",
+        "chat/shaoxiang.png",
+        "chat/shihua.png",
+        "chat/sleep.png",
+        "chat/touxiang.png",
+        "chat/yun.png",
+        "chat/ziya.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,599 @@
+{
+  "ID": "8764eb54-2a1a-4f90-b2e2-c560c153a813",
+  "Version": "2.3.4",
+  "Name": "CoinCompensate",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 20,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -640.0,
+            "RightMargin": -640.0,
+            "TopMargin": -360.0,
+            "BottomMargin": -360.0,
+            "Tag": 32,
+            "ActionTag": 1766474862,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "png/bac_04.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 213,
+            "Scale9OriginY": 215,
+            "Scale9Width": 489,
+            "Scale9Height": 88,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -457.5,
+            "RightMargin": -457.5,
+            "TopMargin": -259.0,
+            "BottomMargin": -259.0,
+            "Tag": 461,
+            "Children": [
+              {
+                "FontSize": 34,
+                "LabelText": "今日第",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 311.1,
+                  "Y": 259.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 68,
+                  "G": 10,
+                  "B": 10
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.34,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1115,
+                  "Y": 0.0656
+                },
+                "LeftMargin": 209.1,
+                "RightMargin": 603.9,
+                "TopMargin": 242.0,
+                "BottomMargin": 242.0,
+                "Tag": 165,
+                "ActionTag": -1709109701,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 34.0
+                },
+                "Name": "msg",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "png/Z_queding1_h.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "png/Z_queding1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 136,
+                "Scale9Height": 48,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 457.5,
+                  "Y": 47.3861
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0915
+                },
+                "PreSize": {
+                  "X": 0.1814,
+                  "Y": 0.1351
+                },
+                "LeftMargin": 374.5,
+                "RightMargin": 374.5,
+                "TopMargin": 435.6139,
+                "BottomMargin": 12.3861,
+                "Tag": 164,
+                "ActionTag": -1513567581,
+                "Size": {
+                  "X": 166.0,
+                  "Y": 70.0
+                },
+                "Name": "yes",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "coinRoom/biaoti_mfbz.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 96,
+                "Scale9OriginY": 28,
+                "Scale9Width": 101,
+                "Scale9Height": 30,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 457.5,
+                  "Y": 459.985
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.888
+                },
+                "PreSize": {
+                  "X": 0.3202,
+                  "Y": 0.166
+                },
+                "LeftMargin": 311.0,
+                "RightMargin": 311.0,
+                "TopMargin": 15.015,
+                "BottomMargin": 416.985,
+                "Tag": 184,
+                "ActionTag": -720006137,
+                "Size": {
+                  "X": 293.0,
+                  "Y": 86.0
+                },
+                "Name": "title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "注：每人每天仅可以领取2次补助",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 457.5,
+                  "Y": 155.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 146,
+                  "G": 78,
+                  "B": 42
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.3
+                },
+                "PreSize": {
+                  "X": 0.4437,
+                  "Y": 0.0541
+                },
+                "LeftMargin": 254.5,
+                "RightMargin": 254.5,
+                "TopMargin": 348.6,
+                "BottomMargin": 141.4,
+                "Tag": 661,
+                "ActionTag": -2144777038,
+                "Size": {
+                  "X": 406.0,
+                  "Y": 28.0
+                },
+                "Name": "msg_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "200",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 320.25,
+                  "Y": 259.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 215,
+                  "G": 18,
+                  "B": 18
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.35,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0557,
+                  "Y": 0.0656
+                },
+                "LeftMargin": 320.25,
+                "RightMargin": 543.75,
+                "TopMargin": 242.0,
+                "BottomMargin": 242.0,
+                "Tag": 662,
+                "ActionTag": -1867763379,
+                "Size": {
+                  "X": 51.0,
+                  "Y": 34.0
+                },
+                "Name": "time",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "300000",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 521.55,
+                  "Y": 259.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 215,
+                  "G": 18,
+                  "B": 18
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.57,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1115,
+                  "Y": 0.0656
+                },
+                "LeftMargin": 521.55,
+                "RightMargin": 291.45,
+                "TopMargin": 242.0,
+                "BottomMargin": 242.0,
+                "Tag": 663,
+                "ActionTag": 893295078,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 34.0
+                },
+                "Name": "coinNum",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "金币",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 634.608,
+                  "Y": 259.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 68,
+                  "G": 10,
+                  "B": 10
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6936,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0743,
+                  "Y": 0.0656
+                },
+                "LeftMargin": 634.608,
+                "RightMargin": 212.392,
+                "TopMargin": 242.0,
+                "BottomMargin": 242.0,
+                "Tag": 10,
+                "ActionTag": 1994613914,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 34.0
+                },
+                "Name": "msg_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 34,
+                "LabelText": "次赠送您",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 512.431,
+                  "Y": 259.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 68,
+                  "G": 10,
+                  "B": 10
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.56,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1486,
+                  "Y": 0.0656
+                },
+                "LeftMargin": 376.431,
+                "RightMargin": 402.569,
+                "TopMargin": 242.0,
+                "BottomMargin": 242.0,
+                "Tag": 11,
+                "ActionTag": -1249303529,
+                "Size": {
+                  "X": 136.0,
+                  "Y": 34.0
+                },
+                "Name": "msg_2",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1305657570,
+            "Size": {
+              "X": 915.0,
+              "Y": 518.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "coinRoom/biaoti_mfbz.png",
+        "Default/Button_Disable.png",
+        "png/bac_04.png",
+        "png/Z_queding1.png",
+        "png/Z_queding1_h.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

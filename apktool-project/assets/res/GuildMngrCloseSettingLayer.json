@@ -1,0 +1,1472 @@
+{
+  "ID": "aea89bec-fb3e-4548-8afc-b067b0ce9ee3",
+  "Version": "2.3.4",
+  "Name": "GuildMngrCloseSettingLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 1923,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guild/blank.png",
+              "Plist": ""
+            },
+            "Scale9Width": 2,
+            "Scale9Height": 2,
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 1050.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1925,
+            "Children": [
+              {
+                "FontSize": 25,
+                "LabelText": "设置在ID:牌友群中，您名下玩家的打烊时间",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 42.0,
+                  "Y": 602.3
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 144,
+                  "G": 92,
+                  "B": 42
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.04,
+                  "Y": 0.95
+                },
+                "PreSize": {
+                  "X": 0.4657,
+                  "Y": 0.0394
+                },
+                "LeftMargin": 42.0,
+                "RightMargin": 519.0,
+                "TopMargin": 19.2,
+                "BottomMargin": 589.8,
+                "Tag": 322,
+                "ActionTag": -1598848249,
+                "Size": {
+                  "X": 489.0,
+                  "Y": 25.0
+                },
+                "Name": "tip",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guildnew/guildPng/cj_pnl_03.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 14,
+                "Scale9Height": 14,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 525.0,
+                  "Y": 340.0142
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5363
+                },
+                "PreSize": {
+                  "X": 0.9048,
+                  "Y": 0.7571
+                },
+                "LeftMargin": 50.0,
+                "RightMargin": 50.0,
+                "TopMargin": 53.9858,
+                "BottomMargin": 100.0142,
+                "Tag": 321,
+                "ActionTag": -1000666153,
+                "Size": {
+                  "X": 950.0,
+                  "Y": 480.0
+                },
+                "Name": "Image_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/closesetting/dysz_bg_radio_p.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 78,
+                "Scale9OriginY": 23,
+                "Scale9Width": 83,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 840.0,
+                  "Y": 494.52
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8,
+                  "Y": 0.78
+                },
+                "PreSize": {
+                  "X": 0.2276,
+                  "Y": 0.1136
+                },
+                "LeftMargin": 720.5,
+                "RightMargin": 90.5,
+                "TopMargin": 103.48,
+                "BottomMargin": 458.52,
+                "Tag": 318,
+                "Children": [
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_p.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 47.8,
+                      "Y": 36.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2218,
+                      "Y": 0.7361
+                    },
+                    "LeftMargin": 21.3,
+                    "RightMargin": 164.7,
+                    "TopMargin": 9.5,
+                    "BottomMargin": 9.5,
+                    "Tag": 319,
+                    "ActionTag": -1209000402,
+                    "Size": {
+                      "X": 53.0,
+                      "Y": 53.0
+                    },
+                    "Name": "check_immedtie",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "暂停开房",
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 155.35,
+                      "Y": 36.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 144,
+                      "G": 92,
+                      "B": 42
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.65,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.3347,
+                      "Y": 0.2778
+                    },
+                    "LeftMargin": 115.35,
+                    "RightMargin": 43.65,
+                    "TopMargin": 26.0,
+                    "BottomMargin": 26.0,
+                    "Tag": 320,
+                    "ActionTag": 267457933,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 20.0
+                    },
+                    "Name": "txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1945565596,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 72.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/closesetting/dysz_bg_radio_p.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 78,
+                "Scale9OriginY": 23,
+                "Scale9Width": 83,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 210.0,
+                  "Y": 494.52
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2,
+                  "Y": 0.78
+                },
+                "PreSize": {
+                  "X": 0.2276,
+                  "Y": 0.1136
+                },
+                "LeftMargin": 90.5,
+                "RightMargin": 720.5,
+                "TopMargin": 103.48,
+                "BottomMargin": 458.52,
+                "Tag": 315,
+                "Children": [
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_p.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 47.8,
+                      "Y": 36.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2218,
+                      "Y": 0.7361
+                    },
+                    "LeftMargin": 21.3,
+                    "RightMargin": 164.7,
+                    "TopMargin": 9.5,
+                    "BottomMargin": 9.5,
+                    "Tag": 316,
+                    "ActionTag": -1433366460,
+                    "Size": {
+                      "X": 53.0,
+                      "Y": 53.0
+                    },
+                    "Name": "check_never",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "永不打烊",
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 155.35,
+                      "Y": 36.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 144,
+                      "G": 92,
+                      "B": 42
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.65,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.3347,
+                      "Y": 0.2778
+                    },
+                    "LeftMargin": 115.35,
+                    "RightMargin": 43.65,
+                    "TopMargin": 26.0,
+                    "BottomMargin": 26.0,
+                    "Tag": 317,
+                    "ActionTag": -290257845,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 20.0
+                    },
+                    "Name": "txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1930991131,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 72.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/closesetting/dysz_bg_radio_p.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 78,
+                "Scale9OriginY": 23,
+                "Scale9Width": 83,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 525.0,
+                  "Y": 494.52
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.78
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.2276,
+                  "Y": 0.1136
+                },
+                "LeftMargin": 405.5,
+                "RightMargin": 405.5,
+                "TopMargin": 103.48,
+                "BottomMargin": 458.52,
+                "Tag": 302,
+                "Children": [
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_p.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 47.8,
+                      "Y": 36.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2218,
+                      "Y": 0.7361
+                    },
+                    "LeftMargin": 21.3,
+                    "RightMargin": 164.7,
+                    "TopMargin": 9.5,
+                    "BottomMargin": 9.5,
+                    "Tag": 303,
+                    "ActionTag": -1944997434,
+                    "Size": {
+                      "X": 53.0,
+                      "Y": 53.0
+                    },
+                    "Name": "check_time",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "指定打烊时间",
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 155.35,
+                      "Y": 36.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 144,
+                      "G": 92,
+                      "B": 42
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.65,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.5021,
+                      "Y": 0.2778
+                    },
+                    "LeftMargin": 95.35,
+                    "RightMargin": 23.65,
+                    "TopMargin": 26.0,
+                    "BottomMargin": 26.0,
+                    "Tag": 304,
+                    "ActionTag": 728377028,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 20.0
+                    },
+                    "Name": "txt",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_bg_time.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 142,
+                    "Scale9OriginY": 73,
+                    "Scale9Width": 147,
+                    "Scale9Height": 78,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 119.5,
+                      "Y": -145.4004
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": -2.0195
+                    },
+                    "PreSize": {
+                      "X": 1.8033,
+                      "Y": 3.1111
+                    },
+                    "LeftMargin": -96.0,
+                    "RightMargin": -96.0,
+                    "TopMargin": 105.4004,
+                    "BottomMargin": -257.4004,
+                    "Tag": 323,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "guildwood/guildsetting/closesetting/dysz_btn_time.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 90,
+                        "Scale9OriginY": 14,
+                        "Scale9Width": 39,
+                        "Scale9Height": 25,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 284.46,
+                          "Y": 156.8
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.66,
+                          "Y": 0.7
+                        },
+                        "PreSize": {
+                          "X": 0.5081,
+                          "Y": 0.2366
+                        },
+                        "LeftMargin": 174.96,
+                        "RightMargin": 37.04,
+                        "TopMargin": 40.7,
+                        "BottomMargin": 130.3,
+                        "Tag": 305,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 20,
+                            "LabelText": "--时--分",
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 76.65,
+                              "Y": 26.5
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "G": 130,
+                              "B": 81
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.35,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.8219,
+                              "Y": 0.566
+                            },
+                            "LeftMargin": -13.35,
+                            "RightMargin": 52.35,
+                            "TopMargin": 11.5,
+                            "BottomMargin": 11.5,
+                            "Tag": 306,
+                            "ActionTag": 344249914,
+                            "Size": {
+                              "X": 180.0,
+                              "Y": 30.0
+                            },
+                            "Name": "time",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FontSize": 20,
+                            "LabelText": "每天打烊开始：",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 26.5
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 144,
+                              "G": 92,
+                              "B": 42
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.6393,
+                              "Y": 0.3774
+                            },
+                            "LeftMargin": -140.0,
+                            "RightMargin": 219.0,
+                            "TopMargin": 16.5,
+                            "BottomMargin": 16.5,
+                            "Tag": 307,
+                            "ActionTag": 1856213107,
+                            "Size": {
+                              "X": 140.0,
+                              "Y": 20.0
+                            },
+                            "Name": "tip",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FontSize": 14,
+                            "ButtonText": "",
+                            "TextColor": {
+                              "R": 65,
+                              "G": 65,
+                              "B": 70
+                            },
+                            "DisabledFileData": {
+                              "Type": "Normal",
+                              "Path": "guild/blank.png",
+                              "Plist": ""
+                            },
+                            "PressedFileData": {
+                              "Type": "Normal",
+                              "Path": "guild/blank.png",
+                              "Plist": ""
+                            },
+                            "NormalFileData": {
+                              "Type": "Normal",
+                              "Path": "guild/blank.png",
+                              "Plist": ""
+                            },
+                            "Scale9Enable": true,
+                            "Scale9Width": 2,
+                            "Scale9Height": 2,
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 109.5,
+                              "Y": 26.5
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PercentWidthEnable": true,
+                            "PercentHeightEnable": true,
+                            "PercentWidthEnabled": true,
+                            "PercentHeightEnabled": true,
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 1.0
+                            },
+                            "Tag": 309,
+                            "ActionTag": 1805641325,
+                            "Size": {
+                              "X": 219.0,
+                              "Y": 53.0
+                            },
+                            "Name": "btn_edit",
+                            "ctype": "ButtonObjectData"
+                          }
+                        ],
+                        "ActionTag": 1131787219,
+                        "Size": {
+                          "X": 219.0,
+                          "Y": 53.0
+                        },
+                        "Name": "time_start_bg",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "guildwood/guildsetting/closesetting/dysz_btn_time.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 90,
+                        "Scale9OriginY": 14,
+                        "Scale9Width": 39,
+                        "Scale9Height": 25,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 284.46,
+                          "Y": 67.2
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.66,
+                          "Y": 0.3
+                        },
+                        "PreSize": {
+                          "X": 0.5081,
+                          "Y": 0.2366
+                        },
+                        "LeftMargin": 174.96,
+                        "RightMargin": 37.04,
+                        "TopMargin": 130.3,
+                        "BottomMargin": 40.7,
+                        "Tag": 310,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 20,
+                            "LabelText": "--时--分",
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 76.65,
+                              "Y": 26.5
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "G": 130,
+                              "B": 81
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.35,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.8219,
+                              "Y": 0.566
+                            },
+                            "LeftMargin": -13.35,
+                            "RightMargin": 52.35,
+                            "TopMargin": 11.5,
+                            "BottomMargin": 11.5,
+                            "Tag": 311,
+                            "ActionTag": 1821525821,
+                            "Size": {
+                              "X": 180.0,
+                              "Y": 30.0
+                            },
+                            "Name": "time",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FontSize": 20,
+                            "LabelText": "每天打烊结束：",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 26.5
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 144,
+                              "G": 92,
+                              "B": 42
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.6393,
+                              "Y": 0.3774
+                            },
+                            "LeftMargin": -140.0,
+                            "RightMargin": 219.0,
+                            "TopMargin": 16.5,
+                            "BottomMargin": 16.5,
+                            "Tag": 312,
+                            "ActionTag": 403168014,
+                            "Size": {
+                              "X": 140.0,
+                              "Y": 20.0
+                            },
+                            "Name": "tip",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "FontSize": 14,
+                            "ButtonText": "",
+                            "TextColor": {
+                              "R": 65,
+                              "G": 65,
+                              "B": 70
+                            },
+                            "DisabledFileData": {
+                              "Type": "Normal",
+                              "Path": "guild/blank.png",
+                              "Plist": ""
+                            },
+                            "PressedFileData": {
+                              "Type": "Normal",
+                              "Path": "guild/blank.png",
+                              "Plist": ""
+                            },
+                            "NormalFileData": {
+                              "Type": "Normal",
+                              "Path": "guild/blank.png",
+                              "Plist": ""
+                            },
+                            "Scale9Enable": true,
+                            "Scale9Width": 2,
+                            "Scale9Height": 2,
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 109.5,
+                              "Y": 26.5
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PercentWidthEnable": true,
+                            "PercentHeightEnable": true,
+                            "PercentWidthEnabled": true,
+                            "PercentHeightEnabled": true,
+                            "PreSize": {
+                              "X": 1.0,
+                              "Y": 1.0
+                            },
+                            "Tag": 314,
+                            "ActionTag": 1013720282,
+                            "Size": {
+                              "X": 219.0,
+                              "Y": 53.0
+                            },
+                            "Name": "btn_edit",
+                            "ctype": "ButtonObjectData"
+                          }
+                        ],
+                        "ActionTag": 903321374,
+                        "Size": {
+                          "X": 219.0,
+                          "Y": 53.0
+                        },
+                        "Name": "time_end_bg",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -920825454,
+                    "Size": {
+                      "X": 431.0,
+                      "Y": 224.0
+                    },
+                    "Name": "timebg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/closesetting/dysz_ico_arrow.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 10,
+                    "Scale9OriginY": 7,
+                    "Scale9Width": 9,
+                    "Scale9Height": 4,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 119.5,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.1213,
+                      "Y": 0.25
+                    },
+                    "LeftMargin": 105.0,
+                    "RightMargin": 105.0,
+                    "TopMargin": 72.0,
+                    "BottomMargin": -18.0,
+                    "Tag": 443,
+                    "ActionTag": 1895457695,
+                    "Size": {
+                      "X": 29.0,
+                      "Y": 18.0
+                    },
+                    "Name": "arrow",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1076674185,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 72.0
+                },
+                "Name": "Image_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_btn_Checkbox_BG.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_btn_Checkbox_BG.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_btn_Checkbox_BG.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_btn_Checkbox.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_btn_Checkbox_BG.png",
+                  "Plist": ""
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 265.335,
+                  "Y": 41.21
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2527,
+                  "Y": 0.065
+                },
+                "PreSize": {
+                  "X": 0.0476,
+                  "Y": 0.0757
+                },
+                "LeftMargin": 240.335,
+                "RightMargin": 759.665,
+                "TopMargin": 568.79,
+                "BottomMargin": 17.21,
+                "Tag": 298,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "打烊包括合伙人玩家",
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -10.0,
+                      "Y": 24.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 144,
+                      "G": 92,
+                      "B": 42
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": -0.2,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 3.6,
+                      "Y": 0.4167
+                    },
+                    "LeftMargin": -190.0,
+                    "RightMargin": 60.0,
+                    "TopMargin": 14.0,
+                    "BottomMargin": 14.0,
+                    "Tag": 299,
+                    "ActionTag": -237065279,
+                    "Size": {
+                      "X": 180.0,
+                      "Y": 20.0
+                    },
+                    "Name": "txt",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 2063411187,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 48.0
+                },
+                "Name": "check_all",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "guildnew/guildCloseSetting/dysz_btn_bcsz_p.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guildnew/guildCloseSetting/dysz_btn_bcsz_p.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guildnew/guildCloseSetting/dysz_btn_bcsz.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 215,
+                "Scale9Height": 63,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 525.0,
+                  "Y": 44.38
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.07
+                },
+                "PreSize": {
+                  "X": 0.2333,
+                  "Y": 0.1341
+                },
+                "LeftMargin": 402.5,
+                "RightMargin": 402.5,
+                "TopMargin": 547.12,
+                "BottomMargin": 1.88,
+                "Tag": 297,
+                "ActionTag": 566163141,
+                "Size": {
+                  "X": 245.0,
+                  "Y": 85.0
+                },
+                "Name": "btnYes",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1180785940,
+            "Size": {
+              "X": 1050.0,
+              "Y": 634.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1050.0,
+          "Y": 634.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "guild/blank.png",
+        "guildnew/guildCloseSetting/dysz_btn_bcsz.png",
+        "guildnew/guildCloseSetting/dysz_btn_bcsz_p.png",
+        "guildnew/guildPng/cj_pnl_03.png",
+        "guildwood/guildsetting/closesetting/dysz_bg_radio_p.png",
+        "guildwood/guildsetting/closesetting/dysz_bg_time.png",
+        "guildwood/guildsetting/closesetting/dysz_btn_radio_n.png",
+        "guildwood/guildsetting/closesetting/dysz_btn_radio_p.png",
+        "guildwood/guildsetting/closesetting/dysz_btn_time.png",
+        "guildwood/guildsetting/closesetting/dysz_ico_arrow.png",
+        "guildwood/guildsetting/feature/msys_btn_Checkbox.png",
+        "guildwood/guildsetting/feature/msys_btn_Checkbox_BG.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

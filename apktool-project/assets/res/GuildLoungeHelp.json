@@ -1,0 +1,441 @@
+{
+  "ID": "7825ad98-e45e-4658-b395-e24137e1404c",
+  "Version": "2.3.4",
+  "Name": "GuildLoungeHelp",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 72,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 26,
+            "ActionTag": 736875449,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guild/back_guild_big.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 169,
+            "Scale9OriginY": 141,
+            "Scale9Width": 926,
+            "Scale9Height": 430,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.9875,
+              "Y": 0.9889
+            },
+            "LeftMargin": 8.0,
+            "RightMargin": 8.0,
+            "TopMargin": 4.0,
+            "BottomMargin": 4.0,
+            "Tag": 1144,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guild/guild_title_desc.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 122,
+                "Scale9OriginY": 19,
+                "Scale9Width": 128,
+                "Scale9Height": 20,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 632.0,
+                  "Y": 676.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.95
+                },
+                "PreSize": {
+                  "X": 0.2943,
+                  "Y": 0.0815
+                },
+                "LeftMargin": 446.0,
+                "RightMargin": 446.0,
+                "TopMargin": 6.6,
+                "BottomMargin": 647.4,
+                "Tag": 404,
+                "ActionTag": 1807687160,
+                "Size": {
+                  "X": 372.0,
+                  "Y": 58.0
+                },
+                "Name": "title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guildnew/guildLounge/guild_diban91.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 403,
+                "Scale9OriginY": 80,
+                "Scale9Width": 418,
+                "Scale9Height": 346,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 632.0,
+                  "Y": 356.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.9684,
+                  "Y": 0.7107
+                },
+                "LeftMargin": 20.0,
+                "RightMargin": 20.0,
+                "TopMargin": 103.0,
+                "BottomMargin": 103.0,
+                "Tag": 64,
+                "ActionTag": 546474937,
+                "Size": {
+                  "X": 1224.0,
+                  "Y": 506.0
+                },
+                "Name": "bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 27,
+                "LabelText": "  1、群主通过【群活动】模块可以给群内玩家发放福利（福利均为虚拟道具：游戏内的玩家头像框、对局界面互动表情、比赛场门票等）；\n\n  2、群主给玩家设置挑战任务，如总分达到100分，达成后，玩家会收到通知，结束挑战任务，不可继续游戏，要等待群主发奖；\n\n  3、挑战任务过程中，群主可以在任意时间暂停任务，同时也可以在任意时间继续开启该名玩家的挑战任务；\n\n  4、群主给玩家发送虚拟道具奖励，将会消耗玩家的战功或者总分数，用以兑换道具（战功、总分数按天为单位统计，每日0点自动清空，过期后将无法兑换道具）；",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 632.0,
+                  "Y": 356.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 146,
+                  "G": 78,
+                  "B": 42
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.8703,
+                  "Y": 0.5885
+                },
+                "LeftMargin": 82.0,
+                "RightMargin": 82.0,
+                "TopMargin": 146.5,
+                "BottomMargin": 146.5,
+                "Tag": 403,
+                "ActionTag": 113758989,
+                "Size": {
+                  "X": 1100.0,
+                  "Y": 419.0
+                },
+                "Name": "txt",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/but_queding_press.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/but_queding_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/but_queding_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 178,
+                "Scale9Height": 57,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 632.0,
+                  "Y": 56.96
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.08
+                },
+                "PreSize": {
+                  "X": 0.1646,
+                  "Y": 0.111
+                },
+                "LeftMargin": 528.0,
+                "RightMargin": 528.0,
+                "TopMargin": 615.54,
+                "BottomMargin": 17.46,
+                "Tag": 272,
+                "ActionTag": -1515371086,
+                "Size": {
+                  "X": 208.0,
+                  "Y": 79.0
+                },
+                "Name": "btnYes",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/btn_close_press.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/btn_close_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/btn_close_normal.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 30,
+                "Scale9Height": 38,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1238.72,
+                  "Y": 676.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.98,
+                  "Y": 0.95
+                },
+                "PreSize": {
+                  "X": 0.0475,
+                  "Y": 0.0843
+                },
+                "LeftMargin": 1208.72,
+                "RightMargin": -4.72,
+                "TopMargin": 5.6,
+                "BottomMargin": 646.4,
+                "Tag": 250,
+                "ActionTag": -1316606608,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 60.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -108244162,
+            "Size": {
+              "X": 1264.0,
+              "Y": 712.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "guild/back_guild_big.png",
+        "guild/btn_close_normal.png",
+        "guild/btn_close_press.png",
+        "guild/but_queding_normal.png",
+        "guild/but_queding_press.png",
+        "guild/guild_title_desc.png",
+        "guildnew/guildLounge/guild_diban91.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

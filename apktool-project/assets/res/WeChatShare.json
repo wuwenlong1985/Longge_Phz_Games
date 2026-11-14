@@ -1,0 +1,610 @@
+{
+  "ID": "04e8d47b-544d-492e-9cc6-ed207f40bd8b",
+  "Version": "2.3.4",
+  "Name": "WeChatShare",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 134,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -639.0,
+            "RightMargin": -641.0,
+            "TopMargin": -361.0,
+            "BottomMargin": -359.0,
+            "Tag": 152,
+            "ActionTag": 247127195,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/bac_04_new.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 324,
+            "Scale9OriginY": 215,
+            "Scale9Width": 222,
+            "Scale9Height": 174,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -435.0,
+            "RightMargin": -435.0,
+            "TopMargin": -302.0,
+            "BottomMargin": -302.0,
+            "Tag": 151,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "wechatshare/fenxiang.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 43.5,
+                  "Y": 604.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 1.0
+                },
+                "PreSize": {
+                  "X": 0.2908,
+                  "Y": 0.1258
+                },
+                "LeftMargin": 43.5,
+                "RightMargin": 573.5,
+                "BottomMargin": 528.0,
+                "Tag": 193,
+                "ActionTag": 701497564,
+                "Size": {
+                  "X": 253.0,
+                  "Y": 76.0
+                },
+                "Name": "title",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "请你选择分享游戏到：",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 442.83,
+                  "Y": 453.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 68,
+                  "G": 10,
+                  "B": 10
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.509,
+                  "Y": 0.75
+                },
+                "PreSize": {
+                  "X": 0.3448,
+                  "Y": 0.0497
+                },
+                "LeftMargin": 292.83,
+                "RightMargin": 277.17,
+                "TopMargin": 136.0,
+                "BottomMargin": 438.0,
+                "Tag": 158,
+                "ActionTag": 606715899,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 30.0
+                },
+                "Name": "content",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "wechatshare/icon_pengyouquan.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 42,
+                "Scale9Width": 50,
+                "Scale9Height": 51,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 513.3,
+                  "Y": 350.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.59,
+                  "Y": 0.58
+                },
+                "PreSize": {
+                  "X": 0.154,
+                  "Y": 0.2235
+                },
+                "LeftMargin": 446.3,
+                "RightMargin": 289.7,
+                "TopMargin": 186.18,
+                "BottomMargin": 282.82,
+                "Tag": 78,
+                "ActionTag": -941173431,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 135.0
+                },
+                "Name": "moments",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "wechatshare/icon_weixin.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 42,
+                "Scale9Width": 50,
+                "Scale9Height": 51,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.1,
+                  "Y": 350.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.23,
+                  "Y": 0.58
+                },
+                "PreSize": {
+                  "X": 0.154,
+                  "Y": 0.2235
+                },
+                "LeftMargin": 133.1,
+                "RightMargin": 602.9,
+                "TopMargin": 186.18,
+                "BottomMargin": 282.82,
+                "Tag": 77,
+                "ActionTag": -1109779859,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 135.0
+                },
+                "Name": "friend",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "wechatshare/icon_xianliao.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 42,
+                "Scale9Width": 50,
+                "Scale9Height": 51,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 356.7,
+                  "Y": 350.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.41,
+                  "Y": 0.58
+                },
+                "PreSize": {
+                  "X": 0.154,
+                  "Y": 0.2235
+                },
+                "LeftMargin": 289.7,
+                "RightMargin": 446.3,
+                "TopMargin": 186.18,
+                "BottomMargin": 282.82,
+                "Tag": 178,
+                "ActionTag": -634179649,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 135.0
+                },
+                "Name": "xianliao",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "wechatshare/icon_liaobei.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 42,
+                "Scale9Width": 50,
+                "Scale9Height": 51,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 669.9,
+                  "Y": 350.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.77,
+                  "Y": 0.58
+                },
+                "PreSize": {
+                  "X": 0.154,
+                  "Y": 0.2235
+                },
+                "LeftMargin": 602.9,
+                "RightMargin": 133.1,
+                "TopMargin": 186.18,
+                "BottomMargin": 282.82,
+                "Tag": 50,
+                "ActionTag": 979101481,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 135.0
+                },
+                "Name": "liaobei",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "wechatshare/icon_dingding.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 42,
+                "Scale9Width": 50,
+                "Scale9Height": 51,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 432.6986,
+                  "Y": 199.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4974,
+                  "Y": 0.33
+                },
+                "PreSize": {
+                  "X": 0.154,
+                  "Y": 0.2235
+                },
+                "LeftMargin": 365.6986,
+                "RightMargin": 370.3014,
+                "TopMargin": 337.18,
+                "BottomMargin": 131.82,
+                "Tag": 11,
+                "ActionTag": 1280690195,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 135.0
+                },
+                "Name": "dingding",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "wechatshare/icon_chuiniu.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 42,
+                "Scale9Width": 50,
+                "Scale9Height": 51,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 513.3,
+                  "Y": 199.32
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.59,
+                  "Y": 0.33
+                },
+                "PreSize": {
+                  "X": 0.154,
+                  "Y": 0.2235
+                },
+                "LeftMargin": 446.3,
+                "RightMargin": 289.7,
+                "TopMargin": 337.18,
+                "BottomMargin": 131.82,
+                "Tag": 23,
+                "ActionTag": 644655140,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 135.0
+                },
+                "VisibleForFrame": false,
+                "Name": "chuiniu",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "common/btn_close_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "common/btn_close_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 4,
+                "Scale9Width": 49,
+                "Scale9Height": 148,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 852.6,
+                  "Y": 555.68
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.98,
+                  "Y": 0.92
+                },
+                "PreSize": {
+                  "X": 0.0908,
+                  "Y": 0.2583
+                },
+                "LeftMargin": 773.6,
+                "RightMargin": 17.4,
+                "TopMargin": 48.32,
+                "BottomMargin": 399.68,
+                "Tag": 37,
+                "ActionTag": -1946835493,
+                "Size": {
+                  "X": 79.0,
+                  "Y": 156.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1097416251,
+            "Size": {
+              "X": 870.0,
+              "Y": 604.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "common/bac_04_new.png",
+        "common/btn_close_normal.png",
+        "common/btn_close_press.png",
+        "Default/Button_Disable.png",
+        "wechatshare/fenxiang.png",
+        "wechatshare/icon_chuiniu.png",
+        "wechatshare/icon_dingding.png",
+        "wechatshare/icon_liaobei.png",
+        "wechatshare/icon_pengyouquan.png",
+        "wechatshare/icon_weixin.png",
+        "wechatshare/icon_xianliao.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

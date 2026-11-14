@@ -1,0 +1,988 @@
+{
+  "ID": "17275b7c-10d5-43a9-8ff8-68c227688e15",
+  "Version": "2.3.4",
+  "Name": "GuildAct_MyAward",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 138,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 191,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -422,
+            "Scale9OriginY": -237,
+            "Scale9Width": 844,
+            "Scale9Height": 474,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 142,
+            "ActionTag": 2003912276,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "back",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guildActivity/guildLottery/other/ZTC.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 162,
+            "Scale9OriginY": 99,
+            "Scale9Width": 407,
+            "Scale9Height": 234,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.5711,
+              "Y": 0.6
+            },
+            "LeftMargin": 274.5,
+            "RightMargin": 274.5,
+            "TopMargin": 144.0,
+            "BottomMargin": 144.0,
+            "Tag": 139,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guildActivity/guildLottery/other/title_wdjl.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 92,
+                "Scale9OriginY": 23,
+                "Scale9Width": 97,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 365.5,
+                  "Y": 432.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 1.0
+                },
+                "PreSize": {
+                  "X": 0.3844,
+                  "Y": 0.1667
+                },
+                "LeftMargin": 225.0,
+                "RightMargin": 225.0,
+                "TopMargin": -36.0,
+                "BottomMargin": 396.0,
+                "Tag": 140,
+                "ActionTag": -1966619039,
+                "Size": {
+                  "X": 281.0,
+                  "Y": 72.0
+                },
+                "Name": "title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "guildActivity/guildLottery/view/btn_close_press.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guildActivity/guildLottery/view/btn_close_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guildActivity/guildLottery/view/btn_close_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 30,
+                "Scale9Height": 92,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 731.0,
+                  "Y": 401.76
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.93
+                },
+                "PreSize": {
+                  "X": 0.0821,
+                  "Y": 0.2639
+                },
+                "LeftMargin": 701.0,
+                "RightMargin": -30.0,
+                "TopMargin": -26.76,
+                "BottomMargin": 344.76,
+                "Tag": 107,
+                "ActionTag": 1582018890,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 114.0
+                },
+                "Name": "closeBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guildActivity/guildLottery/other/T_wjp.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 88,
+                "Scale9OriginY": 71,
+                "Scale9Width": 93,
+                "Scale9Height": 74,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 365.5,
+                  "Y": 216.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.368,
+                  "Y": 0.5
+                },
+                "LeftMargin": 231.0,
+                "RightMargin": 231.0,
+                "TopMargin": 108.0,
+                "BottomMargin": 108.0,
+                "Tag": 144,
+                "ActionTag": -1608791961,
+                "Size": {
+                  "X": 269.0,
+                  "Y": 216.0
+                },
+                "Name": "nullTips",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 365.5,
+                  "Y": 216.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 143,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "获得时间",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.96,
+                      "Y": 380.16
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 147,
+                      "G": 129,
+                      "B": 104
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.16,
+                      "Y": 0.88
+                    },
+                    "PreSize": {
+                      "X": 0.1094,
+                      "Y": 0.0463
+                    },
+                    "LeftMargin": 76.96,
+                    "RightMargin": 574.04,
+                    "TopMargin": 41.84,
+                    "BottomMargin": 370.16,
+                    "Tag": 98,
+                    "ActionTag": 1274598750,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 20.0
+                    },
+                    "Name": "title1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "奖品",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 365.5,
+                      "Y": 380.16
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 147,
+                      "G": 129,
+                      "B": 104
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.88
+                    },
+                    "PreSize": {
+                      "X": 0.0547,
+                      "Y": 0.0463
+                    },
+                    "LeftMargin": 345.5,
+                    "RightMargin": 345.5,
+                    "TopMargin": 41.84,
+                    "BottomMargin": 370.16,
+                    "Tag": 99,
+                    "ActionTag": 239518095,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 20.0
+                    },
+                    "Name": "title2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "状态",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 621.35,
+                      "Y": 380.16
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 147,
+                      "G": 129,
+                      "B": 104
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.85,
+                      "Y": 0.88
+                    },
+                    "PreSize": {
+                      "X": 0.0547,
+                      "Y": 0.0463
+                    },
+                    "LeftMargin": 601.35,
+                    "RightMargin": 89.65,
+                    "TopMargin": 41.84,
+                    "BottomMargin": 370.16,
+                    "Tag": 100,
+                    "ActionTag": 1041324843,
+                    "Size": {
+                      "X": 40.0,
+                      "Y": 20.0
+                    },
+                    "Name": "title3",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "guildActivity/guildLottery/other/floor_wdjl.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 225,
+                    "Scale9OriginY": 25,
+                    "Scale9Width": 232,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 365.5,
+                      "Y": 357.0048
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8264
+                    },
+                    "PreSize": {
+                      "X": 0.933,
+                      "Y": 0.1528
+                    },
+                    "LeftMargin": 24.5,
+                    "RightMargin": 24.5,
+                    "TopMargin": 74.9952,
+                    "BottomMargin": 291.0048,
+                    "Tag": 146,
+                    "Children": [
+                      {
+                        "FontSize": 22,
+                        "LabelText": "2019.12.12 10:59:59999",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 10.0,
+                          "Y": 33.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 137,
+                          "G": 64,
+                          "B": 15
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0147,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.3548,
+                          "Y": 0.3333
+                        },
+                        "LeftMargin": 10.0,
+                        "RightMargin": 430.0,
+                        "TopMargin": 22.0,
+                        "BottomMargin": 22.0,
+                        "Tag": 148,
+                        "ActionTag": 1336926135,
+                        "Size": {
+                          "X": 242.0,
+                          "Y": 22.0
+                        },
+                        "Name": "time",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 22,
+                        "LabelText": "获得",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 275.0,
+                          "Y": 33.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 137,
+                          "G": 64,
+                          "B": 15
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4032,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0645,
+                          "Y": 0.3333
+                        },
+                        "LeftMargin": 275.0,
+                        "RightMargin": 363.0,
+                        "TopMargin": 22.0,
+                        "BottomMargin": 22.0,
+                        "Tag": 150,
+                        "ActionTag": -1531677543,
+                        "Size": {
+                          "X": 44.0,
+                          "Y": 22.0
+                        },
+                        "Name": "text1",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "guildActivity/guildLottery/award/prize_1.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 30,
+                        "Scale9OriginY": 34,
+                        "Scale9Width": 33,
+                        "Scale9Height": 37,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 354.64,
+                          "Y": 33.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.54,
+                          "ScaleY": 0.54
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.52,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.1364,
+                          "Y": 1.5909
+                        },
+                        "LeftMargin": 308.14,
+                        "RightMargin": 280.86,
+                        "TopMargin": -19.5,
+                        "BottomMargin": -19.5,
+                        "Tag": 151,
+                        "ActionTag": 1300531101,
+                        "Size": {
+                          "X": 93.0,
+                          "Y": 105.0
+                        },
+                        "Name": "awardIcon",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 22,
+                        "LabelText": "100000个",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 390.0,
+                          "Y": 33.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 137,
+                          "G": 64,
+                          "B": 15
+                        },
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5718,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.129,
+                          "Y": 0.3333
+                        },
+                        "LeftMargin": 390.0,
+                        "RightMargin": 204.0,
+                        "TopMargin": 22.0,
+                        "BottomMargin": 22.0,
+                        "Tag": 153,
+                        "ActionTag": 13187611,
+                        "Size": {
+                          "X": 88.0,
+                          "Y": 22.0
+                        },
+                        "Name": "numLab",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "guildActivity/guildLottery/other/T_lxkf.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 45,
+                        "Scale9OriginY": 7,
+                        "Scale9Width": 47,
+                        "Scale9Height": 12,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 593.34,
+                          "Y": 33.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.87,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.2009,
+                          "Y": 0.3939
+                        },
+                        "LeftMargin": 524.84,
+                        "RightMargin": 20.16,
+                        "TopMargin": 20.0,
+                        "BottomMargin": 20.0,
+                        "Tag": 154,
+                        "ActionTag": 1250543636,
+                        "Size": {
+                          "X": 137.0,
+                          "Y": 26.0
+                        },
+                        "Name": "awardState",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Normal",
+                          "Path": "guildActivity/guildLottery/other/fxblq1.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "guildActivity/guildLottery/other/fxblq1.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "guildActivity/guildLottery/other/fxblq.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 136,
+                        "Scale9Height": 37,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 593.34,
+                          "Y": 33.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.87,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.2434,
+                          "Y": 0.8939
+                        },
+                        "LeftMargin": 510.34,
+                        "RightMargin": 5.66,
+                        "TopMargin": 3.5,
+                        "BottomMargin": 3.5,
+                        "Tag": 97,
+                        "ActionTag": 1886998083,
+                        "Size": {
+                          "X": 166.0,
+                          "Y": 59.0
+                        },
+                        "Name": "getAwardBtn",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": -280684651,
+                    "Size": {
+                      "X": 682.0,
+                      "Y": 66.0
+                    },
+                    "Name": "item",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsBounceEnabled": true,
+                    "InnerNodeSize": {
+                      "Width": 712,
+                      "Height": 345
+                    },
+                    "ScrollDirectionType": "Vertical",
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "G": 150,
+                      "B": 100
+                    },
+                    "FirstColor": {
+                      "G": 150,
+                      "B": 100
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 365.5,
+                      "Y": 365.04
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.845
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.975,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 9.1375,
+                    "RightMargin": 9.1375,
+                    "TopMargin": 66.96,
+                    "BottomMargin": 19.44,
+                    "Tag": 471,
+                    "ActionTag": 6915751,
+                    "Size": {
+                      "X": 712.725,
+                      "Y": 345.6
+                    },
+                    "Name": "awardList",
+                    "ctype": "ScrollViewObjectData"
+                  }
+                ],
+                "ActionTag": 1909347559,
+                "Size": {
+                  "X": 731.0,
+                  "Y": 432.0
+                },
+                "Name": "awardLay",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1714128745,
+            "Size": {
+              "X": 731.0,
+              "Y": 432.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "guildActivity/guildLottery/award/prize_1.png",
+        "guildActivity/guildLottery/other/floor_wdjl.png",
+        "guildActivity/guildLottery/other/fxblq.png",
+        "guildActivity/guildLottery/other/fxblq1.png",
+        "guildActivity/guildLottery/other/T_lxkf.png",
+        "guildActivity/guildLottery/other/T_wjp.png",
+        "guildActivity/guildLottery/other/title_wdjl.png",
+        "guildActivity/guildLottery/other/ZTC.png",
+        "guildActivity/guildLottery/view/btn_close_normal.png",
+        "guildActivity/guildLottery/view/btn_close_press.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

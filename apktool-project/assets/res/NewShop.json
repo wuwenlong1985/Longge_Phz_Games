@@ -1,0 +1,2145 @@
+{
+  "ID": "3fcb647b-92ec-4ac8-9199-38d25070d2df",
+  "Version": "2.3.4",
+  "Name": "NewShop",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 12,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 33,
+            "ActionTag": 466230964,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "login/z_loading.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 213,
+            "Scale9OriginY": 215,
+            "Scale9Width": 1494,
+            "Scale9Height": 650,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 460,
+            "ActionTag": -1938990236,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 1280.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.8,
+              "Y": 0.9
+            },
+            "LeftMargin": 256.0,
+            "TopMargin": 72.0,
+            "Tag": 65,
+            "ActionTag": 977883314,
+            "Size": {
+              "X": 1024.0,
+              "Y": 648.0
+            },
+            "Name": "JBPanel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "coinRoom/diban000.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 20,
+            "Scale9Width": 282,
+            "Scale9Height": 680,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.2438,
+              "Y": 1.0
+            },
+            "RightMargin": 968.0,
+            "Tag": 426,
+            "ActionTag": 183427541,
+            "Size": {
+              "X": 312.0,
+              "Y": 720.0
+            },
+            "Name": "backImage",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop/Shopjinb_floor.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 66,
+            "Scale9OriginY": 52,
+            "Scale9Width": 43,
+            "Scale9Height": 111,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 540.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.25,
+              "Y": 0.75
+            },
+            "PreSize": {
+              "X": 0.2656,
+              "Y": 0.3083
+            },
+            "LeftMargin": 150.0,
+            "RightMargin": 790.0,
+            "TopMargin": 69.0,
+            "BottomMargin": 429.0,
+            "Tag": 78,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/shangpin01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 61,
+                "Scale9OriginY": 41,
+                "Scale9Width": 32,
+                "Scale9Height": 59,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 107.1,
+                  "Y": 111.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.315,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.4529,
+                  "Y": 0.6351
+                },
+                "LeftMargin": 30.1,
+                "RightMargin": 155.9,
+                "TopMargin": 40.5,
+                "BottomMargin": 40.5,
+                "Tag": 79,
+                "ActionTag": -1913991284,
+                "Size": {
+                  "X": 154.0,
+                  "Y": 141.0
+                },
+                "Name": "coin",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/JBNum/floor_sl.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 45,
+                "Scale9OriginY": 22,
+                "Scale9Width": 48,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 262.76,
+                  "Y": 160.33
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7728,
+                  "Y": 0.7222
+                },
+                "PreSize": {
+                  "X": 0.4059,
+                  "Y": 0.3018
+                },
+                "LeftMargin": 193.76,
+                "RightMargin": 8.24,
+                "TopMargin": 28.17,
+                "BottomMargin": 126.83,
+                "Tag": 80,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/JBNum/0.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 10,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 2,
+                    "Scale9Height": 8,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.0,
+                      "Y": 46.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.7
+                    },
+                    "PreSize": {
+                      "X": 0.1594,
+                      "Y": 0.4478
+                    },
+                    "LeftMargin": 69.0,
+                    "RightMargin": 47.0,
+                    "TopMargin": 5.1,
+                    "BottomMargin": 31.9,
+                    "Tag": 81,
+                    "ActionTag": -100432119,
+                    "Size": {
+                      "X": 22.0,
+                      "Y": 30.0
+                    },
+                    "Name": "num",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/JBNum/T_jinbi.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 14,
+                    "Scale9OriginY": 6,
+                    "Scale9Width": 15,
+                    "Scale9Height": 9,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 69.0,
+                      "Y": 3.35
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.05
+                    },
+                    "PreSize": {
+                      "X": 0.3116,
+                      "Y": 0.3134
+                    },
+                    "LeftMargin": 47.5,
+                    "RightMargin": 47.5,
+                    "TopMargin": 42.65,
+                    "BottomMargin": 3.35,
+                    "Tag": 82,
+                    "ActionTag": -1216618082,
+                    "Size": {
+                      "X": 43.0,
+                      "Y": 21.0
+                    },
+                    "Name": "image",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 2032660954,
+                "Size": {
+                  "X": 138.0,
+                  "Y": 67.0
+                },
+                "Name": "Number",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/JBPrice/yuan.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 11,
+                "Scale9OriginY": 10,
+                "Scale9Width": 13,
+                "Scale9Height": 11,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 306.0,
+                  "Y": 66.8033
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.9,
+                  "Y": 0.3009
+                },
+                "PreSize": {
+                  "X": 0.1029,
+                  "Y": 0.1396
+                },
+                "LeftMargin": 271.0,
+                "RightMargin": 34.0,
+                "TopMargin": 139.6967,
+                "BottomMargin": 51.3033,
+                "Tag": 83,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/JBPrice/0.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 8,
+                    "Scale9OriginY": 12,
+                    "Scale9Width": 11,
+                    "Scale9Height": 14,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -3.5,
+                      "Y": 17.05
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": -0.1,
+                      "Y": 0.55
+                    },
+                    "PreSize": {
+                      "X": 0.7714,
+                      "Y": 1.2258
+                    },
+                    "LeftMargin": -30.5,
+                    "RightMargin": 38.5,
+                    "TopMargin": -5.05,
+                    "BottomMargin": -1.95,
+                    "Tag": 84,
+                    "ActionTag": -42840703,
+                    "Size": {
+                      "X": 27.0,
+                      "Y": 38.0
+                    },
+                    "Name": "num",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 533223332,
+                "Size": {
+                  "X": 35.0,
+                  "Y": 31.0
+                },
+                "Name": "Price",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/tubiao_zs.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 33,
+                "Scale9OriginY": 36,
+                "Scale9Width": 35,
+                "Scale9Height": 39,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 18.4666,
+                  "Y": 179.4258
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0543,
+                  "Y": 0.8082
+                },
+                "PreSize": {
+                  "X": 0.2971,
+                  "Y": 0.5
+                },
+                "LeftMargin": -32.0334,
+                "RightMargin": 271.0334,
+                "TopMargin": -12.9258,
+                "BottomMargin": 123.9258,
+                "Tag": 85,
+                "Children": [
+                  {
+                    "FontSize": 16,
+                    "LabelText": "000",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {},
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.0334,
+                      "Y": 69.9564
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5053,
+                      "Y": 0.6302
+                    },
+                    "PreSize": {
+                      "X": 0.2376,
+                      "Y": 0.1441
+                    },
+                    "LeftMargin": 39.0334,
+                    "RightMargin": 37.9666,
+                    "TopMargin": 33.0436,
+                    "BottomMargin": 61.9564,
+                    "Tag": 86,
+                    "ActionTag": -896612716,
+                    "Size": {
+                      "X": 24.0,
+                      "Y": 16.0
+                    },
+                    "Name": "discount",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1446892012,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 111.0
+                },
+                "Name": "discountImg",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 2049307444,
+            "Size": {
+              "X": 340.0,
+              "Y": 222.0
+            },
+            "VisibleForFrame": false,
+            "Name": "JBitem",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.1953,
+              "Y": 0.2778
+            },
+            "RightMargin": 1030.0,
+            "TopMargin": 520.0,
+            "Tag": 124,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "尊贵的代理：\n您现在可以享受代理\n优惠价格",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 125.0,
+                  "Y": 150.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 236,
+                  "G": 227,
+                  "B": 198
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.75
+                },
+                "PreSize": {
+                  "X": 0.864,
+                  "Y": 0.36
+                },
+                "LeftMargin": 17.0,
+                "RightMargin": 17.0,
+                "TopMargin": 14.0,
+                "BottomMargin": 114.0,
+                "Tag": 125,
+                "ActionTag": -1846133811,
+                "Size": {
+                  "X": 216.0,
+                  "Y": 72.0
+                },
+                "Name": "agentTip",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/beAgent_down.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/beAgent_down.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "shop/beAgent_up.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 116,
+                "Scale9Height": 37,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 103.2486,
+                  "Y": 45.7
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.413,
+                  "Y": 0.2285
+                },
+                "PreSize": {
+                  "X": 0.584,
+                  "Y": 0.295
+                },
+                "LeftMargin": 30.2486,
+                "RightMargin": 73.7514,
+                "TopMargin": 124.8,
+                "BottomMargin": 16.2,
+                "Tag": 126,
+                "ActionTag": 2104095129,
+                "Size": {
+                  "X": 146.0,
+                  "Y": 59.0
+                },
+                "Name": "beAgentBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "亲爱的玩家，\n成为代理后可以\n享受超值折扣价",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 125.0,
+                  "Y": 150.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 236,
+                  "G": 227,
+                  "B": 198
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.75
+                },
+                "PreSize": {
+                  "X": 0.672,
+                  "Y": 0.36
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": 41.0,
+                "TopMargin": 14.0,
+                "BottomMargin": 114.0,
+                "Tag": 655,
+                "ActionTag": -676059577,
+                "Size": {
+                  "X": 168.0,
+                  "Y": 72.0
+                },
+                "Name": "playerTip",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 804858965,
+            "Size": {
+              "X": 250.0,
+              "Y": 200.0
+            },
+            "Name": "AgentPanel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "coinRoom/fanhui_down.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "coinRoom/fanhui_down.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "coinRoom/fanhui_up.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 64,
+            "Scale9Height": 73,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 1228.7999,
+              "Y": 712.8
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.96,
+              "Y": 0.99
+            },
+            "PreSize": {
+              "X": 0.0734,
+              "Y": 0.1319
+            },
+            "LeftMargin": 1181.7999,
+            "RightMargin": 4.2001,
+            "TopMargin": 7.2,
+            "BottomMargin": 617.8,
+            "Tag": 29,
+            "ActionTag": -1521108932,
+            "Size": {
+              "X": 94.0,
+              "Y": 95.0
+            },
+            "Name": "close",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop/logo_sc.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 20,
+            "Scale9Width": 208,
+            "Scale9Height": 81,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 128.768,
+              "Y": 700.848
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.1006,
+              "Y": 0.9734
+            },
+            "PreSize": {
+              "X": 0.1859,
+              "Y": 0.1681
+            },
+            "LeftMargin": 9.768,
+            "RightMargin": 1032.2321,
+            "TopMargin": 19.152,
+            "BottomMargin": 579.848,
+            "Tag": 414,
+            "ActionTag": -639963623,
+            "Size": {
+              "X": 238.0,
+              "Y": 121.0
+            },
+            "Name": "title",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "shop/Title_shop.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "shop/Title_shop.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "shop/Title_shop_press.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 46,
+            "Scale9Height": 146,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 1.6925,
+              "Y": 417.096
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0013,
+              "Y": 0.5793
+            },
+            "PreSize": {
+              "X": 0.2062,
+              "Y": 0.1806
+            },
+            "LeftMargin": 1.6925,
+            "RightMargin": 1014.3075,
+            "TopMargin": 302.904,
+            "BottomMargin": 287.096,
+            "Tag": 17,
+            "ActionTag": -751837663,
+            "Size": {
+              "X": 264.0,
+              "Y": 130.0
+            },
+            "Name": "JBBtn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "shop/ybTitle.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "shop/ybTitle.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "shop/ybTitle_press.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 46,
+            "Scale9Height": 146,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1.69,
+              "Y": 417.096
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0013,
+              "Y": 0.5793
+            },
+            "PreSize": {
+              "X": 0.2062,
+              "Y": 0.1806
+            },
+            "LeftMargin": 1.69,
+            "RightMargin": 1014.31,
+            "TopMargin": 172.9041,
+            "BottomMargin": 417.096,
+            "Tag": 18,
+            "ActionTag": 1602662045,
+            "Size": {
+              "X": 264.0,
+              "Y": 130.0
+            },
+            "Name": "YBBtn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop/backgrey.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 27,
+            "Scale9OriginY": 14,
+            "Scale9Width": 151,
+            "Scale9Height": 24,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 1045.504,
+              "Y": 691.2
+            },
+            "Scale": {
+              "ScaleX": 1.1,
+              "ScaleY": 1.1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.8168,
+              "Y": 0.96
+            },
+            "PreSize": {
+              "X": 0.1602,
+              "Y": 0.0722
+            },
+            "LeftMargin": 943.004,
+            "RightMargin": 131.996,
+            "TopMargin": 28.8,
+            "BottomMargin": 639.2,
+            "Tag": 244,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "shop/jinbi_da.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 16,
+                "Scale9OriginY": 15,
+                "Scale9Width": 16,
+                "Scale9Height": 19,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 10.25,
+                  "Y": 24.8768
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.4784
+                },
+                "PreSize": {
+                  "X": 0.2341,
+                  "Y": 0.9423
+                },
+                "LeftMargin": -13.75,
+                "RightMargin": 170.75,
+                "TopMargin": 2.6232,
+                "BottomMargin": 0.3768,
+                "Tag": 245,
+                "ActionTag": -582013530,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 49.0
+                },
+                "Name": "diamond",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 30,
+                "LabelText": "99.99万",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 114.8,
+                  "Y": 26.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 239,
+                  "G": 218,
+                  "B": 39
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.56,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.5854,
+                  "Y": 0.5769
+                },
+                "LeftMargin": 54.8,
+                "RightMargin": 30.2,
+                "TopMargin": 11.0,
+                "BottomMargin": 11.0,
+                "Tag": 247,
+                "ActionTag": -376029033,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 30.0
+                },
+                "Name": "money",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1721699501,
+            "Size": {
+              "X": 205.0,
+              "Y": 52.0
+            },
+            "Name": "coinback",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "shop/backgrey.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 27,
+            "Scale9OriginY": 14,
+            "Scale9Width": 151,
+            "Scale9Height": 24,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 758.4,
+              "Y": 691.2
+            },
+            "Scale": {
+              "ScaleX": 1.1,
+              "ScaleY": 1.1
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5925,
+              "Y": 0.96
+            },
+            "PreSize": {
+              "X": 0.1602,
+              "Y": 0.0722
+            },
+            "LeftMargin": 655.9,
+            "RightMargin": 419.1,
+            "TopMargin": 28.8,
+            "BottomMargin": 639.2,
+            "Tag": 248,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "home/zhuangshi.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 16,
+                "Scale9OriginY": 15,
+                "Scale9Width": 16,
+                "Scale9Height": 3,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 14.6985,
+                  "Y": 24.8768
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0717,
+                  "Y": 0.4784
+                },
+                "PreSize": {
+                  "X": 0.2341,
+                  "Y": 0.6346
+                },
+                "LeftMargin": -9.3015,
+                "RightMargin": 166.3015,
+                "TopMargin": 10.6232,
+                "BottomMargin": 8.3768,
+                "Tag": 249,
+                "ActionTag": 311716186,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 33.0
+                },
+                "Name": "diamond",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 30,
+                "LabelText": "000000",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 114.8,
+                  "Y": 26.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 239,
+                  "G": 218,
+                  "B": 39
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.56,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.439,
+                  "Y": 0.5769
+                },
+                "LeftMargin": 69.8,
+                "RightMargin": 45.2,
+                "TopMargin": 11.0,
+                "BottomMargin": 11.0,
+                "Tag": 251,
+                "ActionTag": -68922732,
+                "Size": {
+                  "X": 90.0,
+                  "Y": 30.0
+                },
+                "Name": "money",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 380017218,
+            "Size": {
+              "X": 205.0,
+              "Y": 52.0
+            },
+            "Name": "moneyback",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 1280.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.8,
+              "Y": 0.9
+            },
+            "LeftMargin": 256.0,
+            "TopMargin": 72.0,
+            "Tag": 252,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 152.3712,
+                  "Y": 324.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1488,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2441,
+                  "Y": 0.8951
+                },
+                "LeftMargin": 27.3712,
+                "RightMargin": 746.6288,
+                "TopMargin": 34.0,
+                "BottomMargin": 34.0,
+                "Tag": 289,
+                "ActionTag": 567656993,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 580.0
+                },
+                "Name": "rowItem",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "ScrollDirectionType": 0,
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 512.0,
+                  "Y": 324.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.8203,
+                  "Y": 0.8951
+                },
+                "LeftMargin": 92.0,
+                "RightMargin": 92.0,
+                "TopMargin": 34.0,
+                "BottomMargin": 34.0,
+                "Tag": 290,
+                "ActionTag": -1744539825,
+                "Size": {
+                  "X": 840.0,
+                  "Y": 580.0
+                },
+                "Name": "ListView",
+                "ctype": "ListViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 213.9271,
+                  "Y": 596.12
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2089,
+                  "Y": 0.9199
+                },
+                "PreSize": {
+                  "X": 0.2637,
+                  "Y": 0.4321
+                },
+                "LeftMargin": 78.9271,
+                "RightMargin": 675.0729,
+                "TopMargin": 51.88,
+                "BottomMargin": 316.12,
+                "Tag": 59,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/Shop_floor.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 66,
+                    "Scale9OriginY": 52,
+                    "Scale9Width": 43,
+                    "Scale9Height": 111,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 135.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.7037,
+                      "Y": 0.8679
+                    },
+                    "LeftMargin": 40.0,
+                    "RightMargin": 40.0,
+                    "TopMargin": 37.0,
+                    "Tag": 291,
+                    "ActionTag": 192343406,
+                    "Size": {
+                      "X": 190.0,
+                      "Y": 243.0
+                    },
+                    "Name": "back",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/wares_09.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 61,
+                    "Scale9OriginY": 41,
+                    "Scale9Width": 16,
+                    "Scale9Height": 60,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 136.323,
+                      "Y": 176.708
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5049,
+                      "Y": 0.6311
+                    },
+                    "PreSize": {
+                      "X": 0.5111,
+                      "Y": 0.5071
+                    },
+                    "LeftMargin": 67.323,
+                    "RightMargin": 64.677,
+                    "TopMargin": 32.292,
+                    "BottomMargin": 105.708,
+                    "Tag": 292,
+                    "ActionTag": -355375569,
+                    "Size": {
+                      "X": 138.0,
+                      "Y": 142.0
+                    },
+                    "Name": "coin",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/YBNum/floor_sl.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 45,
+                    "Scale9OriginY": 9,
+                    "Scale9Width": 65,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 135.0,
+                      "Y": 98.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.35
+                    },
+                    "PreSize": {
+                      "X": 0.5741,
+                      "Y": 0.1036
+                    },
+                    "LeftMargin": 57.5,
+                    "RightMargin": 57.5,
+                    "TopMargin": 167.5,
+                    "BottomMargin": 83.5,
+                    "Tag": 293,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "shop/YBNum/0.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 10,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 1,
+                        "Scale9Height": 9,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 100.75,
+                          "Y": 14.5
+                        },
+                        "Scale": {
+                          "ScaleX": 0.7,
+                          "ScaleY": 0.7
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.65,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.129,
+                          "Y": 1.069
+                        },
+                        "LeftMargin": 80.75,
+                        "RightMargin": 54.25,
+                        "TopMargin": -1.0,
+                        "BottomMargin": -1.0,
+                        "Tag": 294,
+                        "ActionTag": -946105292,
+                        "Size": {
+                          "X": 20.0,
+                          "Y": 31.0
+                        },
+                        "Name": "num",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "shop/YBNum/yb.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 14,
+                        "Scale9OriginY": 6,
+                        "Scale9Width": 20,
+                        "Scale9Height": 19,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 155.0,
+                          "Y": 14.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 1.0,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.3097,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 107.0,
+                        "Tag": 295,
+                        "ActionTag": 1760651754,
+                        "Size": {
+                          "X": 48.0,
+                          "Y": 29.0
+                        },
+                        "Name": "image",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1359477373,
+                    "Size": {
+                      "X": 155.0,
+                      "Y": 29.0
+                    },
+                    "Name": "Number",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/YBPrice/yuan.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 8,
+                    "Scale9Height": 8,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 177.39,
+                      "Y": 33.8231
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.657,
+                      "Y": 0.1208
+                    },
+                    "PreSize": {
+                      "X": 0.1111,
+                      "Y": 0.1
+                    },
+                    "LeftMargin": 147.39,
+                    "RightMargin": 92.61,
+                    "TopMargin": 232.1769,
+                    "BottomMargin": 19.8231,
+                    "Tag": 296,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "shop/YBPrice/2.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 8,
+                        "Scale9OriginY": 12,
+                        "Scale9Width": 3,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 14.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.6333,
+                          "Y": 0.8929
+                        },
+                        "LeftMargin": -19.0,
+                        "RightMargin": 30.0,
+                        "TopMargin": 1.5,
+                        "BottomMargin": 1.5,
+                        "Tag": 297,
+                        "ActionTag": -1432878677,
+                        "Size": {
+                          "X": 19.0,
+                          "Y": 25.0
+                        },
+                        "Name": "num",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1098390804,
+                    "Size": {
+                      "X": 30.0,
+                      "Y": 28.0
+                    },
+                    "Name": "Price",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/tubiao_zs.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 33,
+                    "Scale9OriginY": 36,
+                    "Scale9Width": 35,
+                    "Scale9Height": 39,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 217.5986,
+                      "Y": 218.7902
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8059,
+                      "Y": 0.7814
+                    },
+                    "PreSize": {
+                      "X": 0.3741,
+                      "Y": 0.3964
+                    },
+                    "LeftMargin": 167.0986,
+                    "RightMargin": 1.9014,
+                    "TopMargin": 5.7098,
+                    "BottomMargin": 163.2902,
+                    "Tag": 298,
+                    "Children": [
+                      {
+                        "FontSize": 16,
+                        "LabelText": "000",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {},
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 51.0334,
+                          "Y": 69.9564
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5053,
+                          "Y": 0.6302
+                        },
+                        "PreSize": {
+                          "X": 0.2376,
+                          "Y": 0.1441
+                        },
+                        "LeftMargin": 39.0334,
+                        "RightMargin": 37.9666,
+                        "TopMargin": 33.0436,
+                        "BottomMargin": 61.9564,
+                        "Tag": 299,
+                        "ActionTag": 334903907,
+                        "Size": {
+                          "X": 24.0,
+                          "Y": 16.0
+                        },
+                        "Name": "discount",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -1771519225,
+                    "Size": {
+                      "X": 101.0,
+                      "Y": 111.0
+                    },
+                    "Name": "discountImg",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 949596813,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 280.0
+                },
+                "Name": "item",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -426573391,
+            "Size": {
+              "X": 1024.0,
+              "Y": 648.0
+            },
+            "Name": "YBPanel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "coinRoom/diban000.png",
+        "coinRoom/fanhui_down.png",
+        "coinRoom/fanhui_up.png",
+        "home/zhuangshi.png",
+        "login/z_loading.png",
+        "shop/backgrey.png",
+        "shop/beAgent_down.png",
+        "shop/beAgent_up.png",
+        "shop/JBNum/0.png",
+        "shop/JBNum/floor_sl.png",
+        "shop/JBNum/T_jinbi.png",
+        "shop/JBPrice/0.png",
+        "shop/JBPrice/yuan.png",
+        "shop/jinbi_da.png",
+        "shop/logo_sc.png",
+        "shop/shangpin01.png",
+        "shop/Shop_floor.png",
+        "shop/Shopjinb_floor.png",
+        "shop/Title_shop.png",
+        "shop/Title_shop_press.png",
+        "shop/tubiao_zs.png",
+        "shop/wares_09.png",
+        "shop/YBNum/0.png",
+        "shop/YBNum/floor_sl.png",
+        "shop/YBNum/yb.png",
+        "shop/YBPrice/2.png",
+        "shop/YBPrice/yuan.png",
+        "shop/ybTitle.png",
+        "shop/ybTitle_press.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

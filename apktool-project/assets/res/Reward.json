@@ -1,0 +1,336 @@
+{
+  "ID": "9a820c1f-25d9-4f06-a1e3-a5ee1bf7f301",
+  "Version": "2.3.4",
+  "Name": "Reward",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 213,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.0001,
+              "Y": -1.3174
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -640.0001,
+            "RightMargin": -639.9999,
+            "TopMargin": -358.6826,
+            "BottomMargin": -361.3174,
+            "Tag": 244,
+            "ActionTag": 2084834980,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "png/light_01.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 85,
+            "Scale9OriginY": 127,
+            "Scale9Width": 763,
+            "Scale9Height": 466,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -4.2191,
+              "Y": -1.3175
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -470.7191,
+            "RightMargin": -462.2809,
+            "TopMargin": -358.6825,
+            "BottomMargin": -361.3175,
+            "Tag": 238,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "png/foot_002.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 85,
+                "Scale9OriginY": 85,
+                "Scale9Width": 90,
+                "Scale9Height": 90,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 466.5,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2787,
+                  "Y": 0.3611
+                },
+                "LeftMargin": 336.5,
+                "RightMargin": 336.5,
+                "TopMargin": 230.0,
+                "BottomMargin": 230.0,
+                "Tag": 637,
+                "ActionTag": -1181294724,
+                "Size": {
+                  "X": 260.0,
+                  "Y": 260.0
+                },
+                "Name": "bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 40,
+                "LabelText": "恭喜获得元宝",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 431.4192,
+                  "Y": 579.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.4624,
+                  "Y": 0.8056
+                },
+                "PreSize": {
+                  "X": 0.2572,
+                  "Y": 0.0556
+                },
+                "LeftMargin": 311.4192,
+                "RightMargin": 381.5808,
+                "TopMargin": 120.0001,
+                "BottomMargin": 559.9999,
+                "Tag": 239,
+                "ActionTag": -1972119928,
+                "Size": {
+                  "X": 240.0,
+                  "Y": 40.0
+                },
+                "Name": "msg",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "activity/diamonds.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 32,
+                "Scale9OriginY": 28,
+                "Scale9Width": 138,
+                "Scale9Height": 146,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 466.5,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2165,
+                  "Y": 0.2806
+                },
+                "LeftMargin": 365.5,
+                "RightMargin": 365.5,
+                "TopMargin": 259.0,
+                "BottomMargin": 259.0,
+                "Tag": 240,
+                "ActionTag": -1633688068,
+                "Size": {
+                  "X": 202.0,
+                  "Y": 202.0
+                },
+                "Name": "dimond",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 40,
+                "LabelText": "X20",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 561.2074,
+                  "Y": 579.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6015,
+                  "Y": 0.8056
+                },
+                "PreSize": {
+                  "X": 0.0643,
+                  "Y": 0.0556
+                },
+                "LeftMargin": 561.2074,
+                "RightMargin": 311.7926,
+                "TopMargin": 120.0001,
+                "BottomMargin": 559.9999,
+                "Tag": 241,
+                "ActionTag": 1624068422,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 40.0
+                },
+                "Name": "num",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1921820971,
+            "Size": {
+              "X": 933.0,
+              "Y": 720.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "activity/diamonds.png",
+        "png/foot_002.png",
+        "png/light_01.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

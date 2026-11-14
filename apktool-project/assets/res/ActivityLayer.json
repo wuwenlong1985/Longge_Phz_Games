@@ -1,0 +1,874 @@
+{
+  "ID": "bac20bda-f56b-42dc-a56d-13c34b2a835b",
+  "Version": "2.3.4",
+  "Name": "ActivityLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 589,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 302,
+            "ActionTag": 1536639898,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "playlog/floor_08.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 363,
+            "Scale9OriginY": 217,
+            "Scale9Width": 554,
+            "Scale9Height": 286,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentHeightEnable": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 184,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "activity/T_base.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 34,
+                "Scale9OriginY": 14,
+                "Scale9Width": 289,
+                "Scale9Height": 76,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 656.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9111
+                },
+                "PreSize": {
+                  "X": 0.2789,
+                  "Y": 0.1444
+                },
+                "LeftMargin": 461.5,
+                "RightMargin": 461.5,
+                "TopMargin": 12.0,
+                "BottomMargin": 604.0,
+                "Tag": 720,
+                "ActionTag": -1253435363,
+                "Size": {
+                  "X": 357.0,
+                  "Y": 104.0
+                },
+                "Name": "titileimg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "playlog/btn_x_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "playlog/btn_x_normal.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 56,
+                "Scale9Height": 65,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1100.0,
+                  "Y": 656.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8594,
+                  "Y": 0.9111
+                },
+                "PreSize": {
+                  "X": 0.0672,
+                  "Y": 0.1208
+                },
+                "LeftMargin": 1057.0,
+                "RightMargin": 137.0,
+                "TopMargin": 20.5,
+                "BottomMargin": 612.5,
+                "Tag": 628,
+                "ActionTag": 1701566257,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 87.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "activity/floor_002.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 66,
+                "Scale9OriginY": 17,
+                "Scale9Width": 71,
+                "Scale9Height": 20,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 750.0,
+                  "Y": 535.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5859,
+                  "Y": 0.7431
+                },
+                "PreSize": {
+                  "X": 0.625,
+                  "Y": 0.1806
+                },
+                "LeftMargin": 350.0,
+                "RightMargin": 130.0,
+                "TopMargin": 120.0,
+                "BottomMargin": 470.0,
+                "Tag": 40,
+                "Children": [
+                  {
+                    "FontSize": 26,
+                    "LabelText": "规则说明",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 387.4174,
+                      "Y": 107.9089
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 97,
+                      "G": 98,
+                      "B": 69
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4843,
+                      "Y": 0.8301
+                    },
+                    "PreSize": {
+                      "X": 0.13,
+                      "Y": 0.2
+                    },
+                    "LeftMargin": 335.4174,
+                    "RightMargin": 360.5826,
+                    "TopMargin": 9.0911,
+                    "BottomMargin": 94.9089,
+                    "Tag": 288,
+                    "ActionTag": -544473573,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 26.0
+                    },
+                    "Name": "texttitle",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "1、邀请的好友下载并登录皮皮跑胡子，在新手礼包输入您发送的邀请码。",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 400.0035,
+                      "Y": 68.409
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 97,
+                      "G": 98,
+                      "B": 69
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5262
+                    },
+                    "PreSize": {
+                      "X": 0.975,
+                      "Y": 0.1846
+                    },
+                    "LeftMargin": 10.0035,
+                    "RightMargin": 9.9965,
+                    "TopMargin": 49.591,
+                    "BottomMargin": 56.409,
+                    "Tag": 289,
+                    "ActionTag": -12243234,
+                    "Size": {
+                      "X": 780.0,
+                      "Y": 24.0
+                    },
+                    "Name": "textcontent",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "2、被邀请好友玩6局后，您即可获得元宝奖励。",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 262.8876,
+                      "Y": 30.3328
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 97,
+                      "G": 98,
+                      "B": 69
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3286,
+                      "Y": 0.2333
+                    },
+                    "PreSize": {
+                      "X": 0.63,
+                      "Y": 0.1846
+                    },
+                    "LeftMargin": 10.8876,
+                    "RightMargin": 285.1124,
+                    "TopMargin": 87.6672,
+                    "BottomMargin": 18.3328,
+                    "Tag": 290,
+                    "ActionTag": -1200861255,
+                    "Size": {
+                      "X": 504.0,
+                      "Y": 24.0
+                    },
+                    "Name": "textcontent2",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1830088359,
+                "Size": {
+                  "X": 800.0,
+                  "Y": 130.0
+                },
+                "Name": "rules",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "activity/floor_002.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 66,
+                "Scale9OriginY": 17,
+                "Scale9Width": 71,
+                "Scale9Height": 20,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 750.0,
+                  "Y": 287.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5859,
+                  "Y": 0.3986
+                },
+                "PreSize": {
+                  "X": 0.625,
+                  "Y": 0.4861
+                },
+                "LeftMargin": 350.0,
+                "RightMargin": 130.0,
+                "TopMargin": 258.0,
+                "BottomMargin": 112.0,
+                "Tag": 590,
+                "ActionTag": 1281164699,
+                "Size": {
+                  "X": 800.0,
+                  "Y": 350.0
+                },
+                "Name": "activeRoombg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "activity/btn_invitation_01_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "activity/btn_invitation_01_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 166,
+                "Scale9Height": 48,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.4129,
+                  "ScaleY": 0.4345
+                },
+                "Position": {
+                  "X": 731.2207,
+                  "Y": 62.5363
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5713,
+                  "Y": 0.0869
+                },
+                "PreSize": {
+                  "X": 0.1531,
+                  "Y": 0.0972
+                },
+                "LeftMargin": 650.2923,
+                "RightMargin": 433.7077,
+                "TopMargin": 617.8787,
+                "BottomMargin": 32.1213,
+                "Tag": 844,
+                "ActionTag": 583265520,
+                "Size": {
+                  "X": 196.0,
+                  "Y": 70.0
+                },
+                "Name": "invitebutton",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1110228815,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 216,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 48,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": -10,
+                "Scale9Width": 20,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 749.2323,
+                  "Y": 287.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5853,
+                  "Y": 0.3986
+                },
+                "PreSize": {
+                  "X": 0.625,
+                  "Y": 0.4861
+                },
+                "LeftMargin": 349.2323,
+                "RightMargin": 130.7677,
+                "TopMargin": 257.9998,
+                "BottomMargin": 112.0002,
+                "Tag": 294,
+                "ActionTag": 1774409192,
+                "Size": {
+                  "X": 800.0,
+                  "Y": 350.0
+                },
+                "Alpha": 0,
+                "Name": "activeRoom",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "InnerNodeSize": {
+                  "Width": 220,
+                  "Height": 500
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "EndColor": {
+                  "R": 0,
+                  "G": 0
+                },
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 600.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0938,
+                  "Y": 0.8333
+                },
+                "PreSize": {
+                  "X": 0.1719,
+                  "Y": 0.6667
+                },
+                "LeftMargin": 120.0,
+                "RightMargin": 940.0,
+                "TopMargin": 120.0,
+                "BottomMargin": 120.0,
+                "Tag": 217,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "activity/floor_002.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 34,
+                    "Scale9OriginY": 14,
+                    "Scale9Width": 135,
+                    "Scale9Height": 26,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 110.7684,
+                      "Y": 461.7211
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5035,
+                      "Y": 0.9234
+                    },
+                    "PreSize": {
+                      "X": 0.9227,
+                      "Y": 0.108
+                    },
+                    "LeftMargin": 9.2684,
+                    "RightMargin": 7.7316,
+                    "TopMargin": 11.2789,
+                    "BottomMargin": 434.7211,
+                    "Tag": 776,
+                    "ActionTag": 1389895219,
+                    "Size": {
+                      "X": 203.0,
+                      "Y": 54.0
+                    },
+                    "Name": "selectimg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "activity/btn_invitation_press.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "activity/btn_invitation_press.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "activity/btn_invitation_press.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 130,
+                    "Scale9Height": 16,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 110.0,
+                      "Y": 460.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.92
+                    },
+                    "PreSize": {
+                      "X": 0.7273,
+                      "Y": 0.076
+                    },
+                    "LeftMargin": 30.0,
+                    "RightMargin": 30.0,
+                    "TopMargin": 21.0,
+                    "BottomMargin": 441.0,
+                    "Tag": 67,
+                    "ActionTag": 1086242378,
+                    "Size": {
+                      "X": 160.0,
+                      "Y": 38.0
+                    },
+                    "Name": "item",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 1511503498,
+                "Size": {
+                  "X": 220.0,
+                  "Y": 480.0
+                },
+                "Name": "activeList",
+                "ctype": "ScrollViewObjectData"
+              }
+            ],
+            "ActionTag": -1160275810,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "activity/btn_invitation_01_normal.png",
+        "activity/btn_invitation_01_press.png",
+        "activity/btn_invitation_press.png",
+        "activity/floor_002.png",
+        "activity/T_base.png",
+        "Default/Button_Disable.png",
+        "playlog/btn_x_normal.png",
+        "playlog/btn_x_press.png",
+        "playlog/floor_08.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,1333 @@
+{
+  "ID": "c7ad64bb-d64b-4ae7-9e37-7261c39307ab",
+  "Version": "2.3.4",
+  "Name": "HZ_ChangeUINode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 593,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 594,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "hzmj/guild/alpha.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 622.0447,
+                  "Y": 255.62
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 273.5447,
+                "RightMargin": -970.5447,
+                "TopMargin": -337.12,
+                "BottomMargin": 174.12,
+                "Tag": 595,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/setting/floor_hupai_left.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 16,
+                    "Scale9OriginY": 35,
+                    "Scale9Width": 85,
+                    "Scale9Height": 39,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 40.0,
+                      "Y": 81.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0574,
+                      "Y": 0.5
+                    },
+                    "PercentHeightEnable": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.1679,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": -77.0,
+                    "RightMargin": 657.0,
+                    "Tag": 596,
+                    "ActionTag": -685192783,
+                    "Size": {
+                      "X": 117.0,
+                      "Y": 163.0
+                    },
+                    "Name": "Image_leftbg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/setting/floor_hupai_right.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 16,
+                    "Scale9OriginY": 35,
+                    "Scale9Width": 85,
+                    "Scale9Height": 39,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 657.8822,
+                      "Y": 81.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.9439,
+                      "Y": 0.5
+                    },
+                    "PercentHeightEnable": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.1679,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 657.8822,
+                    "RightMargin": -77.8822,
+                    "Tag": 597,
+                    "Children": [
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Default",
+                          "Path": "Default/Button_Disable.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/result/btn_x_press.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/result/btn_x_normal.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 32,
+                        "Scale9Height": 40,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 86.2459,
+                          "Y": 166.0001
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7371,
+                          "Y": 1.0184
+                        },
+                        "PreSize": {
+                          "X": 0.5299,
+                          "Y": 0.3804
+                        },
+                        "LeftMargin": 55.2459,
+                        "RightMargin": -0.2459,
+                        "TopMargin": -34.0001,
+                        "BottomMargin": 135.0001,
+                        "Tag": 598,
+                        "ActionTag": -1518433239,
+                        "Size": {
+                          "X": 62.0,
+                          "Y": 62.0
+                        },
+                        "Name": "fanhui",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": 722060962,
+                    "Size": {
+                      "X": 117.0,
+                      "Y": 163.0
+                    },
+                    "Name": "Image_rightbg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/setting/selectChiBg.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 35,
+                    "Scale9OriginY": 35,
+                    "Scale9Width": 530,
+                    "Scale9Height": 39,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 348.5,
+                      "Y": 81.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentHeightEnable": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.8895,
+                      "Y": 1.0
+                    },
+                    "LeftMargin": 38.5,
+                    "RightMargin": 38.5,
+                    "Tag": 599,
+                    "ActionTag": -255367065,
+                    "Size": {
+                      "X": 620.0,
+                      "Y": 163.0
+                    },
+                    "Name": "Image_midBg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 28,
+                    "LabelText": "请选择吃牌",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 348.5,
+                      "Y": 137.8312
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8456
+                    },
+                    "PreSize": {
+                      "X": 0.2009,
+                      "Y": 0.1718
+                    },
+                    "LeftMargin": 278.5,
+                    "RightMargin": 278.5,
+                    "TopMargin": 11.1688,
+                    "BottomMargin": 123.8312,
+                    "Tag": 600,
+                    "ActionTag": 1146652457,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 28.0
+                    },
+                    "Name": "Text_opratedescribe",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/setting/penggang_bottom.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 24,
+                    "Scale9OriginY": 23,
+                    "Scale9Width": 58,
+                    "Scale9Height": 60,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 512.2579,
+                      "Y": 83.0168
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7349,
+                      "Y": 0.5093
+                    },
+                    "PreSize": {
+                      "X": 0.1062,
+                      "Y": 0.4294
+                    },
+                    "LeftMargin": 475.2579,
+                    "RightMargin": 147.7421,
+                    "TopMargin": 44.9832,
+                    "BottomMargin": 48.0168,
+                    "Tag": 601,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/png/pghg/Z_guo.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 24,
+                        "Scale9OriginY": 22,
+                        "Scale9Width": 84,
+                        "Scale9Height": 88,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 40.7783,
+                          "Y": 32.2206
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5511,
+                          "Y": 0.4603
+                        },
+                        "PreSize": {
+                          "X": 0.9865,
+                          "Y": 0.9857
+                        },
+                        "LeftMargin": 4.2783,
+                        "RightMargin": -3.2783,
+                        "TopMargin": 3.2794,
+                        "BottomMargin": -2.2794,
+                        "Tag": 602,
+                        "ActionTag": -210168987,
+                        "Size": {
+                          "X": 73.0,
+                          "Y": 69.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "guo",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1689906942,
+                    "Size": {
+                      "X": 74.0,
+                      "Y": 70.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "guobg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/ppplay/play/MJback/mj_green_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 56,
+                    "Scale9Height": 67,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 275.0,
+                      "Y": 68.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3945,
+                      "Y": 0.4172
+                    },
+                    "PreSize": {
+                      "X": 0.1119,
+                      "Y": 0.6319
+                    },
+                    "LeftMargin": 236.0,
+                    "RightMargin": 383.0,
+                    "TopMargin": 43.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 603,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/ppplay/play/MJ/hzmj_18.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 24,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 42,
+                        "Scale9Height": 36,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 39.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.6311
+                        },
+                        "PreSize": {
+                          "X": 1.1538,
+                          "Y": 0.9903
+                        },
+                        "LeftMargin": -6.0,
+                        "RightMargin": -6.0,
+                        "TopMargin": -13.0,
+                        "BottomMargin": 14.0,
+                        "Tag": 604,
+                        "ActionTag": 134729,
+                        "Size": {
+                          "X": 90.0,
+                          "Y": 102.0
+                        },
+                        "Name": "num",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 588707416,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 103.0
+                    },
+                    "Name": "card4",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/ppplay/play/MJback/mj_green_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 56,
+                    "Scale9Height": 67,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 348.5,
+                      "Y": 68.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4172
+                    },
+                    "PreSize": {
+                      "X": 0.1119,
+                      "Y": 0.6319
+                    },
+                    "LeftMargin": 309.5,
+                    "RightMargin": 309.5,
+                    "TopMargin": 43.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 605,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/ppplay/play/MJ/hzmj_18.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 24,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 42,
+                        "Scale9Height": 36,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 39.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.6311
+                        },
+                        "PreSize": {
+                          "X": 1.1538,
+                          "Y": 0.9903
+                        },
+                        "LeftMargin": -6.0,
+                        "RightMargin": -6.0,
+                        "TopMargin": -13.0,
+                        "BottomMargin": 14.0,
+                        "Tag": 606,
+                        "ActionTag": 542951405,
+                        "Size": {
+                          "X": 90.0,
+                          "Y": 102.0
+                        },
+                        "Name": "num",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -952049179,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 103.0
+                    },
+                    "Name": "card5",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/ppplay/play/MJback/mj_green_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 56,
+                    "Scale9Height": 67,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 423.0,
+                      "Y": 68.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6069,
+                      "Y": 0.4172
+                    },
+                    "PreSize": {
+                      "X": 0.1119,
+                      "Y": 0.6319
+                    },
+                    "LeftMargin": 384.0,
+                    "RightMargin": 235.0,
+                    "TopMargin": 43.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 607,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/ppplay/play/MJ/hzmj_18.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 24,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 42,
+                        "Scale9Height": 36,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 39.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.6311
+                        },
+                        "PreSize": {
+                          "X": 1.1538,
+                          "Y": 0.9903
+                        },
+                        "LeftMargin": -6.0,
+                        "RightMargin": -6.0,
+                        "TopMargin": -13.0,
+                        "BottomMargin": 14.0,
+                        "Tag": 608,
+                        "ActionTag": -217710244,
+                        "Size": {
+                          "X": 90.0,
+                          "Y": 102.0
+                        },
+                        "Name": "num",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 780589765,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 103.0
+                    },
+                    "Name": "card6",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/ppplay/play/MJback/mj_green_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 56,
+                    "Scale9Height": 67,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 533.0,
+                      "Y": 68.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7647,
+                      "Y": 0.4172
+                    },
+                    "PreSize": {
+                      "X": 0.1119,
+                      "Y": 0.6319
+                    },
+                    "LeftMargin": 494.0,
+                    "RightMargin": 125.0,
+                    "TopMargin": 43.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 609,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/ppplay/play/MJ/hzmj_18.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 24,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 42,
+                        "Scale9Height": 36,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 39.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.6311
+                        },
+                        "PreSize": {
+                          "X": 1.1538,
+                          "Y": 0.9903
+                        },
+                        "LeftMargin": -6.0,
+                        "RightMargin": -6.0,
+                        "TopMargin": -13.0,
+                        "BottomMargin": 14.0,
+                        "Tag": 610,
+                        "ActionTag": -741672494,
+                        "Size": {
+                          "X": 90.0,
+                          "Y": 102.0
+                        },
+                        "Name": "num",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1918922693,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 103.0
+                    },
+                    "Name": "card7",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/ppplay/play/MJback/mj_green_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 56,
+                    "Scale9Height": 67,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 606.0001,
+                      "Y": 68.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8694,
+                      "Y": 0.4172
+                    },
+                    "PreSize": {
+                      "X": 0.1119,
+                      "Y": 0.6319
+                    },
+                    "LeftMargin": 567.0001,
+                    "RightMargin": 51.9999,
+                    "TopMargin": 43.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 611,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/ppplay/play/MJ/hzmj_18.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 24,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 42,
+                        "Scale9Height": 36,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 39.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.6311
+                        },
+                        "PreSize": {
+                          "X": 1.1538,
+                          "Y": 0.9903
+                        },
+                        "LeftMargin": -6.0,
+                        "RightMargin": -6.0,
+                        "TopMargin": -13.0,
+                        "BottomMargin": 14.0,
+                        "Tag": 612,
+                        "ActionTag": -102182911,
+                        "Size": {
+                          "X": 90.0,
+                          "Y": 102.0
+                        },
+                        "Name": "num",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1807388681,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 103.0
+                    },
+                    "Name": "card8",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/ppplay/play/MJback/mj_green_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 56,
+                    "Scale9Height": 67,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 679.0001,
+                      "Y": 68.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9742,
+                      "Y": 0.4172
+                    },
+                    "PreSize": {
+                      "X": 0.1119,
+                      "Y": 0.6319
+                    },
+                    "LeftMargin": 640.0001,
+                    "RightMargin": -21.0001,
+                    "TopMargin": 43.5,
+                    "BottomMargin": 16.5,
+                    "Tag": 613,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/ppplay/play/MJ/hzmj_18.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 24,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 42,
+                        "Scale9Height": 36,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 39.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.6311
+                        },
+                        "PreSize": {
+                          "X": 1.1538,
+                          "Y": 0.9903
+                        },
+                        "LeftMargin": -6.0,
+                        "RightMargin": -6.0,
+                        "TopMargin": -13.0,
+                        "BottomMargin": 14.0,
+                        "Tag": 614,
+                        "ActionTag": -2062160197,
+                        "Size": {
+                          "X": 90.0,
+                          "Y": 102.0
+                        },
+                        "Name": "num",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 917201545,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 103.0
+                    },
+                    "Name": "card9",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/ppplay/play/MJback/mj_green_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 56,
+                    "Scale9Height": 67,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 18.9983,
+                      "Y": 67.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0273,
+                      "Y": 0.4172
+                    },
+                    "PreSize": {
+                      "X": 0.1119,
+                      "Y": 0.6319
+                    },
+                    "LeftMargin": -20.0017,
+                    "RightMargin": 639.0017,
+                    "TopMargin": 43.5001,
+                    "BottomMargin": 16.4999,
+                    "Tag": 615,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/ppplay/play/MJ/hzmj_18.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 24,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 42,
+                        "Scale9Height": 36,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 39.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.6311
+                        },
+                        "PreSize": {
+                          "X": 1.1538,
+                          "Y": 0.9903
+                        },
+                        "LeftMargin": -6.0,
+                        "RightMargin": -6.0,
+                        "TopMargin": -13.0,
+                        "BottomMargin": 14.0,
+                        "Tag": 616,
+                        "ActionTag": -1898125249,
+                        "Size": {
+                          "X": 90.0,
+                          "Y": 102.0
+                        },
+                        "Name": "num",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 2114750915,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 103.0
+                    },
+                    "Name": "card1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/ppplay/play/MJback/mj_green_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 56,
+                    "Scale9Height": 67,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.998,
+                      "Y": 67.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.132,
+                      "Y": 0.4172
+                    },
+                    "PreSize": {
+                      "X": 0.1119,
+                      "Y": 0.6319
+                    },
+                    "LeftMargin": 52.998,
+                    "RightMargin": 566.002,
+                    "TopMargin": 43.5001,
+                    "BottomMargin": 16.4999,
+                    "Tag": 617,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/ppplay/play/MJ/hzmj_18.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 24,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 42,
+                        "Scale9Height": 36,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 39.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.6311
+                        },
+                        "PreSize": {
+                          "X": 1.1538,
+                          "Y": 0.9903
+                        },
+                        "LeftMargin": -6.0,
+                        "RightMargin": -6.0,
+                        "TopMargin": -13.0,
+                        "BottomMargin": 14.0,
+                        "Tag": 618,
+                        "ActionTag": 1801769853,
+                        "Size": {
+                          "X": 90.0,
+                          "Y": 102.0
+                        },
+                        "Name": "num",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1731404723,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 103.0
+                    },
+                    "Name": "card2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "hzmj/ppplay/play/MJback/mj_green_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 18,
+                    "Scale9Width": 56,
+                    "Scale9Height": 67,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 164.998,
+                      "Y": 67.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2367,
+                      "Y": 0.4172
+                    },
+                    "PreSize": {
+                      "X": 0.1119,
+                      "Y": 0.6319
+                    },
+                    "LeftMargin": 125.998,
+                    "RightMargin": 493.002,
+                    "TopMargin": 43.5001,
+                    "BottomMargin": 16.4999,
+                    "Tag": 619,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "hzmj/ppplay/play/MJ/hzmj_18.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 24,
+                        "Scale9OriginY": 33,
+                        "Scale9Width": 42,
+                        "Scale9Height": 36,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 39.0,
+                          "Y": 65.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.8,
+                          "ScaleY": 0.8
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.6311
+                        },
+                        "PreSize": {
+                          "X": 1.1538,
+                          "Y": 0.9903
+                        },
+                        "LeftMargin": -6.0,
+                        "RightMargin": -6.0,
+                        "TopMargin": -13.0,
+                        "BottomMargin": 14.0,
+                        "Tag": 620,
+                        "ActionTag": 1019355402,
+                        "Size": {
+                          "X": 90.0,
+                          "Y": 102.0
+                        },
+                        "Name": "num",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 420491547,
+                    "Size": {
+                      "X": 78.0,
+                      "Y": 103.0
+                    },
+                    "Name": "card3",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1231057007,
+                "Size": {
+                  "X": 697.0,
+                  "Y": 163.0
+                },
+                "Name": "changeuibg",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 119693319,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "changeui",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../Default/Button_Disable.png",
+        "../guild/alpha.png",
+        "../png/pghg/Z_guo.png",
+        "../ppplay/play/MJ/hzmj_18.png",
+        "../ppplay/play/MJback/mj_green_01.png",
+        "../result/btn_x_normal.png",
+        "../result/btn_x_press.png",
+        "../setting/floor_hupai_left.png",
+        "../setting/floor_hupai_right.png",
+        "../setting/penggang_bottom.png",
+        "../setting/selectChiBg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

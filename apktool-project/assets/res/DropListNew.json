@@ -1,0 +1,976 @@
+{
+  "ID": "49697c3d-da32-4504-ae70-7148b0556a49",
+  "Version": "2.3.4",
+  "Name": "DropListNew",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 58,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guildwood/guildsetting/feature/msys_btn_combobox_BG.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 153,
+            "Scale9OriginY": 16,
+            "Scale9Width": 81,
+            "Scale9Height": 16,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 25.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.9949,
+              "Y": 0.9412
+            },
+            "RightMargin": 2.0,
+            "TopMargin": 1.5,
+            "BottomMargin": 1.5,
+            "Tag": 66,
+            "Children": [
+              {
+                "FontSize": 25,
+                "LabelText": "选项",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 164.475,
+                  "Y": 24.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 156,
+                  "G": 128,
+                  "B": 92
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.425,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1292,
+                  "Y": 0.5208
+                },
+                "LeftMargin": 139.475,
+                "RightMargin": 197.525,
+                "TopMargin": 11.5,
+                "BottomMargin": 11.5,
+                "Tag": 67,
+                "ActionTag": 1055144619,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 25.0
+                },
+                "Name": "text_show",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_btn_combobox_p.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_btn_combobox_p.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_btn_combobox.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 33,
+                "Scale9Height": 31,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 390.87,
+                  "Y": 24.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.01,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.162,
+                  "Y": 1.0392
+                },
+                "LeftMargin": 328.1939,
+                "RightMargin": -3.87,
+                "TopMargin": -0.9412,
+                "BottomMargin": -0.9412,
+                "Tag": 68,
+                "ActionTag": -1578432858,
+                "Size": {
+                  "X": 62.6761,
+                  "Y": 49.8824
+                },
+                "Name": "btn_choose",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "DirectionType": "Vertical",
+                "IsBounceEnabled": true,
+                "ScrollDirectionType": 0,
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_bg_combobox1_BG0.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": 153,
+                "Scale9OriginY": 49,
+                "Scale9Width": 81,
+                "Scale9Height": 43,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 193.5,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 2.65
+                },
+                "TopMargin": 48.0,
+                "BottomMargin": -127.2,
+                "Tag": 69,
+                "ActionTag": -2039121549,
+                "Size": {
+                  "X": 387.0,
+                  "Y": 127.2
+                },
+                "Name": "list",
+                "ctype": "ListViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": -153,
+                "Scale9OriginY": -16,
+                "Scale9Width": 306,
+                "Scale9Height": 32,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 193.5,
+                  "Y": -24.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "TopMargin": 48.0,
+                "BottomMargin": -48.0,
+                "Tag": 70,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/feature/msys_bg_combobox1_BG1.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 91,
+                    "Scale9OriginY": 16,
+                    "Scale9Width": 205,
+                    "Scale9Height": 13,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 193.5,
+                      "Y": 24.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.9949,
+                      "Y": 0.8824
+                    },
+                    "LeftMargin": 0.9949,
+                    "RightMargin": 0.9949,
+                    "TopMargin": 2.8235,
+                    "BottomMargin": 2.8235,
+                    "Tag": 71,
+                    "ActionTag": -2017514199,
+                    "Size": {
+                      "X": 385.0103,
+                      "Y": 42.3529
+                    },
+                    "Name": "select",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 25,
+                    "LabelText": "超过一半同意才能解散",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 193.5,
+                      "Y": 24.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 156,
+                      "G": 128,
+                      "B": 92
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.646,
+                      "Y": 0.5208
+                    },
+                    "LeftMargin": 68.5,
+                    "RightMargin": 68.5,
+                    "TopMargin": 11.5,
+                    "BottomMargin": 11.5,
+                    "Tag": 72,
+                    "ActionTag": 495913691,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 25.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/feature/msys_bg_combobox2_FGX2.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 111,
+                    "Scale9OriginY": 1,
+                    "Scale9Width": 115,
+                    "Scale9Height": 2,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 193.5,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.8708,
+                      "Y": 0.0833
+                    },
+                    "LeftMargin": 25.0,
+                    "RightMargin": 25.0,
+                    "TopMargin": 44.0,
+                    "Tag": 190,
+                    "ActionTag": 485386528,
+                    "Size": {
+                      "X": 337.0,
+                      "Y": 4.0
+                    },
+                    "Name": "line",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -514253889,
+                "Size": {
+                  "X": 387.0,
+                  "Y": 48.0
+                },
+                "Name": "item",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1250462190,
+            "Size": {
+              "X": 387.0,
+              "Y": 48.0
+            },
+            "Name": "dropList",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guildwood/guildsetting/feature/msys_btn_combobox_BG2.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 98,
+            "Scale9OriginY": 16,
+            "Scale9Width": 81,
+            "Scale9Height": 16,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 25.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.7121,
+              "Y": 0.9412
+            },
+            "RightMargin": 112.0,
+            "TopMargin": 1.5,
+            "BottomMargin": 1.5,
+            "Tag": 59,
+            "Children": [
+              {
+                "FontSize": 25,
+                "LabelText": "选项",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.7289,
+                  "Y": 24.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 156,
+                  "G": 128,
+                  "B": 92
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.425,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1805,
+                  "Y": 0.5208
+                },
+                "LeftMargin": 92.7289,
+                "RightMargin": 134.2711,
+                "TopMargin": 11.5,
+                "BottomMargin": 11.5,
+                "Tag": 60,
+                "ActionTag": 1370203367,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 25.0
+                },
+                "Name": "text_show",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_btn_combobox_p.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_btn_combobox_p.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_btn_combobox.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 33,
+                "Scale9Height": 31,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 279.77,
+                  "Y": 24.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.01,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.2274,
+                  "Y": 1.1042
+                },
+                "LeftMargin": 216.77,
+                "RightMargin": -2.77,
+                "TopMargin": -2.5,
+                "BottomMargin": -2.5,
+                "Tag": 61,
+                "ActionTag": -540064226,
+                "Size": {
+                  "X": 63.0,
+                  "Y": 53.0
+                },
+                "Name": "btn_choose",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "DirectionType": "Vertical",
+                "IsBounceEnabled": true,
+                "ScrollDirectionType": 0,
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guildwood/guildsetting/feature/msys_bg_combobox2_BG0.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": 98,
+                "Scale9OriginY": 49,
+                "Scale9Width": 83,
+                "Scale9Height": 90,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 138.5046,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 3.6
+                },
+                "RightMargin": -0.0092,
+                "TopMargin": 48.0,
+                "BottomMargin": -172.8,
+                "Tag": 62,
+                "ActionTag": -1628837967,
+                "Size": {
+                  "X": 277.0092,
+                  "Y": 172.8
+                },
+                "Name": "list",
+                "ctype": "ListViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9OriginX": -153,
+                "Scale9OriginY": -16,
+                "Scale9Width": 306,
+                "Scale9Height": 32,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 138.5046,
+                  "Y": -24.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": -0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0001,
+                  "Y": 1.0
+                },
+                "LeftMargin": -0.0139,
+                "RightMargin": -0.023,
+                "TopMargin": 48.0,
+                "BottomMargin": -48.0,
+                "Tag": 63,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/feature/msys_bg_combobox2_BG1.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 98,
+                    "Scale9OriginY": 16,
+                    "Scale9Width": 82,
+                    "Scale9Height": 13,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 138.5184,
+                      "Y": 24.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0035,
+                      "Y": 0.9375
+                    },
+                    "LeftMargin": -0.4816,
+                    "RightMargin": -0.4816,
+                    "TopMargin": 1.5,
+                    "BottomMargin": 1.5,
+                    "Tag": 64,
+                    "ActionTag": 143925352,
+                    "Size": {
+                      "X": 278.0,
+                      "Y": 45.0
+                    },
+                    "Name": "select",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 25,
+                    "LabelText": "超过一半同意才能解散",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 138.5184,
+                      "Y": 24.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 156,
+                      "G": 128,
+                      "B": 92
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.9024,
+                      "Y": 0.5208
+                    },
+                    "LeftMargin": 13.5184,
+                    "RightMargin": 13.5184,
+                    "TopMargin": 11.5,
+                    "BottomMargin": 11.5,
+                    "Tag": 65,
+                    "ActionTag": 32943948,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 25.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "guildwood/guildsetting/feature/msys_bg_combobox1_FGX2.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 1,
+                    "Scale9Width": 84,
+                    "Scale9Height": 2,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5
+                    },
+                    "Position": {
+                      "X": 138.5184,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.8735,
+                      "Y": 0.0833
+                    },
+                    "LeftMargin": 17.5184,
+                    "RightMargin": 17.5184,
+                    "TopMargin": 44.0,
+                    "Tag": 189,
+                    "ActionTag": -49218626,
+                    "Size": {
+                      "X": 242.0,
+                      "Y": 4.0
+                    },
+                    "Name": "line",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 521277229,
+                "Size": {
+                  "X": 277.0369,
+                  "Y": 48.0
+                },
+                "Name": "item",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1638735004,
+            "Size": {
+              "X": 277.0,
+              "Y": 48.0
+            },
+            "Name": "dropListSmall",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 389.0,
+          "Y": 51.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "guildwood/guildsetting/feature/msys_bg_combobox1_BG0.png",
+        "guildwood/guildsetting/feature/msys_bg_combobox1_BG1.png",
+        "guildwood/guildsetting/feature/msys_bg_combobox1_FGX2.png",
+        "guildwood/guildsetting/feature/msys_bg_combobox2_BG0.png",
+        "guildwood/guildsetting/feature/msys_bg_combobox2_BG1.png",
+        "guildwood/guildsetting/feature/msys_bg_combobox2_FGX2.png",
+        "guildwood/guildsetting/feature/msys_btn_combobox.png",
+        "guildwood/guildsetting/feature/msys_btn_combobox_BG.png",
+        "guildwood/guildsetting/feature/msys_btn_combobox_BG2.png",
+        "guildwood/guildsetting/feature/msys_btn_combobox_p.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

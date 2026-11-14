@@ -1,0 +1,949 @@
+{
+  "ID": "c24b8775-dfb5-4577-8234-618e6bcb0a3c",
+  "Version": "2.3.4",
+  "Name": "NationalDayLogin",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 54,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 55,
+            "ActionTag": -920980281,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "nationalday/bg_xygq.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 422,
+            "Scale9OriginY": 237,
+            "Scale9Width": 371,
+            "Scale9Height": 195,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 374.4
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.52
+            },
+            "PreSize": {
+              "X": 0.9492,
+              "Y": 0.9292
+            },
+            "LeftMargin": 32.5,
+            "RightMargin": 32.5,
+            "TopMargin": 11.1,
+            "BottomMargin": 39.9,
+            "Tag": 56,
+            "Children": [
+              {
+                "FontSize": 27,
+                "LabelText": "活动剩余时间：",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 473.85,
+                  "Y": 474.99
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 14,
+                  "G": 14,
+                  "B": 108
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.39,
+                  "Y": 0.71
+                },
+                "PreSize": {
+                  "X": 0.1556,
+                  "Y": 0.0404
+                },
+                "LeftMargin": 379.35,
+                "RightMargin": 646.65,
+                "TopMargin": 180.51,
+                "BottomMargin": 461.49,
+                "Tag": 710,
+                "ActionTag": 222774414,
+                "Size": {
+                  "X": 189.0,
+                  "Y": 27.0
+                },
+                "Name": "timeTip",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "72 : 00 : 00",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 692.55,
+                  "Y": 474.99
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 216,
+                  "G": 216
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.57,
+                  "Y": 0.71
+                },
+                "PreSize": {
+                  "X": 0.1481,
+                  "Y": 0.0448
+                },
+                "LeftMargin": 602.55,
+                "RightMargin": 432.45,
+                "TopMargin": 179.01,
+                "BottomMargin": 459.99,
+                "Tag": 711,
+                "ActionTag": 192943385,
+                "Size": {
+                  "X": 180.0,
+                  "Y": 30.0
+                },
+                "Name": "time",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 27,
+                "LabelText": "1.活动期间每天登陆可领取奖励一份\n2.10月1日至10月3日期间，每天完成12场对战，即可获得十一福利",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 607.5,
+                  "Y": 401.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 52,
+                  "G": 55,
+                  "B": 119
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.16
+                },
+                "LeftMargin": 303.75,
+                "RightMargin": 303.75,
+                "TopMargin": 267.6,
+                "BottomMargin": 294.36,
+                "Tag": 720,
+                "ActionTag": 1445911858,
+                "Size": {
+                  "X": 607.5,
+                  "Y": 107.04
+                },
+                "Name": "Desc",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "nationalday/ico_jp_n.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 62,
+                "Scale9OriginY": 65,
+                "Scale9Width": 66,
+                "Scale9Height": 67,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 473.85,
+                  "Y": 73.59
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.39,
+                  "Y": 0.11
+                },
+                "PreSize": {
+                  "X": 0.1564,
+                  "Y": 0.2945
+                },
+                "LeftMargin": 378.85,
+                "RightMargin": 646.15,
+                "TopMargin": 398.41,
+                "BottomMargin": 73.59,
+                "Tag": 712,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "nationalday/reward/reward_xipaiquan.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 110,
+                    "Scale9Height": 110,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 95.0,
+                      "Y": 98.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.7368,
+                      "Y": 0.7107
+                    },
+                    "LeftMargin": 25.0,
+                    "RightMargin": 25.0,
+                    "TopMargin": 28.5,
+                    "BottomMargin": 28.5,
+                    "Tag": 713,
+                    "ActionTag": -258812242,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 140.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 20,
+                    "CharHeight": 31,
+                    "LabelText": "1",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "nationalday/ico_sz.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 123.5,
+                      "Y": 49.25
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.65,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.1053,
+                      "Y": 0.1574
+                    },
+                    "LeftMargin": 113.5,
+                    "RightMargin": 56.5,
+                    "TopMargin": 132.25,
+                    "BottomMargin": 33.75,
+                    "Tag": 738,
+                    "ActionTag": -584916648,
+                    "Size": {
+                      "X": 20.0,
+                      "Y": 31.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "count",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "nationalday/ico_jp_p.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 61,
+                    "Scale9OriginY": 62,
+                    "Scale9Width": 63,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 95.0,
+                      "Y": 98.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.9737,
+                      "Y": 0.9543
+                    },
+                    "LeftMargin": 2.5,
+                    "RightMargin": 2.5,
+                    "TopMargin": 4.5,
+                    "BottomMargin": 4.5,
+                    "Tag": 714,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "nationalday/ico_ylq.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 52,
+                        "Scale9OriginY": 52,
+                        "Scale9Width": 55,
+                        "Scale9Height": 56,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 92.5,
+                          "Y": 94.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.8595,
+                          "Y": 0.8511
+                        },
+                        "LeftMargin": 13.0,
+                        "RightMargin": 13.0,
+                        "TopMargin": 14.0,
+                        "BottomMargin": 14.0,
+                        "Tag": 715,
+                        "ActionTag": -696279500,
+                        "Size": {
+                          "X": 159.0,
+                          "Y": 160.0
+                        },
+                        "Name": "tip",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -843380353,
+                    "Size": {
+                      "X": 185.0,
+                      "Y": 188.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "mask",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -307632797,
+                "Size": {
+                  "X": 190.0,
+                  "Y": 197.0
+                },
+                "Name": "item_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "nationalday/ico_jp_n.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 62,
+                "Scale9OriginY": 65,
+                "Scale9Width": 66,
+                "Scale9Height": 67,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 692.55,
+                  "Y": 73.59
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.57,
+                  "Y": 0.11
+                },
+                "PreSize": {
+                  "X": 0.1564,
+                  "Y": 0.2945
+                },
+                "LeftMargin": 597.55,
+                "RightMargin": 427.45,
+                "TopMargin": 398.41,
+                "BottomMargin": 73.59,
+                "Tag": 716,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "nationalday/reward/reward_xipaiquan.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 110,
+                    "Scale9Height": 110,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 95.0,
+                      "Y": 98.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.7368,
+                      "Y": 0.7107
+                    },
+                    "LeftMargin": 25.0,
+                    "RightMargin": 25.0,
+                    "TopMargin": 28.5,
+                    "BottomMargin": 28.5,
+                    "Tag": 717,
+                    "ActionTag": 1083052959,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 140.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CharWidth": 20,
+                    "CharHeight": 31,
+                    "LabelText": "1",
+                    "StartChar": "0",
+                    "LabelAtlasFileImage_CNB": {
+                      "Type": "Normal",
+                      "Path": "nationalday/ico_sz.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 123.5,
+                      "Y": 49.25
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.65,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.1053,
+                      "Y": 0.1574
+                    },
+                    "LeftMargin": 113.5,
+                    "RightMargin": 56.5,
+                    "TopMargin": 132.25,
+                    "BottomMargin": 33.75,
+                    "Tag": 739,
+                    "ActionTag": 1863361933,
+                    "Size": {
+                      "X": 20.0,
+                      "Y": 31.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "count",
+                    "ctype": "TextAtlasObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "nationalday/ico_jp_p.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 61,
+                    "Scale9OriginY": 62,
+                    "Scale9Width": 63,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 95.0,
+                      "Y": 98.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.9737,
+                      "Y": 0.9543
+                    },
+                    "LeftMargin": 2.5,
+                    "RightMargin": 2.5,
+                    "TopMargin": 4.5,
+                    "BottomMargin": 4.5,
+                    "Tag": 718,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "nationalday/ico_ylq.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 52,
+                        "Scale9OriginY": 52,
+                        "Scale9Width": 55,
+                        "Scale9Height": 56,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 92.5,
+                          "Y": 94.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.8595,
+                          "Y": 0.8511
+                        },
+                        "LeftMargin": 13.0,
+                        "RightMargin": 13.0,
+                        "TopMargin": 14.0,
+                        "BottomMargin": 14.0,
+                        "Tag": 719,
+                        "ActionTag": 2023018870,
+                        "Size": {
+                          "X": 159.0,
+                          "Y": 160.0
+                        },
+                        "Name": "tip",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -984335542,
+                    "Size": {
+                      "X": 185.0,
+                      "Y": 188.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "mask",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 474490521,
+                "Size": {
+                  "X": 190.0,
+                  "Y": 197.0
+                },
+                "Name": "item_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "nationalday/btn_close_p.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "nationalday/btn_close_p.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "nationalday/btn_close_n.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 30,
+                "Scale9Height": 39,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1142.1,
+                  "Y": 588.72
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.94,
+                  "Y": 0.88
+                },
+                "PreSize": {
+                  "X": 0.0494,
+                  "Y": 0.0912
+                },
+                "LeftMargin": 1112.1,
+                "RightMargin": 42.9,
+                "TopMargin": 49.78,
+                "BottomMargin": 558.22,
+                "Tag": 57,
+                "ActionTag": 1090029591,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 61.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "nationalday/btn_lqlb_p.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "nationalday/btn_lqlb_p.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "nationalday/btn_lqlb_n.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 271,
+                "Scale9Height": 77,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 607.5,
+                  "Y": 20.07
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.03
+                },
+                "PreSize": {
+                  "X": 0.2477,
+                  "Y": 0.148
+                },
+                "LeftMargin": 457.0,
+                "RightMargin": 457.0,
+                "TopMargin": 599.43,
+                "BottomMargin": -29.43,
+                "Tag": 709,
+                "ActionTag": -560363646,
+                "Size": {
+                  "X": 301.0,
+                  "Y": 99.0
+                },
+                "Name": "btn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1339739171,
+            "Size": {
+              "X": 1215.0,
+              "Y": 669.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "nationalday/bg_xygq.png",
+        "nationalday/btn_close_n.png",
+        "nationalday/btn_close_p.png",
+        "nationalday/btn_lqlb_n.png",
+        "nationalday/btn_lqlb_p.png",
+        "nationalday/ico_jp_n.png",
+        "nationalday/ico_jp_p.png",
+        "nationalday/ico_sz.png",
+        "nationalday/ico_ylq.png",
+        "nationalday/reward/reward_xipaiquan.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

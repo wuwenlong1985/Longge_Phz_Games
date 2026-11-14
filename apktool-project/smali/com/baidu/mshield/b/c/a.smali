@@ -1,0 +1,97 @@
+.class public Lcom/baidu/mshield/b/c/a;
+.super Ljava/lang/Object;
+.source "BaiduLog.java"
+
+
+# static fields
+.field public static a:I = -0x1
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Ljava/lang/ThreadLocal;
+
+    invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
+
+    return-void
+.end method
+
+.method public static a(ILjava/lang/String;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static a(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0}, Lcom/baidu/mshield/b/c/a;->b(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public static a(Ljava/lang/Throwable;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static b(Ljava/lang/String;)V
+    .locals 3
+
+    .line 1
+    sget v0, Lcom/baidu/mshield/b/c/a;->a:I
+
+    const/4 v1, 0x1
+
+    const/4 v2, -0x1
+
+    if-eq v0, v2, :cond_0
+
+    if-eqz v0, :cond_0
+
+    if-eq v0, v1, :cond_0
+
+    goto :goto_0
+
+    .line 5
+    :cond_0
+    invoke-static {v1, p0}, Lcom/baidu/mshield/b/c/a;->a(ILjava/lang/String;)V
+
+    :goto_0
+    return-void
+.end method
+
+.method public static c(Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    sget v0, Lcom/baidu/mshield/b/c/a;->a:I
+
+    packed-switch v0, :pswitch_data_0
+
+    goto :goto_0
+
+    :pswitch_0
+    const/4 v0, 0x2
+
+    .line 6
+    invoke-static {v0, p0}, Lcom/baidu/mshield/b/c/a;->a(ILjava/lang/String;)V
+
+    :goto_0
+    return-void
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch -0x1
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+        :pswitch_0
+    .end packed-switch
+.end method

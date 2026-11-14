@@ -1,0 +1,1134 @@
+{
+  "ID": "d493212b-58a5-48e9-9d9c-872318ea7201",
+  "Version": "2.3.4",
+  "Name": "InfoBind_phoneNumber",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 72,
+        "Children": [
+          {
+            "ClipAble": false,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -422,
+            "Scale9OriginY": -237,
+            "Scale9Width": 844,
+            "Scale9Height": 474,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 642.198,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5017,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": 2.198,
+            "RightMargin": -2.198,
+            "Tag": 26,
+            "ActionTag": 736875449,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Alpha": 114,
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PhoneIdCardBind/floor_01.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 169,
+            "Scale9OriginY": 141,
+            "Scale9Width": 180,
+            "Scale9Height": 44,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.4047,
+              "Y": 0.4528
+            },
+            "LeftMargin": 381.0,
+            "RightMargin": 381.0,
+            "TopMargin": 197.0,
+            "BottomMargin": 197.0,
+            "Tag": 1144,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 734,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "PhoneIdCardBind/title_tishi.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 38,
+                    "Scale9OriginY": 9,
+                    "Scale9Width": 42,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 259.0,
+                      "Y": 297.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.911
+                    },
+                    "PreSize": {
+                      "X": 0.2278,
+                      "Y": 0.089
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 200.0,
+                    "TopMargin": 14.5,
+                    "BottomMargin": 282.5,
+                    "Tag": 736,
+                    "ActionTag": -1856338704,
+                    "Size": {
+                      "X": 118.0,
+                      "Y": 29.0
+                    },
+                    "Name": "title",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 26,
+                    "LabelText": "手机绑定成功！",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 259.0,
+                      "Y": 163.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.8996,
+                      "Y": 0.0798
+                    },
+                    "LeftMargin": 26.0,
+                    "RightMargin": 26.0,
+                    "TopMargin": 150.0,
+                    "BottomMargin": 150.0,
+                    "Tag": 735,
+                    "ActionTag": 354754529,
+                    "Size": {
+                      "X": 466.0,
+                      "Y": 26.0
+                    },
+                    "Name": "resultText",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "ButtonText": "",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "PhoneIdCardBind/btn_queding_02.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "PhoneIdCardBind/btn_queding_02.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "PhoneIdCardBind/btn_queding_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 186,
+                    "Scale9Height": 27,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 259.0,
+                      "Y": 48.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.15
+                    },
+                    "PreSize": {
+                      "X": 0.417,
+                      "Y": 0.1503
+                    },
+                    "LeftMargin": 151.0,
+                    "RightMargin": 151.0,
+                    "TopMargin": 252.6,
+                    "BottomMargin": 24.4,
+                    "Tag": 737,
+                    "ActionTag": 1771333235,
+                    "Size": {
+                      "X": 216.0,
+                      "Y": 49.0
+                    },
+                    "Name": "yesBtn",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 1002443356,
+                "Size": {
+                  "X": 518.0,
+                  "Y": 326.0
+                },
+                "Name": "resultPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 733,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "PhoneIdCardBind/title_shoujibangding.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 38,
+                    "Scale9OriginY": 9,
+                    "Scale9Width": 42,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 259.0,
+                      "Y": 297.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.911
+                    },
+                    "PreSize": {
+                      "X": 0.2278,
+                      "Y": 0.089
+                    },
+                    "LeftMargin": 200.0,
+                    "RightMargin": 200.0,
+                    "TopMargin": 14.5,
+                    "BottomMargin": 282.5,
+                    "Tag": 84,
+                    "ActionTag": -716382696,
+                    "Size": {
+                      "X": 118.0,
+                      "Y": 29.0
+                    },
+                    "Name": "title",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "PhoneIdCardBind/shoujihao.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 38,
+                    "Scale9OriginY": 9,
+                    "Scale9Width": 19,
+                    "Scale9Height": 4,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 79.0,
+                      "Y": 195.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1525,
+                      "Y": 0.5982
+                    },
+                    "PreSize": {
+                      "X": 0.1834,
+                      "Y": 0.0675
+                    },
+                    "LeftMargin": 31.5,
+                    "RightMargin": 391.5,
+                    "TopMargin": 120.0,
+                    "BottomMargin": 184.0,
+                    "Tag": 652,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "PhoneIdCardBind/floor_03.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 38,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 128,
+                        "Scale9Height": 24,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 219.5694,
+                          "Y": 11.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 2.3113,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 2.1474,
+                          "Y": 1.9091
+                        },
+                        "LeftMargin": 117.5694,
+                        "RightMargin": -226.5694,
+                        "TopMargin": -10.0,
+                        "BottomMargin": -10.0,
+                        "Tag": 654,
+                        "Children": [
+                          {
+                            "FontSize": 24,
+                            "IsCustomSize": true,
+                            "LabelText": "",
+                            "PlaceHolderText": "",
+                            "MaxLengthEnable": true,
+                            "MaxLengthText": 11,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 8.3976,
+                              "Y": 21.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 0,
+                              "G": 0,
+                              "B": 0
+                            },
+                            "IconVisible": false,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.0412,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.8971,
+                              "Y": 0.5714
+                            },
+                            "LeftMargin": 8.3976,
+                            "RightMargin": 12.6024,
+                            "TopMargin": 9.0,
+                            "BottomMargin": 9.0,
+                            "Tag": 672,
+                            "ActionTag": 942387177,
+                            "Size": {
+                              "X": 183.0,
+                              "Y": 24.0
+                            },
+                            "Name": "phoneTextField",
+                            "ctype": "TextFieldObjectData"
+                          }
+                        ],
+                        "ActionTag": -325474035,
+                        "Size": {
+                          "X": 204.0,
+                          "Y": 42.0
+                        },
+                        "Name": "bg",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FontSize": 36,
+                        "ButtonText": "",
+                        "TextColor": {},
+                        "DisabledFileData": {
+                          "Type": "Normal",
+                          "Path": "PhoneIdCardBind/btn_huoqu_02.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "PhoneIdCardBind/btn_huoqu_02.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "PhoneIdCardBind/btn_huoqu_01.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 88,
+                        "Scale9Height": 16,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 400.311,
+                          "Y": 11.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 4.2138,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.2421,
+                          "Y": 1.7273
+                        },
+                        "LeftMargin": 341.311,
+                        "RightMargin": -364.311,
+                        "TopMargin": -8.0,
+                        "BottomMargin": -8.0,
+                        "Tag": 1151,
+                        "ActionTag": -410361543,
+                        "Size": {
+                          "X": 118.0,
+                          "Y": 38.0
+                        },
+                        "Name": "getVCodeBtn",
+                        "ctype": "ButtonObjectData"
+                      }
+                    ],
+                    "ActionTag": 1125351446,
+                    "Size": {
+                      "X": 95.0,
+                      "Y": 22.0
+                    },
+                    "Name": "phone",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "PhoneIdCardBind/yanzhengma.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 38,
+                    "Scale9OriginY": 9,
+                    "Scale9Width": 19,
+                    "Scale9Height": 4,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 79.0,
+                      "Y": 119.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1525,
+                      "Y": 0.365
+                    },
+                    "PreSize": {
+                      "X": 0.1834,
+                      "Y": 0.0675
+                    },
+                    "LeftMargin": 31.5,
+                    "RightMargin": 391.5,
+                    "TopMargin": 196.0,
+                    "BottomMargin": 108.0,
+                    "Tag": 653,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "PhoneIdCardBind/floor_03.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 38,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 128,
+                        "Scale9Height": 24,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 219.5694,
+                          "Y": 11.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 2.3113,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 2.1474,
+                          "Y": 1.9091
+                        },
+                        "LeftMargin": 117.5694,
+                        "RightMargin": -226.5694,
+                        "TopMargin": -10.0,
+                        "BottomMargin": -10.0,
+                        "Tag": 655,
+                        "Children": [
+                          {
+                            "FontSize": 24,
+                            "IsCustomSize": true,
+                            "LabelText": "",
+                            "PlaceHolderText": "",
+                            "MaxLengthEnable": true,
+                            "MaxLengthText": 6,
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 8.3976,
+                              "Y": 21.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 0,
+                              "G": 0,
+                              "B": 0
+                            },
+                            "IconVisible": false,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.0412,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.8971,
+                              "Y": 0.5714
+                            },
+                            "LeftMargin": 8.3976,
+                            "RightMargin": 12.6024,
+                            "TopMargin": 9.0,
+                            "BottomMargin": 9.0,
+                            "Tag": 673,
+                            "ActionTag": 935399540,
+                            "Size": {
+                              "X": 183.0,
+                              "Y": 24.0
+                            },
+                            "Name": "vCodeTextField",
+                            "ctype": "TextFieldObjectData"
+                          }
+                        ],
+                        "ActionTag": -1503035978,
+                        "Size": {
+                          "X": 204.0,
+                          "Y": 42.0
+                        },
+                        "Name": "bg",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "PhoneIdCardBind/floor_daojishi.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 38,
+                        "Scale9OriginY": 9,
+                        "Scale9Width": 38,
+                        "Scale9Height": 16,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 400.3133,
+                          "Y": 11.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 4.2138,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.2,
+                          "Y": 1.5455
+                        },
+                        "LeftMargin": 343.3133,
+                        "RightMargin": -362.3133,
+                        "TopMargin": -6.0,
+                        "BottomMargin": -6.0,
+                        "Tag": 656,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 24,
+                            "LabelText": "60秒",
+                            "HorizontalAlignmentType": "HT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 57.0,
+                              "Y": 17.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.8684,
+                              "Y": 0.7059
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 5.0,
+                            "BottomMargin": 5.0,
+                            "Tag": 657,
+                            "ActionTag": -1826134218,
+                            "Size": {
+                              "X": 99.0,
+                              "Y": 24.0
+                            },
+                            "Name": "countDownText",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": 938676356,
+                        "Size": {
+                          "X": 114.0,
+                          "Y": 34.0
+                        },
+                        "Name": "countDownBg",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -746263789,
+                    "Size": {
+                      "X": 95.0,
+                      "Y": 22.0
+                    },
+                    "Name": "vCode",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "ButtonText": "",
+                    "TextColor": {},
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "PhoneIdCardBind/btn_tijiao_02.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "PhoneIdCardBind/btn_tijiao_02.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "PhoneIdCardBind/btn_tijiao_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 186,
+                    "Scale9Height": 27,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 259.0,
+                      "Y": 48.9
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.15
+                    },
+                    "PreSize": {
+                      "X": 0.417,
+                      "Y": 0.1503
+                    },
+                    "LeftMargin": 151.0,
+                    "RightMargin": 151.0,
+                    "TopMargin": 252.6,
+                    "BottomMargin": 24.4,
+                    "Tag": 642,
+                    "ActionTag": 996011755,
+                    "Size": {
+                      "X": 216.0,
+                      "Y": 49.0
+                    },
+                    "Name": "submitBtn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 20,
+                    "LabelText": "错误提示错误提示错误提示错误提示错误提示",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 259.0,
+                      "Y": 247.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.7577
+                    },
+                    "PreSize": {
+                      "X": 0.7722,
+                      "Y": 0.0613
+                    },
+                    "LeftMargin": 59.0,
+                    "RightMargin": 59.0,
+                    "TopMargin": 69.0,
+                    "BottomMargin": 237.0,
+                    "Tag": 738,
+                    "ActionTag": -2077706050,
+                    "Size": {
+                      "X": 400.0,
+                      "Y": 20.0
+                    },
+                    "Name": "wrongPromptText",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1800944847,
+                "Size": {
+                  "X": 518.0,
+                  "Y": 326.0
+                },
+                "Name": "infoPanel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "PhoneIdCardBind/btn_close_02.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "PhoneIdCardBind/btn_close_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "PhoneIdCardBind/btn_close_01.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 6,
+                "Scale9OriginY": 6,
+                "Scale9Width": 63,
+                "Scale9Height": 63,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 485.0,
+                  "Y": 295.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9363,
+                  "Y": 0.9049
+                },
+                "PreSize": {
+                  "X": 0.1448,
+                  "Y": 0.2301
+                },
+                "LeftMargin": 447.5,
+                "RightMargin": -4.5,
+                "TopMargin": -6.5,
+                "BottomMargin": 257.5,
+                "Tag": 1149,
+                "ActionTag": 813085948,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 75.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -108244162,
+            "Size": {
+              "X": 518.0,
+              "Y": 326.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "PhoneIdCardBind/btn_close_01.png",
+        "PhoneIdCardBind/btn_close_02.png",
+        "PhoneIdCardBind/btn_huoqu_01.png",
+        "PhoneIdCardBind/btn_huoqu_02.png",
+        "PhoneIdCardBind/btn_queding_01.png",
+        "PhoneIdCardBind/btn_queding_02.png",
+        "PhoneIdCardBind/btn_tijiao_01.png",
+        "PhoneIdCardBind/btn_tijiao_02.png",
+        "PhoneIdCardBind/floor_01.png",
+        "PhoneIdCardBind/floor_03.png",
+        "PhoneIdCardBind/floor_daojishi.png",
+        "PhoneIdCardBind/shoujihao.png",
+        "PhoneIdCardBind/title_shoujibangding.png",
+        "PhoneIdCardBind/title_tishi.png",
+        "PhoneIdCardBind/yanzhengma.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

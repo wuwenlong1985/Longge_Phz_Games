@@ -1,0 +1,1309 @@
+{
+  "ID": "bb5c0ba2-4ebf-49e6-99fc-eda88a14a973",
+  "Version": "2.3.4",
+  "Name": "GuildLoungeSimple",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 72,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 26,
+            "ActionTag": 736875449,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guild/back_guild_small.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 169,
+            "Scale9OriginY": 141,
+            "Scale9Width": 426,
+            "Scale9Height": 234,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 417.6
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.58
+            },
+            "PreSize": {
+              "X": 0.5969,
+              "Y": 0.7167
+            },
+            "LeftMargin": 258.0,
+            "RightMargin": 258.0,
+            "TopMargin": 44.4,
+            "BottomMargin": 159.6,
+            "Tag": 1144,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guild/title_sz003.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 33,
+                "Scale9OriginY": 13,
+                "Scale9Width": 698,
+                "Scale9Height": 46,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 382.0,
+                  "Y": 482.46
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.935
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1395
+                },
+                "TopMargin": -2.46,
+                "BottomMargin": 446.46,
+                "Tag": 1147,
+                "ActionTag": -862792565,
+                "Size": {
+                  "X": 764.0,
+                  "Y": 72.0
+                },
+                "Name": "title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/btn_close_press.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/btn_close_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/btn_close_normal.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 30,
+                "Scale9Height": 38,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 733.44,
+                  "Y": 479.88
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.96,
+                  "Y": 0.93
+                },
+                "PreSize": {
+                  "X": 0.0785,
+                  "Y": 0.1163
+                },
+                "LeftMargin": 703.44,
+                "RightMargin": 0.56,
+                "TopMargin": 6.12,
+                "BottomMargin": 449.88,
+                "Tag": 1149,
+                "ActionTag": 813085948,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 60.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 99.32,
+                  "Y": 387.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.13,
+                  "Y": 0.75
+                },
+                "PreSize": {
+                  "X": 0.1217,
+                  "Y": 0.1744
+                },
+                "LeftMargin": 52.82,
+                "RightMargin": 618.18,
+                "TopMargin": 84.0,
+                "BottomMargin": 342.0,
+                "Tag": 93,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "png/Photo_frame_03.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 30,
+                    "Scale9OriginY": 29,
+                    "Scale9Width": 21,
+                    "Scale9Height": 24,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 46.5,
+                      "Y": 45.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.871,
+                      "Y": 0.9111
+                    },
+                    "LeftMargin": 6.0,
+                    "RightMargin": 6.0,
+                    "TopMargin": 4.0,
+                    "BottomMargin": 4.0,
+                    "Tag": 94,
+                    "ActionTag": 775816005,
+                    "Size": {
+                      "X": 81.0,
+                      "Y": 82.0
+                    },
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "png/Photo_frame_04.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 30,
+                    "Scale9OriginY": 29,
+                    "Scale9Width": 21,
+                    "Scale9Height": 24,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 46.5,
+                      "Y": 45.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.871,
+                      "Y": 0.9111
+                    },
+                    "LeftMargin": 6.0,
+                    "RightMargin": 6.0,
+                    "TopMargin": 4.0,
+                    "BottomMargin": 4.0,
+                    "Tag": 95,
+                    "ActionTag": -1161537950,
+                    "Size": {
+                      "X": 81.0,
+                      "Y": 82.0
+                    },
+                    "Name": "iconFrame",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 372083389,
+                "Size": {
+                  "X": 93.0,
+                  "Y": 90.0
+                },
+                "Name": "plIcon",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guild/line_feng2.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 235,
+                "Scale9OriginY": 1,
+                "Scale9Width": 245,
+                "Scale9Height": 3,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 382.0,
+                  "Y": 309.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6
+                },
+                "PreSize": {
+                  "X": 0.9359,
+                  "Y": 0.0097
+                },
+                "LeftMargin": 24.5,
+                "RightMargin": 24.5,
+                "TopMargin": 203.9,
+                "BottomMargin": 307.1,
+                "Tag": 253,
+                "ActionTag": 430058337,
+                "Size": {
+                  "X": 715.0,
+                  "Y": 5.0
+                },
+                "Name": "line",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "ID:123456789",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 152.8,
+                  "Y": 371.52
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 120,
+                  "G": 70,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2,
+                  "Y": 0.72
+                },
+                "PreSize": {
+                  "X": 0.1885,
+                  "Y": 0.0465
+                },
+                "LeftMargin": 152.8,
+                "RightMargin": 467.2,
+                "TopMargin": 132.48,
+                "BottomMargin": 359.52,
+                "Tag": 97,
+                "ActionTag": 1454387130,
+                "Size": {
+                  "X": 144.0,
+                  "Y": 24.0
+                },
+                "Name": "plUid",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "玩家最长七个字",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 152.8,
+                  "Y": 402.48
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 120,
+                  "G": 70,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.2,
+                  "Y": 0.78
+                },
+                "PreSize": {
+                  "X": 0.2199,
+                  "Y": 0.0465
+                },
+                "LeftMargin": 152.8,
+                "RightMargin": 443.2,
+                "TopMargin": 101.52,
+                "BottomMargin": 390.48,
+                "Tag": 96,
+                "ActionTag": -362430524,
+                "Size": {
+                  "X": 168.0,
+                  "Y": 24.0
+                },
+                "Name": "plName",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "倍数总分：",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 458.4,
+                  "Y": 402.48
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 120,
+                  "G": 70,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6,
+                  "Y": 0.78
+                },
+                "PreSize": {
+                  "X": 0.1702,
+                  "Y": 0.0504
+                },
+                "LeftMargin": 458.4,
+                "RightMargin": 175.6,
+                "TopMargin": 100.52,
+                "BottomMargin": 389.48,
+                "Tag": 255,
+                "ActionTag": -1766727416,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 26.0
+                },
+                "Name": "text_tip0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "战功：",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 458.4,
+                  "Y": 371.52
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 120,
+                  "G": 70,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6,
+                  "Y": 0.72
+                },
+                "PreSize": {
+                  "X": 0.1021,
+                  "Y": 0.0504
+                },
+                "LeftMargin": 458.4,
+                "RightMargin": 227.6,
+                "TopMargin": 131.48,
+                "BottomMargin": 358.52,
+                "Tag": 256,
+                "ActionTag": 1036432672,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 26.0
+                },
+                "Name": "text_tip1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "当前奖励条件：",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 382.0,
+                  "Y": 258.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 120,
+                  "G": 70,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2382,
+                  "Y": 0.0504
+                },
+                "LeftMargin": 200.0,
+                "RightMargin": 382.0,
+                "TopMargin": 245.0,
+                "BottomMargin": 245.0,
+                "Tag": 254,
+                "ActionTag": 553720096,
+                "Size": {
+                  "X": 182.0,
+                  "Y": 26.0
+                },
+                "Name": "text_tip2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "设置新的奖励条件：",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 382.0,
+                  "Y": 180.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 120,
+                  "G": 70,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.35
+                },
+                "PreSize": {
+                  "X": 0.3063,
+                  "Y": 0.0504
+                },
+                "LeftMargin": 148.0,
+                "RightMargin": 382.0,
+                "TopMargin": 322.4,
+                "BottomMargin": 167.6,
+                "Tag": 64,
+                "ActionTag": 1912824763,
+                "Size": {
+                  "X": 234.0,
+                  "Y": 26.0
+                },
+                "Name": "text_tip3",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "99999999",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 588.28,
+                  "Y": 402.48
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 243,
+                  "G": 61,
+                  "B": 57
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.77,
+                  "Y": 0.78
+                },
+                "PreSize": {
+                  "X": 0.1361,
+                  "Y": 0.0504
+                },
+                "LeftMargin": 588.28,
+                "RightMargin": 71.72,
+                "TopMargin": 100.52,
+                "BottomMargin": 389.48,
+                "Tag": 257,
+                "ActionTag": -2074554692,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 26.0
+                },
+                "Name": "text_mulit",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "99999",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 557.72,
+                  "Y": 371.52
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 243,
+                  "G": 61,
+                  "B": 57
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.73,
+                  "Y": 0.72
+                },
+                "PreSize": {
+                  "X": 0.0851,
+                  "Y": 0.0504
+                },
+                "LeftMargin": 557.72,
+                "RightMargin": 141.28,
+                "TopMargin": 131.48,
+                "BottomMargin": 358.52,
+                "Tag": 258,
+                "ActionTag": -1210470597,
+                "Size": {
+                  "X": 65.0,
+                  "Y": 26.0
+                },
+                "Name": "text_victory",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/but_queding_press.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/but_queding_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guild/but_queding_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 178,
+                "Scale9Height": 57,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 573.0,
+                  "Y": 77.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.75,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.2723,
+                  "Y": 0.1531
+                },
+                "LeftMargin": 469.0,
+                "RightMargin": 87.0,
+                "TopMargin": 399.1,
+                "BottomMargin": 37.9,
+                "Tag": 272,
+                "ActionTag": -1515371086,
+                "Size": {
+                  "X": 208.0,
+                  "Y": 79.0
+                },
+                "Name": "btnYes",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guild/guild_diban72.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 115,
+                "Scale9OriginY": 17,
+                "Scale9Width": 62,
+                "Scale9Height": 26,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 382.0,
+                  "Y": 180.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.35
+                },
+                "PreSize": {
+                  "X": 0.2618,
+                  "Y": 0.1163
+                },
+                "LeftMargin": 382.0,
+                "RightMargin": 182.0,
+                "TopMargin": 305.4,
+                "BottomMargin": 150.6,
+                "Tag": 951,
+                "ActionTag": -1449723912,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 60.0
+                },
+                "Name": "input_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "-",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 382.0,
+                  "Y": 258.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 120,
+                  "G": 70,
+                  "B": 40
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0183,
+                  "Y": 0.0543
+                },
+                "LeftMargin": 382.0,
+                "RightMargin": 368.0,
+                "TopMargin": 244.0,
+                "BottomMargin": 244.0,
+                "Tag": 449,
+                "ActionTag": -188775456,
+                "Size": {
+                  "X": 14.0,
+                  "Y": 28.0
+                },
+                "Name": "txt_score",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guild/dy_bg_01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 69,
+                "Scale9OriginY": 19,
+                "Scale9Width": 74,
+                "Scale9Height": 20,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 229.2,
+                  "Y": 77.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3,
+                  "Y": 0.15
+                },
+                "PreSize": {
+                  "X": 0.2775,
+                  "Y": 0.1124
+                },
+                "LeftMargin": 123.2,
+                "RightMargin": 428.8,
+                "TopMargin": 409.6,
+                "BottomMargin": 48.4,
+                "Tag": 65,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "暂停：",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 29.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 120,
+                      "G": 70,
+                      "B": 40
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.3396,
+                      "Y": 0.4138
+                    },
+                    "LeftMargin": -72.0,
+                    "RightMargin": 212.0,
+                    "TopMargin": 17.0,
+                    "BottomMargin": 17.0,
+                    "Tag": 66,
+                    "ActionTag": 330213859,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 24.0
+                    },
+                    "Name": "tip",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/btn_yx_n.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/btn_yx_n.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/btn_yx_n.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/btn_xx_p.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/btn_yx_n.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 53.0,
+                      "Y": 29.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.25,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4811,
+                      "Y": 0.9483
+                    },
+                    "LeftMargin": 2.0,
+                    "RightMargin": 108.0,
+                    "TopMargin": 1.5,
+                    "BottomMargin": 1.5,
+                    "Tag": 67,
+                    "ActionTag": 1729513226,
+                    "Size": {
+                      "X": 102.0,
+                      "Y": 55.0
+                    },
+                    "Name": "check_open",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/guildLounge/btn_zt3_n.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/guildLounge/btn_zt3_n.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/guildLounge/btn_zt3_n.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/guildLounge/btn_zt3.png",
+                      "Plist": ""
+                    },
+                    "NodeDisableFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/guildLounge/btn_zt3_n.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 159.0,
+                      "Y": 29.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.75,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4811,
+                      "Y": 0.9483
+                    },
+                    "LeftMargin": 108.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 1.5,
+                    "BottomMargin": 1.5,
+                    "Tag": 68,
+                    "ActionTag": -392305288,
+                    "Size": {
+                      "X": 102.0,
+                      "Y": 55.0
+                    },
+                    "Name": "check_close",
+                    "ctype": "CheckBoxObjectData"
+                  }
+                ],
+                "ActionTag": -1052337283,
+                "Size": {
+                  "X": 212.0,
+                  "Y": 58.0
+                },
+                "Name": "bg_btn",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -108244162,
+            "Size": {
+              "X": 764.0,
+              "Y": 516.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "guild/back_guild_small.png",
+        "guild/btn_close_normal.png",
+        "guild/btn_close_press.png",
+        "guild/but_queding_normal.png",
+        "guild/but_queding_press.png",
+        "guild/dy_bg_01.png",
+        "guild/guild_diban72.png",
+        "guild/line_feng2.png",
+        "guild/title_sz003.png",
+        "guildnew/btn_xx_p.png",
+        "guildnew/btn_yx_n.png",
+        "guildnew/guildLounge/btn_zt3.png",
+        "guildnew/guildLounge/btn_zt3_n.png",
+        "png/Photo_frame_03.png",
+        "png/Photo_frame_04.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

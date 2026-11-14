@@ -1,0 +1,891 @@
+{
+  "ID": "86c34168-e8c2-4717-bdb7-3ab4bf3ed922",
+  "Version": "2.3.4",
+  "Name": "EmailBox",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 106,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 153,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 107,
+            "ActionTag": 918930594,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guildnew/guild_bg_997_637.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 381,
+            "Scale9OriginY": 220,
+            "Scale9Width": 235,
+            "Scale9Height": 197,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7789,
+              "Y": 0.8847
+            },
+            "LeftMargin": 141.5,
+            "RightMargin": 141.5,
+            "TopMargin": 41.5,
+            "BottomMargin": 41.5,
+            "Tag": 108,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "emailBox/biaoti_youxiang.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 36,
+                "Scale9OriginY": 16,
+                "Scale9Width": 38,
+                "Scale9Height": 18,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 498.5,
+                  "Y": 590.0
+                },
+                "Scale": {
+                  "ScaleX": 1.2,
+                  "ScaleY": 1.2
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9262
+                },
+                "PreSize": {
+                  "X": 0.1103,
+                  "Y": 0.0785
+                },
+                "LeftMargin": 443.5,
+                "RightMargin": 443.5,
+                "TopMargin": 22.0,
+                "BottomMargin": 565.0,
+                "Tag": 109,
+                "ActionTag": 1589796768,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 50.0
+                },
+                "Name": "title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "guildnew/guild_btn_close_x.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guildnew/guild_btn_close_x.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guildnew/guild_btn_close_x.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 18,
+                "Scale9Height": 27,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 941.7016,
+                  "Y": 593.3795
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9445,
+                  "Y": 0.9315
+                },
+                "PreSize": {
+                  "X": 0.0481,
+                  "Y": 0.0769
+                },
+                "LeftMargin": 917.7016,
+                "RightMargin": 31.2984,
+                "TopMargin": 19.1205,
+                "BottomMargin": 568.8795,
+                "Tag": 110,
+                "ActionTag": 680407996,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 49.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 1098,
+                  "Height": 600
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 498.5,
+                  "Y": 280.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4396
+                },
+                "PreSize": {
+                  "X": 0.9829,
+                  "Y": 0.832
+                },
+                "LeftMargin": 8.5,
+                "RightMargin": 8.5,
+                "TopMargin": 92.0,
+                "BottomMargin": 15.0,
+                "Tag": 137,
+                "ActionTag": -1690509224,
+                "Size": {
+                  "X": 980.0,
+                  "Y": 530.0
+                },
+                "Name": "container",
+                "ctype": "ScrollViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "emailBox/email_empty.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 498.5,
+                  "Y": 318.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.6118,
+                  "Y": 0.5369
+                },
+                "LeftMargin": 193.5,
+                "RightMargin": 193.5,
+                "TopMargin": 147.5,
+                "BottomMargin": 147.5,
+                "Tag": 676,
+                "ActionTag": -2008814472,
+                "Size": {
+                  "X": 610.0,
+                  "Y": 342.0
+                },
+                "Name": "girl",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1812613818,
+            "Size": {
+              "X": 997.0,
+              "Y": 637.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "emailBox/email_pnl_1.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 299,
+            "Scale9OriginY": 27,
+            "Scale9Width": 373,
+            "Scale9Height": 61,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 641.536,
+              "Y": -143.5294
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5012,
+              "Y": -0.1993
+            },
+            "PreSize": {
+              "X": 0.7586,
+              "Y": 0.1597
+            },
+            "LeftMargin": 156.036,
+            "RightMargin": 152.964,
+            "TopMargin": 806.0294,
+            "BottomMargin": -201.0294,
+            "Tag": 111,
+            "Children": [
+              {
+                "FontSize": 30,
+                "LabelText": "我是题目我要十个大字fdafadfdsADSADdffDdffDda",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 140.0,
+                  "Y": 80.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 57,
+                  "G": 131,
+                  "B": 121
+                },
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1442,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.6797,
+                  "Y": 0.2609
+                },
+                "LeftMargin": 140.0,
+                "RightMargin": 171.0,
+                "TopMargin": 19.5,
+                "BottomMargin": 65.5,
+                "Tag": 112,
+                "ActionTag": 1132946731,
+                "Size": {
+                  "X": 660.0,
+                  "Y": 30.0
+                },
+                "Name": "title",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "2018.12.30  14:30sdafdsafasffaFSDAFASDFF",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 140.0,
+                  "Y": 34.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 132,
+                  "G": 174,
+                  "B": 151
+                },
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1442,
+                  "Y": 0.3
+                },
+                "PreSize": {
+                  "X": 0.4943,
+                  "Y": 0.2087
+                },
+                "LeftMargin": 140.0,
+                "RightMargin": 351.0,
+                "TopMargin": 68.5,
+                "BottomMargin": 22.5,
+                "Tag": 1256,
+                "ActionTag": -1200758576,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 24.0
+                },
+                "Name": "time",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "emailBox/xinfeng01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 29,
+                "Scale9OriginY": 18,
+                "Scale9Width": 22,
+                "Scale9Height": 21,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0721,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0824,
+                  "Y": 0.4957
+                },
+                "LeftMargin": 30.0,
+                "RightMargin": 861.0,
+                "TopMargin": 29.0,
+                "BottomMargin": 29.0,
+                "Tag": 1257,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "guild/guild_red_dot.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 5,
+                    "Scale9OriginY": 5,
+                    "Scale9Width": 7,
+                    "Scale9Height": 7,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 75.5735,
+                      "Y": 56.9099
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9447,
+                      "Y": 0.9984
+                    },
+                    "PreSize": {
+                      "X": 0.2125,
+                      "Y": 0.2982
+                    },
+                    "LeftMargin": 67.0735,
+                    "RightMargin": -4.0735,
+                    "TopMargin": -8.4099,
+                    "BottomMargin": 48.4099,
+                    "Tag": 18,
+                    "ActionTag": 1387441623,
+                    "Size": {
+                      "X": 17.0,
+                      "Y": 17.0
+                    },
+                    "Name": "red",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 756702654,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 57.0
+                },
+                "Name": "mark_close",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "emailBox/xinfeng02.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 29,
+                "Scale9OriginY": 30,
+                "Scale9Width": 55,
+                "Scale9Height": 40,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 70.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0721,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1164,
+                  "Y": 0.8696
+                },
+                "LeftMargin": 13.5,
+                "RightMargin": 844.5,
+                "TopMargin": 7.5,
+                "BottomMargin": 7.5,
+                "Tag": 59,
+                "ActionTag": -447486076,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 100.0
+                },
+                "Name": "mark_open",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "emailBox/duqu_up.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "emailBox/duqu_up.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "emailBox/duqu_up.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 122,
+                "Scale9Height": 47,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 880.0,
+                  "Y": 57.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9063,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1565,
+                  "Y": 0.6
+                },
+                "LeftMargin": 804.0,
+                "RightMargin": 15.0,
+                "TopMargin": 23.0,
+                "BottomMargin": 23.0,
+                "Tag": 1259,
+                "ActionTag": -476638930,
+                "Size": {
+                  "X": 152.0,
+                  "Y": 69.0
+                },
+                "Name": "btn_read",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 2068995848,
+            "Size": {
+              "X": 971.0,
+              "Y": 115.0
+            },
+            "Name": "item",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "emailBox/shanchu_up.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "emailBox/shanchu_up.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "emailBox/shanchu_up.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 122,
+            "Scale9Height": 47,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1017.9453,
+              "Y": -292.723
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7953,
+              "Y": -0.4066
+            },
+            "PreSize": {
+              "X": 0.1187,
+              "Y": 0.0958
+            },
+            "LeftMargin": 941.9453,
+            "RightMargin": 186.0547,
+            "TopMargin": 978.223,
+            "BottomMargin": -327.223,
+            "Tag": 1260,
+            "ActionTag": 66862205,
+            "Size": {
+              "X": 152.0,
+              "Y": 69.0
+            },
+            "Name": "btn_delete",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "emailBox/lingqu_up.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "emailBox/lingqu_up.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "emailBox/lingqu_up.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 122,
+            "Scale9Height": 47,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 829.9499,
+              "Y": -294.2
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6484,
+              "Y": -0.4086
+            },
+            "PreSize": {
+              "X": 0.1187,
+              "Y": 0.0958
+            },
+            "LeftMargin": 753.9499,
+            "RightMargin": 374.0501,
+            "TopMargin": 979.7,
+            "BottomMargin": -328.7,
+            "Tag": 1258,
+            "ActionTag": 1535773444,
+            "Size": {
+              "X": 152.0,
+              "Y": 69.0
+            },
+            "Name": "btn_get",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "emailBox/biaoti_youxiang.png",
+        "emailBox/duqu_up.png",
+        "emailBox/email_empty.png",
+        "emailBox/email_pnl_1.png",
+        "emailBox/lingqu_up.png",
+        "emailBox/shanchu_up.png",
+        "emailBox/xinfeng01.png",
+        "emailBox/xinfeng02.png",
+        "guild/guild_red_dot.png",
+        "guildnew/guild_bg_997_637.png",
+        "guildnew/guild_btn_close_x.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,1943 @@
+{
+  "ID": "362e7143-d206-4627-b573-4e43781242fd",
+  "Version": "2.3.4",
+  "Name": "CreateRoom",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 64,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "UserData": "{\"layoutType\":\"noBorder\"}",
+            "Tag": 53,
+            "ActionTag": 1753194321,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_pnl_03.png",
+              "Plist": "create/CreateRoom.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 20,
+            "Scale9OriginY": 13,
+            "Scale9Width": 2,
+            "Scale9Height": 16,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1280.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "UserData": "{\"layoutType\":\"noBorder\",\"screenAlign\":\"right|mid\"}",
+            "Tag": 131,
+            "ActionTag": -564289702,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "optionBg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_pnl_06.png",
+              "Plist": "create/CreateRoom.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 3,
+            "Scale9OriginY": 14,
+            "Scale9Width": 6,
+            "Scale9Height": 106,
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 1280.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.7914,
+              "Y": 0.1861
+            },
+            "LeftMargin": 267.0,
+            "TopMargin": 586.0,
+            "UserData": "{\"layoutType\":\"onlyFullWidth\",\"screenAlign\":\"bottom|right\"}",
+            "Tag": 130,
+            "ActionTag": -365924280,
+            "Size": {
+              "X": 1013.0,
+              "Y": 134.0
+            },
+            "Name": "bottomBg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_pnl_02.png",
+              "Plist": "create/CreateRoom.plist"
+            },
+            "Scale9OriginX": 91,
+            "Scale9OriginY": 213,
+            "Scale9Width": 85,
+            "Scale9Height": 218,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.2086,
+              "Y": 0.8944
+            },
+            "RightMargin": 1013.0,
+            "TopMargin": 76.0,
+            "UserData": "{\"layoutType\":\"onlyFullHeight\",\"screenAlign\":\"left|bottom\"}",
+            "Tag": 129,
+            "ActionTag": 1147852405,
+            "Size": {
+              "X": 267.0,
+              "Y": 644.0
+            },
+            "Name": "playTabBg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_pnl_01.png",
+              "Plist": "create/CreateRoom.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 15,
+            "Scale9Width": 1252,
+            "Scale9Height": 48,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 720.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 1.0016,
+              "Y": 0.1083
+            },
+            "LeftMargin": -1.0,
+            "RightMargin": -1.0,
+            "BottomMargin": 642.0,
+            "UserData": "{\"layoutType\":\"onlyFullWidth\",\"screenAlign\":\"top|midW\"}",
+            "Tag": 128,
+            "ActionTag": -1524388485,
+            "Size": {
+              "X": 1282.0,
+              "Y": 78.0
+            },
+            "Name": "gameTabBg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 268.8,
+              "Y": 131.04
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.21,
+              "Y": 0.182
+            },
+            "PreSize": {
+              "X": 0.7852,
+              "Y": 0.7083
+            },
+            "LeftMargin": 268.8,
+            "RightMargin": 6.2,
+            "TopMargin": 78.96,
+            "BottomMargin": 131.04,
+            "UserData": "{\"layoutType\":\"showAll\"}",
+            "Tag": 68,
+            "Children": [
+              {
+                "DirectionType": "Vertical",
+                "IsBounceEnabled": true,
+                "ScrollDirectionType": 0,
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 188,
+                "ActionTag": 1939934672,
+                "Size": {
+                  "X": 1005.0,
+                  "Y": 510.0
+                },
+                "Name": "optionList",
+                "ctype": "ListViewObjectData"
+              }
+            ],
+            "ActionTag": 276975953,
+            "Size": {
+              "X": 1005.0,
+              "Y": 510.0
+            },
+            "Name": "optionLayer",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 1280.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.7891,
+              "Y": 0.1736
+            },
+            "LeftMargin": 270.0,
+            "TopMargin": 595.0,
+            "UserData": "{\"screenAlign\":\"bottom|right\"}",
+            "Tag": 193,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_qd.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_qd.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_qd.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 218,
+                "Scale9Height": 66,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 985.0,
+                  "Y": 62.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9752,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2455,
+                  "Y": 0.704
+                },
+                "LeftMargin": 737.0,
+                "RightMargin": 25.0,
+                "TopMargin": 18.5,
+                "BottomMargin": 18.5,
+                "Tag": 35,
+                "ActionTag": -2130831787,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 88.0
+                },
+                "Name": "guildSetBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_cjfj.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_cjfj.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 218,
+                "Scale9Height": 66,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 985.0,
+                  "Y": 62.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9752,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2455,
+                  "Y": 0.704
+                },
+                "LeftMargin": 737.0,
+                "RightMargin": 25.0,
+                "TopMargin": 18.5,
+                "BottomMargin": 18.5,
+                "Tag": 194,
+                "ActionTag": -1742583372,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 88.0
+                },
+                "Name": "createBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_pnl_05.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "Scale9OriginX": 79,
+                "Scale9OriginY": 18,
+                "Scale9Width": 83,
+                "Scale9Height": 20,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 650.0,
+                  "Y": 62.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6436,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2386,
+                  "Y": 0.448
+                },
+                "LeftMargin": 409.0,
+                "RightMargin": 360.0,
+                "TopMargin": 34.5,
+                "BottomMargin": 34.5,
+                "Tag": 207,
+                "Children": [
+                  {
+                    "FontSize": 28,
+                    "LabelText": "消耗:",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 20.0,
+                      "Y": 28.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 94,
+                      "G": 131,
+                      "B": 117
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.083,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2905,
+                      "Y": 0.5
+                    },
+                    "LeftMargin": 20.0,
+                    "RightMargin": 151.0,
+                    "TopMargin": 14.0,
+                    "BottomMargin": 14.0,
+                    "Tag": 208,
+                    "ActionTag": -1105456848,
+                    "Size": {
+                      "X": 70.0,
+                      "Y": 28.0
+                    },
+                    "Name": "desc",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "shop/icon_syb.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 11,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 28,
+                    "Scale9Height": 17,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 130.0,
+                      "Y": 28.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5394,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2075,
+                      "Y": 0.6964
+                    },
+                    "LeftMargin": 105.0,
+                    "RightMargin": 86.0,
+                    "TopMargin": 8.5,
+                    "BottomMargin": 8.5,
+                    "Tag": 198,
+                    "ActionTag": 1816718465,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 39.0
+                    },
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 28,
+                    "LabelText": "X55",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 165.0,
+                      "Y": 28.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 94,
+                      "G": 131,
+                      "B": 117
+                    },
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.6846,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1743,
+                      "Y": 0.5
+                    },
+                    "LeftMargin": 165.0,
+                    "RightMargin": 34.0,
+                    "TopMargin": 14.0,
+                    "BottomMargin": 14.0,
+                    "Tag": 199,
+                    "ActionTag": 174517163,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 28.0
+                    },
+                    "Name": "num",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1521167511,
+                "Size": {
+                  "X": 241.0,
+                  "Y": 56.0
+                },
+                "Name": "priceBg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_wfgz.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_wfgz.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 141,
+                "Scale9Height": 36,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 62.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1188,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1673,
+                  "Y": 0.448
+                },
+                "LeftMargin": 35.5,
+                "RightMargin": 805.5,
+                "TopMargin": 34.5,
+                "BottomMargin": 34.5,
+                "Tag": 209,
+                "ActionTag": 1707836547,
+                "Size": {
+                  "X": 169.0,
+                  "Y": 56.0
+                },
+                "Name": "ruleBtn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1684824349,
+            "Size": {
+              "X": 1010.0,
+              "Y": 125.0
+            },
+            "Name": "bottomLayer",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "G": 150,
+              "B": 165
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.207,
+              "Y": 0.8889
+            },
+            "RightMargin": 1015.0,
+            "TopMargin": 80.0,
+            "UserData": "{\"layoutType\":\"showAll\"}",
+            "Tag": 69,
+            "Children": [
+              {
+                "DirectionType": "Vertical",
+                "IsBounceEnabled": true,
+                "ScrollDirectionType": 0,
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 150
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 132.5,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.1,
+                  "Y": 1.0
+                },
+                "LeftMargin": -13.25,
+                "RightMargin": -13.25,
+                "UserData": "{\"layoutType\":\"onlyFullWidth\"}",
+                "Tag": 47,
+                "ActionTag": -1706849079,
+                "Size": {
+                  "X": 291.5,
+                  "Y": 640.0
+                },
+                "Name": "playTypeList",
+                "ctype": "ListViewObjectData"
+              }
+            ],
+            "ActionTag": -392490510,
+            "Size": {
+              "X": 265.0,
+              "Y": 640.0
+            },
+            "Name": "playTypeLayer",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "PercentWidthEnable": true,
+            "PercentWidthEnabled": true,
+            "PreSize": {
+              "X": 0.79,
+              "Y": 0.1042
+            },
+            "LeftMargin": 268.8,
+            "BottomMargin": 645.0,
+            "UserData": "{\"screenAlign\":\"top\"}",
+            "Tag": 190,
+            "ActionTag": -1536142188,
+            "Size": {
+              "X": 1011.2,
+              "Y": 75.0
+            },
+            "Name": "topLayer",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_tit_cjfj.png",
+              "Plist": "create/CreateRoom.plist"
+            },
+            "Scale9OriginX": 68,
+            "Scale9OriginY": 17,
+            "Scale9Width": 24,
+            "Scale9Height": 12,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 128.0,
+              "Y": 705.6
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.1,
+              "Y": 0.98
+            },
+            "PreSize": {
+              "X": 0.125,
+              "Y": 0.0639
+            },
+            "LeftMargin": 48.0,
+            "RightMargin": 1072.0,
+            "TopMargin": 14.4,
+            "BottomMargin": 659.6,
+            "UserData": "{\"screenAlign\":\"top\", \"offsetY\": -2}",
+            "Tag": 191,
+            "ActionTag": -797729715,
+            "Size": {
+              "X": 160.0,
+              "Y": 46.0
+            },
+            "Name": "title",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_btn_close.png",
+              "Plist": "create/CreateRoom.plist"
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "cj_btn_close.png",
+              "Plist": "create/CreateRoom.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 52,
+            "Scale9Height": 60,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 1267.2,
+              "Y": 716.4
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.99,
+              "Y": 0.995
+            },
+            "PreSize": {
+              "X": 0.0641,
+              "Y": 0.1139
+            },
+            "LeftMargin": 1185.2,
+            "RightMargin": 12.8,
+            "TopMargin": 3.6,
+            "BottomMargin": 634.4,
+            "UserData": "{\"screenAlign\":\"top|right\", \"offsetX\": -1, \"offsetY\": -0.5}",
+            "Tag": 163,
+            "ActionTag": 1516308898,
+            "Size": {
+              "X": 82.0,
+              "Y": 82.0
+            },
+            "Name": "closeBtn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 25.8716,
+              "Y": -71.4782
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0202,
+              "Y": -0.0993
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 25.8716,
+            "RightMargin": 1254.1284,
+            "TopMargin": 791.4782,
+            "BottomMargin": -71.4782,
+            "Tag": 205,
+            "Children": [
+              {
+                "NormalBackFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_yzlds_n.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_yzlds_p.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_yzlds_p.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "NodeDisableFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_yzlds_n.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 201.0721,
+                  "Y": -15.1146
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 54.0721,
+                "RightMargin": -348.0721,
+                "TopMargin": -44.8854,
+                "BottomMargin": -75.1146,
+                "Tag": 58,
+                "ActionTag": 20471812,
+                "Size": {
+                  "X": 294.0,
+                  "Y": 120.0
+                },
+                "Name": "playTypeCell",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "ClipAble": false,
+                "SingleColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 888.9796,
+                  "Y": -29.2904
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 382.4796,
+                "RightMargin": -1395.4796,
+                "TopMargin": -2.7096,
+                "BottomMargin": -61.2904,
+                "UserData": "{\"layoutType\":\"noBorder\"}",
+                "Tag": 71,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "游戏模式游戏：",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 40.0,
+                      "Y": 32.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0395,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2073,
+                      "Y": 0.5313
+                    },
+                    "LeftMargin": 40.0,
+                    "RightMargin": 763.0,
+                    "TopMargin": 15.0,
+                    "BottomMargin": 15.0,
+                    "Tag": 73,
+                    "ActionTag": -591089484,
+                    "Size": {
+                      "X": 210.0,
+                      "Y": 34.0
+                    },
+                    "Name": "desc",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1832518050,
+                "Size": {
+                  "X": 1013.0,
+                  "Y": 64.0
+                },
+                "Name": "rowBgCell",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_dx_n.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_dx_p.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "DisableBackFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_dx_n.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_dx_p.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "NodeDisableFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_dx_n.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 130.0,
+                  "Y": -130.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 107.5,
+                "RightMargin": -152.5,
+                "TopMargin": 107.5,
+                "BottomMargin": -152.5,
+                "Tag": 75,
+                "Children": [
+                  {
+                    "FontSize": 30,
+                    "LabelText": "描述",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 21.6
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.1111,
+                      "Y": 0.48
+                    },
+                    "PreSize": {
+                      "X": 1.3333,
+                      "Y": 0.6667
+                    },
+                    "LeftMargin": 50.0,
+                    "RightMargin": -65.0,
+                    "TopMargin": 8.4,
+                    "BottomMargin": 6.6,
+                    "Tag": 77,
+                    "ActionTag": -1405405329,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 30.0
+                    },
+                    "Name": "desc",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 34744333,
+                "Size": {
+                  "X": 45.0,
+                  "Y": 45.0
+                },
+                "Name": "radioCell",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_duox_n.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "PressedBackFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_duox_p.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "DisableBackFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_duox_n.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "NodeNormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_duox_p.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "NodeDisableFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_duox_n.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 360.0,
+                  "Y": -125.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 337.0,
+                "RightMargin": -383.0,
+                "TopMargin": 102.8,
+                "BottomMargin": -148.8,
+                "Tag": 193,
+                "Children": [
+                  {
+                    "FontSize": 30,
+                    "LabelText": "描述",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 50.0,
+                      "Y": 22.08
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.087,
+                      "Y": 0.48
+                    },
+                    "PreSize": {
+                      "X": 1.3043,
+                      "Y": 0.6522
+                    },
+                    "LeftMargin": 50.0,
+                    "RightMargin": -64.0,
+                    "TopMargin": 8.92,
+                    "BottomMargin": 7.08,
+                    "Tag": 194,
+                    "ActionTag": -1040181447,
+                    "Size": {
+                      "X": 60.0,
+                      "Y": 30.0
+                    },
+                    "Name": "desc",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -745354214,
+                "Size": {
+                  "X": 46.0,
+                  "Y": 46.0
+                },
+                "Name": "checkBoxCell",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_qa.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "NormalFileData": {
+                  "Type": "PlistSubImage",
+                  "Path": "cj_btn_qa.png",
+                  "Plist": "create/CreateRoom.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 18,
+                "Scale9Height": 26,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1033.26,
+                  "Y": -125.9424
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 1009.26,
+                "RightMargin": -1057.26,
+                "TopMargin": 101.9424,
+                "BottomMargin": -149.9424,
+                "Tag": 194,
+                "ActionTag": -2035229246,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 48.0
+                },
+                "Name": "btnCell",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 797.68,
+                  "Y": -125.4118
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 680.18,
+                "RightMargin": -915.18,
+                "TopMargin": 98.4118,
+                "BottomMargin": -152.4118,
+                "Tag": 199,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "cj_img_adjust_bg.png",
+                      "Plist": "create/CreateRoom.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 33,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 37,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 117.5,
+                      "Y": 27.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.5532,
+                      "Y": 0.7778
+                    },
+                    "LeftMargin": 52.5,
+                    "RightMargin": 52.5,
+                    "TopMargin": 6.0,
+                    "BottomMargin": 6.0,
+                    "Tag": 203,
+                    "ActionTag": -1028357001,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 42.0
+                    },
+                    "Name": "bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 26,
+                    "LabelText": "小于100分",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 117.5,
+                      "Y": 27.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 128,
+                      "G": 80,
+                      "B": 34
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.4979,
+                      "Y": 0.4815
+                    },
+                    "LeftMargin": 59.0,
+                    "RightMargin": 59.0,
+                    "TopMargin": 14.0,
+                    "BottomMargin": 14.0,
+                    "Tag": 204,
+                    "ActionTag": -322779372,
+                    "Size": {
+                      "X": 117.0,
+                      "Y": 26.0
+                    },
+                    "Name": "desc",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "cj_btn_minus_p.png",
+                      "Plist": "create/CreateRoom.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "cj_btn_minus_n.png",
+                      "Plist": "create/CreateRoom.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 50,
+                    "Scale9Height": 20,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -23.0,
+                      "Y": 27.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": -0.0979,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.3404,
+                      "Y": 0.7778
+                    },
+                    "LeftMargin": -23.0,
+                    "RightMargin": 178.0,
+                    "TopMargin": 6.0,
+                    "BottomMargin": 6.0,
+                    "Tag": 197,
+                    "ActionTag": 2102458686,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 42.0
+                    },
+                    "Name": "minus",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "PressedFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "cj_btn_add_p.png",
+                      "Plist": "create/CreateRoom.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "PlistSubImage",
+                      "Path": "cj_btn_add_n.png",
+                      "Plist": "create/CreateRoom.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 50,
+                    "Scale9Height": 20,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 258.0,
+                      "Y": 27.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 1.0979,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.3404,
+                      "Y": 0.7778
+                    },
+                    "LeftMargin": 178.0,
+                    "RightMargin": -23.0,
+                    "TopMargin": 6.0,
+                    "BottomMargin": 6.0,
+                    "Tag": 196,
+                    "ActionTag": 1896809054,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 42.0
+                    },
+                    "Name": "add",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 728264352,
+                "Size": {
+                  "X": 235.0,
+                  "Y": 54.0
+                },
+                "Name": "adjustCell",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1184839798,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "templates",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "create/CreateRoom.plist",
+        "create/CreateRoom.png",
+        "Default/Button_Disable.png",
+        "shop/icon_syb.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

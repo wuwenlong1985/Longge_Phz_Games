@@ -1,0 +1,152 @@
+.class final Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1;
+.super Ljava/lang/Object;
+.source "Cocos2dxAudioFocusManager.java"
+
+# interfaces
+.implements Landroid/media/AudioManager$OnAudioFocusChangeListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = null
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 42
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onAudioFocusChange(I)V
+    .locals 3
+
+    const-string v0, "AudioFocusManager"
+
+    .line 45
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "onAudioFocusChange: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v2, ", thread: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/Thread;->getName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    const/4 v0, -0x1
+
+    if-ne p1, v0, :cond_0
+
+    const-string p1, "AudioFocusManager"
+
+    const-string v0, "Pause music by AUDIOFOCUS_LOSS"
+
+    .line 50
+    invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 51
+    new-instance p1, Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1$1;
+
+    invoke-direct {p1, p0}, Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1$1;-><init>(Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1;)V
+
+    invoke-static {p1}, Lorg/cocos2dx/lib/Cocos2dxHelper;->runOnGLThread(Ljava/lang/Runnable;)V
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, -0x2
+
+    if-ne p1, v0, :cond_1
+
+    const-string p1, "AudioFocusManager"
+
+    const-string v0, "Pause music by AUDIOFOCUS_LOSS_TRANSILENT"
+
+    .line 61
+    invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 62
+    new-instance p1, Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1$2;
+
+    invoke-direct {p1, p0}, Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1$2;-><init>(Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1;)V
+
+    invoke-static {p1}, Lorg/cocos2dx/lib/Cocos2dxHelper;->runOnGLThread(Ljava/lang/Runnable;)V
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v0, -0x3
+
+    if-ne p1, v0, :cond_2
+
+    const-string p1, "AudioFocusManager"
+
+    const-string v0, "Lower the volume, keep playing by AUDIOFOCUS_LOSS_TRANSILENT_CAN_DUCK"
+
+    .line 71
+    invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 72
+    new-instance p1, Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1$3;
+
+    invoke-direct {p1, p0}, Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1$3;-><init>(Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1;)V
+
+    invoke-static {p1}, Lorg/cocos2dx/lib/Cocos2dxHelper;->runOnGLThread(Ljava/lang/Runnable;)V
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v0, 0x1
+
+    if-ne p1, v0, :cond_3
+
+    const-string p1, "AudioFocusManager"
+
+    const-string v0, "Resume music by AUDIOFOCUS_GAIN"
+
+    .line 82
+    invoke-static {p1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 83
+    new-instance p1, Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1$4;
+
+    invoke-direct {p1, p0}, Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1$4;-><init>(Lorg/cocos2dx/lib/Cocos2dxAudioFocusManager$1;)V
+
+    invoke-static {p1}, Lorg/cocos2dx/lib/Cocos2dxHelper;->runOnGLThread(Ljava/lang/Runnable;)V
+
+    :cond_3
+    :goto_0
+    return-void
+.end method

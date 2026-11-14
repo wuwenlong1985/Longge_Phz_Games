@@ -1,0 +1,792 @@
+{
+  "ID": "31124a9b-e932-4ce0-83bd-37612b6e96f5",
+  "Version": "2.3.4",
+  "Name": "WorkerDayLogin",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 54,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 55,
+            "ActionTag": -920980281,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "workerday/bg_51.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 422,
+            "Scale9OriginY": 237,
+            "Scale9Width": 1076,
+            "Scale9Height": 606,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 56,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "workerday/blank.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 2,
+                "Scale9Height": 2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 463.36,
+                  "Y": 219.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.362,
+                  "Y": 0.305
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.13,
+                  "Y": 0.33
+                },
+                "LeftMargin": 380.16,
+                "RightMargin": 733.44,
+                "TopMargin": 262.8,
+                "BottomMargin": 219.6,
+                "Tag": 712,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "nationalday/reward/reward_xipaiquan.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 110,
+                    "Scale9Height": 110,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.2,
+                      "Y": 142.56
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6
+                    },
+                    "PreSize": {
+                      "X": 0.8413,
+                      "Y": 0.5892
+                    },
+                    "LeftMargin": 13.2,
+                    "RightMargin": 13.2,
+                    "TopMargin": 25.04,
+                    "BottomMargin": 72.56,
+                    "Tag": 713,
+                    "ActionTag": -258812242,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 140.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "workerday/blank.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 2,
+                    "Scale9Height": 2,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.2,
+                      "Y": 142.56
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6
+                    },
+                    "PreSize": {
+                      "X": 0.8413,
+                      "Y": 0.5892
+                    },
+                    "LeftMargin": 13.2,
+                    "RightMargin": 13.2,
+                    "TopMargin": 25.04,
+                    "BottomMargin": 72.56,
+                    "Tag": 714,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "workerday/ico_ylq.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 52,
+                        "Scale9OriginY": 52,
+                        "Scale9Width": 55,
+                        "Scale9Height": 56,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 70.0,
+                          "Y": 70.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.1357,
+                          "Y": 1.1429
+                        },
+                        "LeftMargin": -9.5,
+                        "RightMargin": -9.5,
+                        "TopMargin": -10.0,
+                        "BottomMargin": -10.0,
+                        "Tag": 715,
+                        "ActionTag": -696279500,
+                        "Size": {
+                          "X": 159.0,
+                          "Y": 160.0
+                        },
+                        "Name": "tip",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -843380353,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 140.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "mask",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 25,
+                    "LabelText": "乐豆",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.2,
+                      "Y": 19.008
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.08
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.8,
+                      "Y": 0.14
+                    },
+                    "LeftMargin": 16.64,
+                    "RightMargin": 16.64,
+                    "TopMargin": 201.96,
+                    "BottomMargin": 2.376,
+                    "Tag": 72,
+                    "ActionTag": 1884158434,
+                    "Size": {
+                      "X": 133.12,
+                      "Y": 33.264
+                    },
+                    "Name": "count",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -307632797,
+                "Size": {
+                  "X": 166.4,
+                  "Y": 237.6
+                },
+                "Name": "item_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "workerday/blank.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 2,
+                "Scale9Height": 2,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 723.2,
+                  "Y": 219.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.565,
+                  "Y": 0.305
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.13,
+                  "Y": 0.33
+                },
+                "LeftMargin": 640.0,
+                "RightMargin": 473.6,
+                "TopMargin": 262.8,
+                "BottomMargin": 219.6,
+                "Tag": 73,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "nationalday/reward/reward_xipaiquan.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 110,
+                    "Scale9Height": 110,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.2,
+                      "Y": 142.56
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6
+                    },
+                    "PreSize": {
+                      "X": 0.8413,
+                      "Y": 0.5892
+                    },
+                    "LeftMargin": 13.2,
+                    "RightMargin": 13.2,
+                    "TopMargin": 25.04,
+                    "BottomMargin": 72.56,
+                    "Tag": 74,
+                    "ActionTag": 25420542,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 140.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "workerday/blank.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 2,
+                    "Scale9Height": 2,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.2,
+                      "Y": 142.56
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6
+                    },
+                    "PreSize": {
+                      "X": 0.8413,
+                      "Y": 0.5892
+                    },
+                    "LeftMargin": 13.2,
+                    "RightMargin": 13.2,
+                    "TopMargin": 25.04,
+                    "BottomMargin": 72.56,
+                    "Tag": 75,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "workerday/ico_ylq.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 52,
+                        "Scale9OriginY": 52,
+                        "Scale9Width": 55,
+                        "Scale9Height": 56,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 70.0,
+                          "Y": 70.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 1.1357,
+                          "Y": 1.1429
+                        },
+                        "LeftMargin": -9.5,
+                        "RightMargin": -9.5,
+                        "TopMargin": -10.0,
+                        "BottomMargin": -10.0,
+                        "Tag": 76,
+                        "ActionTag": 1661223791,
+                        "Size": {
+                          "X": 159.0,
+                          "Y": 160.0
+                        },
+                        "Name": "tip",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -378907924,
+                    "Size": {
+                      "X": 140.0,
+                      "Y": 140.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "mask",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 25,
+                    "LabelText": "乐豆",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.2,
+                      "Y": 19.008
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.08
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.8,
+                      "Y": 0.14
+                    },
+                    "LeftMargin": 16.64,
+                    "RightMargin": 16.64,
+                    "TopMargin": 201.96,
+                    "BottomMargin": 2.376,
+                    "Tag": 77,
+                    "ActionTag": 1798944026,
+                    "Size": {
+                      "X": 133.12,
+                      "Y": 33.264
+                    },
+                    "Name": "count",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 538355957,
+                "Size": {
+                  "X": 166.4,
+                  "Y": 237.6
+                },
+                "Name": "item_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "workerday/btn_close_p.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "workerday/btn_close_p.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "workerday/btn_close_n.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 123,
+                "Scale9Height": 137,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1152.0,
+                  "Y": 612.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.9,
+                  "Y": 0.85
+                },
+                "PreSize": {
+                  "X": 0.1195,
+                  "Y": 0.2208
+                },
+                "LeftMargin": 1075.5,
+                "RightMargin": 51.5,
+                "TopMargin": 28.5,
+                "BottomMargin": 532.5,
+                "Tag": 57,
+                "ActionTag": 1090029591,
+                "Size": {
+                  "X": 153.0,
+                  "Y": 159.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "workerday/btn_lq_b.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "workerday/btn_lq_p.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "workerday/btn_lq_n.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 374,
+                "Scale9Height": 115,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 93.6
+                },
+                "Scale": {
+                  "ScaleX": 0.66,
+                  "ScaleY": 0.66
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.13
+                },
+                "PreSize": {
+                  "X": 0.3156,
+                  "Y": 0.1903
+                },
+                "LeftMargin": 438.0,
+                "RightMargin": 438.0,
+                "TopMargin": 557.9,
+                "BottomMargin": 25.1,
+                "Tag": 709,
+                "ActionTag": -560363646,
+                "Size": {
+                  "X": 404.0,
+                  "Y": 137.0
+                },
+                "Name": "btn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1339739171,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "nationalday/reward/reward_xipaiquan.png",
+        "workerday/bg_51.png",
+        "workerday/blank.png",
+        "workerday/btn_close_n.png",
+        "workerday/btn_close_p.png",
+        "workerday/btn_lq_b.png",
+        "workerday/btn_lq_n.png",
+        "workerday/btn_lq_p.png",
+        "workerday/ico_ylq.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

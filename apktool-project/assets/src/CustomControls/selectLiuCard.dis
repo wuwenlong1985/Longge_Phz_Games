@@ -1,0 +1,772 @@
+; D:\work\hunan\phz\ppGameEngine\Projects\android\app\build\intermediates\assets\release\src\CustomControls\selectLiuCard.js
+loc     op
+-----   --
+00000  defvar       "selectLiuCard"                         
+00005  defvar       "SelectLiuCardLayer"                    
+main
+0000A  bindname     "selectLiuCard"                         
+0000F  newinit      1                                       
+00014  endinit                                              
+00015  setname      "selectLiuCard"                         
+0001A  pop                                                  
+0001B  name         "selectLiuCard"                         
+00020  lambda       <object#0>                              
+00025  setprop      "close"                                 
+0002A  setrval                                              
+0002B  name         "selectLiuCard"                         
+00030  lambda       <object#1>                              
+00035  setprop      "show"                                  
+0003A  setrval                                              
+0003B  name         "selectLiuCard"                         
+00040  lambda       <object#2>                              
+00045  setprop      "setCardPic"                            
+0004A  setrval                                              
+0004B  name         "selectLiuCard"                         
+00050  lambda       <object#3>                              
+00055  setprop      "setCardPicWithId"                      
+0005A  setrval                                              
+0005B  name         "selectLiuCard"                         
+00060  lambda       <object#4>                              
+00065  setprop      "getLiuCardCount"                       
+0006A  setrval                                              
+0006B  name         "selectLiuCard"                         
+00070  lambda       <object#5>                              
+00075  setprop      "responsiveWithIcon"                    
+0007A  setrval                                              
+0007B  name         "selectLiuCard"                         
+00080  lambda       <object#6>                              
+00085  setprop      "responsiveLayout"                      
+0008A  setrval                                              
+0008B  name         "selectLiuCard"                         
+00090  lambda       <object#7>                              
+00095  setprop      "send"                                  
+0009A  setrval                                              
+0009B  bindname     "SelectLiuCardLayer"                    
+000A0  name         "cc"                                    
+000A5  getprop      "Layer"                                 
+000AA  dup                                                  
+000AB  callprop     "extend"                                
+000B0  swap                                                 
+000B1  newinit      1                                       
+000B6  newinit      1                                       
+000BB  newinit      1                                       
+000C0  newarray     3                                       
+000C4  newarray     2                                       
+000C8  one                                                  
+000C9  initelem_array 0                                     
+000CD  one                                                  
+000CE  initelem_array 1                                     
+000D2  endinit                                              
+000D3  initelem_array 0                                     
+000D7  newarray     2                                       
+000DB  double       0.5                                     
+000E0  initelem_array 0                                     
+000E4  double       0.5                                     
+000E9  initelem_array 1                                     
+000ED  endinit                                              
+000EE  initelem_array 1                                     
+000F2  newarray     2                                       
+000F6  zero                                                 
+000F7  initelem_array 0                                     
+000FB  zero                                                 
+000FC  initelem_array 1                                     
+00100  endinit                                              
+00101  initelem_array 2                                     
+00105  endinit                                              
+00106  initprop     "_layout"                               
+0010B  newinit      1                                       
+00110  newinit      1                                       
+00115  newinit      1                                       
+0011A  lambda       <object#8>                              
+0011F  initprop     "_run"                                  
+00124  endinit                                              
+00125  initprop     "liu"                                   
+0012A  lambda       <object#9>                              
+0012F  initprop     "_run"                                  
+00134  endinit                                              
+00135  initprop     "backGround"                            
+0013A  newinit      1                                       
+0013F  lambda       <object#10>                             
+00144  initprop     "_click"                                
+00149  lambda       <object#11>                             
+0014E  initprop     "_run"                                  
+00153  newinit      1                                       
+00158  lambda       <object#12>                             
+0015D  initprop     "switchCard"                            
+00162  endinit                                              
+00163  initprop     "_event"                                
+00168  endinit                                              
+00169  initprop     "cards0"                                
+0016E  newinit      1                                       
+00173  lambda       <object#13>                             
+00178  initprop     "_click"                                
+0017D  lambda       <object#14>                             
+00182  initprop     "_run"                                  
+00187  newinit      1                                       
+0018C  lambda       <object#15>                             
+00191  initprop     "switchCard"                            
+00196  endinit                                              
+00197  initprop     "_event"                                
+0019C  endinit                                              
+0019D  initprop     "cards1"                                
+001A2  newinit      1                                       
+001A7  lambda       <object#16>                             
+001AC  initprop     "_click"                                
+001B1  lambda       <object#17>                             
+001B6  initprop     "_run"                                  
+001BB  newinit      1                                       
+001C0  lambda       <object#18>                             
+001C5  initprop     "switchCard"                            
+001CA  endinit                                              
+001CB  initprop     "_event"                                
+001D0  endinit                                              
+001D1  initprop     "cards2"                                
+001D6  newinit      1                                       
+001DB  lambda       <object#19>                             
+001E0  initprop     "_click"                                
+001E5  lambda       <object#20>                             
+001EA  initprop     "_run"                                  
+001EF  newinit      1                                       
+001F4  lambda       <object#21>                             
+001F9  initprop     "switchCard"                            
+001FE  endinit                                              
+001FF  initprop     "_event"                                
+00204  endinit                                              
+00205  initprop     "cards3"                                
+0020A  newinit      1                                       
+0020F  lambda       <object#22>                             
+00214  initprop     "_click"                                
+00219  lambda       <object#23>                             
+0021E  initprop     "_run"                                  
+00223  newinit      1                                       
+00228  lambda       <object#24>                             
+0022D  initprop     "switchCard"                            
+00232  endinit                                              
+00233  initprop     "_event"                                
+00238  endinit                                              
+00239  initprop     "cards4"                                
+0023E  endinit                                              
+0023F  initprop     "selectingCards"                        
+00244  endinit                                              
+00245  initprop     "backGround"                            
+0024A  endinit                                              
+0024B  initprop     "jsBind"                                
+00250  lambda       <object#25>                             
+00255  initprop     "ctor"                                  
+0025A  endinit                                              
+0025B  call         1                                       
+0025E  setname      "SelectLiuCardLayer"                    
+00263  pop                                                  
+00264  retrval                                              
+
+selectLiuCard.close
+00000  name         "selectLiuCard"                         
+00005  getprop      "_layer"                                
+0000A  ifeq         loc_0003C (+50)                         
+0000F  name         "selectLiuCard"                         
+00014  getprop      "_layer"                                
+00019  dup                                                  
+0001A  callprop     "removeFromParent"                      
+0001F  swap                                                 
+00020  call         0                                       
+00023  pop                                                  
+00024  name         "selectLiuCard"                         
+00029  null                                                 
+0002A  setprop      "_layer"                                
+0002F  pop                                                  
+00030  name         "selectLiuCard"                         
+00035  false                                                
+00036  setprop      "_isActive"                             
+0003B  pop                                                  
+
+loc_0003C:                                                  ; L60
+0003C  retrval                                              
+
+selectLiuCard.show
+00000  name         "selectLiuCard"                         
+00005  getprop      "_isActive"                             
+0000A  not                                                  
+0000B  ifeq         loc_0007C (+113)                        
+00010  name         "selectLiuCard"                         
+00015  name         "selectLiuCard"                         
+0001A  getprop      "_layer"                                
+0001F  ifeq         loc_00033 (+20)                         
+00024  name         "selectLiuCard"                         
+00029  getprop      "_layer"                                
+0002E  goto         loc_0003C (+14)                         
+
+loc_00033:                                                  ; L51
+00033  name         "SelectLiuCardLayer"                    
+00038  undefined                                            
+00039  new          0                                       
+
+loc_0003C:                                                  ; L60
+0003C  setprop      "_layer"                                
+00041  pop                                                  
+00042  name         "cc"                                    
+00047  getprop      "director"                              
+0004C  dup                                                  
+0004D  callprop     "getRunningScene"                       
+00052  swap                                                 
+00053  call         0                                       
+00056  dup                                                  
+00057  callprop     "addChild"                              
+0005C  swap                                                 
+0005D  name         "selectLiuCard"                         
+00062  getprop      "_layer"                                
+00067  call         1                                       
+0006A  pop                                                  
+0006B  name         "selectLiuCard"                         
+00070  true                                                 
+00071  setprop      "_isActive"                             
+00076  pop                                                  
+00077  goto         loc_0008C (+21)                         
+
+loc_0007C:                                                  ; L124
+0007C  name         "selectLiuCard"                         
+00081  dup                                                  
+00082  callprop     "close"                                 
+00087  swap                                                 
+00088  call         0                                       
+0008B  pop                                                  
+
+loc_0008C:                                                  ; L140
+0008C  retrval                                              
+
+selectLiuCard.setCardPic
+00000  zero                                                 
+00001  setlocal     0                                       
+00005  pop                                                  
+00006  goto         loc_00034 (+46)                         
+
+loc_0000B:                                                  ; L11
+0000B  loophead                                             
+0000C  name         "setCardPic"                            
+00011  implicitthis "setCardPic"                            
+00016  getarg       0                                       ; arg[0]
+00019  getlocal     0                                       
+0001D  getelem                                              
+0001E  getarg       1                                       ; arg[1]
+00021  one                                                  
+00022  call         3                                       
+00025  pop                                                  
+00026  getlocal     0                                       
+0002A  pos                                                  
+0002B  dup                                                  
+0002C  one                                                  
+0002D  add                                                  
+0002E  setlocal     0                                       
+00032  pop                                                  
+00033  pop                                                  
+
+loc_00034:                                                  ; L52
+00034  loopentry    129                                     
+00036  getlocal     0                                       
+0003A  getarg       0                                       ; arg[0]
+0003D  length       "length"                                
+00042  lt                                                   
+00043  ifne         loc_0000B (-56)                         
+00048  retrval                                              
+
+selectLiuCard.setCardPicWithId
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "getLiuCardCount"                       
+0000B  swap                                                 
+0000C  call         0                                       
+0000F  setlocal     0                                       
+00013  pop                                                  
+00014  getarg       1                                       ; arg[1]
+00017  getlocal     0                                       
+0001B  length       "length"                                
+00020  lt                                                   
+00021  ifeq         loc_000A5 (+132)                        
+00026  getarg       0                                       ; arg[0]
+00029  getprop      "name"                                  
+0002E  string       "cards0"                                
+00033  eq                                                   
+00034  and          loc_00045 (+17)                         
+00039  pop                                                  
+0003A  getlocal     0                                       
+0003E  length       "length"                                
+00043  one                                                  
+00044  eq                                                   
+
+loc_00045:                                                  ; L69
+00045  ifeq         loc_0006C (+39)                         
+0004A  getarg       0                                       ; arg[0]
+0004D  dup                                                  
+0004E  callprop     "setPositionX"                          
+00053  swap                                                 
+00054  getarg       0                                       ; arg[0]
+00057  getprop      "x"                                     
+0005C  getarg       0                                       ; arg[0]
+0005F  getprop      "width"                                 
+00064  int8         2                                       
+00066  div                                                  
+00067  sub                                                  
+00068  call         1                                       
+0006B  pop                                                  
+
+loc_0006C:                                                  ; L108
+0006C  name         "selectLiuCard"                         
+00071  dup                                                  
+00072  callprop     "setCardPic"                            
+00077  swap                                                 
+00078  getarg       0                                       ; arg[0]
+0007B  dup                                                  
+0007C  callprop     "getChildren"                           
+00081  swap                                                 
+00082  call         0                                       
+00085  getlocal     0                                       
+00089  getarg       1                                       ; arg[1]
+0008C  getelem                                              
+0008D  call         2                                       
+00090  pop                                                  
+00091  getarg       0                                       ; arg[0]
+00094  dup                                                  
+00095  callprop     "setVisible"                            
+0009A  swap                                                 
+0009B  true                                                 
+0009C  call         1                                       
+0009F  pop                                                  
+000A0  goto         loc_000B4 (+20)                         
+
+loc_000A5:                                                  ; L165
+000A5  getarg       0                                       ; arg[0]
+000A8  dup                                                  
+000A9  callprop     "setVisible"                            
+000AE  swap                                                 
+000AF  false                                                
+000B0  call         1                                       
+000B3  pop                                                  
+
+loc_000B4:                                                  ; L180
+000B4  retrval                                              
+
+selectLiuCard.getLiuCardCount
+00000  name         "getUIPlayer"                           
+00005  implicitthis "getUIPlayer"                           
+0000A  zero                                                 
+0000B  call         1                                       
+0000E  setlocal     0                                       
+00012  pop                                                  
+00013  name         "jsclient"                              
+00018  getprop      "phz"                                   
+0001D  dup                                                  
+0001E  callprop     "getLiuCard"                            
+00023  swap                                                 
+00024  getlocal     0                                       
+00028  name         "jsclient"                              
+0002D  getprop      "data"                                  
+00032  getprop      "sData"                                 
+00037  getprop      "tData"                                 
+0003C  getprop      "lastPut"                               
+00041  call         2                                       
+00044  setlocal     1                                       
+00048  pop                                                  
+00049  getlocal     1                                       
+0004D  return                                               
+0004E  retrval                                              
+
+selectLiuCard.responsiveWithIcon
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "getLiuCardCount"                       
+0000B  swap                                                 
+0000C  call         0                                       
+0000F  setlocal     0                                       
+00013  pop                                                  
+00014  getarg       0                                       ; arg[0]
+00017  dup                                                  
+00018  callprop     "getParent"                             
+0001D  swap                                                 
+0001E  call         0                                       
+00021  dup                                                  
+00022  callprop     "getParent"                             
+00027  swap                                                 
+00028  call         0                                       
+0002B  dup                                                  
+0002C  callprop     "getContentSize"                        
+00031  swap                                                 
+00032  call         0                                       
+00035  setlocal     1                                       
+00039  pop                                                  
+0003A  int8         5                                       
+0003C  setlocal     2                                       
+00040  pop                                                  
+00041  getlocal     3                                       
+00045  pop                                                  
+00046  getlocal     0                                       
+0004A  length       "length"                                
+0004F  one                                                  
+00050  eq                                                   
+00051  ifeq         loc_00089 (+56)                         
+00056  name         "cc"                                    
+0005B  dup                                                  
+0005C  callprop     "size"                                  
+00061  swap                                                 
+00062  int8         2                                       
+00064  getlocal     2                                       
+00068  div                                                  
+00069  getlocal     1                                       
+0006D  getprop      "width"                                 
+00072  mul                                                  
+00073  getlocal     1                                       
+00077  getprop      "height"                                
+0007C  call         2                                       
+0007F  setlocal     3                                       
+00083  pop                                                  
+00084  goto         loc_000BE (+58)                         
+
+loc_00089:                                                  ; L137
+00089  name         "cc"                                    
+0008E  dup                                                  
+0008F  callprop     "size"                                  
+00094  swap                                                 
+00095  getlocal     0                                       
+00099  length       "length"                                
+0009E  getlocal     2                                       
+000A2  div                                                  
+000A3  getlocal     1                                       
+000A7  getprop      "width"                                 
+000AC  mul                                                  
+000AD  getlocal     1                                       
+000B1  getprop      "height"                                
+000B6  call         2                                       
+000B9  setlocal     3                                       
+000BD  pop                                                  
+
+loc_000BE:                                                  ; L190
+000BE  getarg       0                                       ; arg[0]
+000C1  dup                                                  
+000C2  callprop     "setPositionX"                          
+000C7  swap                                                 
+000C8  getlocal     3                                       
+000CC  getprop      "width"                                 
+000D1  double       0.5                                     
+000D6  mul                                                  
+000D7  call         1                                       
+000DA  pop                                                  
+000DB  retrval                                              
+
+selectLiuCard.responsiveLayout
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "getLiuCardCount"                       
+0000B  swap                                                 
+0000C  call         0                                       
+0000F  setlocal     0                                       
+00013  pop                                                  
+00014  int8         5                                       
+00016  setlocal     1                                       
+0001A  pop                                                  
+0001B  getarg       0                                       ; arg[0]
+0001E  dup                                                  
+0001F  callprop     "getParent"                             
+00024  swap                                                 
+00025  call         0                                       
+00028  dup                                                  
+00029  callprop     "getContentSize"                        
+0002E  swap                                                 
+0002F  call         0                                       
+00032  setlocal     2                                       
+00036  pop                                                  
+00037  getlocal     0                                       
+0003B  length       "length"                                
+00040  one                                                  
+00041  eq                                                   
+00042  ifeq         loc_00083 (+65)                         
+00047  getarg       0                                       ; arg[0]
+0004A  dup                                                  
+0004B  callprop     "setContentSize"                        
+00050  swap                                                 
+00051  name         "cc"                                    
+00056  dup                                                  
+00057  callprop     "size"                                  
+0005C  swap                                                 
+0005D  int8         2                                       
+0005F  getlocal     1                                       
+00063  div                                                  
+00064  getlocal     2                                       
+00068  getprop      "width"                                 
+0006D  mul                                                  
+0006E  getlocal     2                                       
+00072  getprop      "height"                                
+00077  call         2                                       
+0007A  call         1                                       
+0007D  pop                                                  
+0007E  goto         loc_000C1 (+67)                         
+
+loc_00083:                                                  ; L131
+00083  getarg       0                                       ; arg[0]
+00086  dup                                                  
+00087  callprop     "setContentSize"                        
+0008C  swap                                                 
+0008D  name         "cc"                                    
+00092  dup                                                  
+00093  callprop     "size"                                  
+00098  swap                                                 
+00099  getlocal     0                                       
+0009D  length       "length"                                
+000A2  getlocal     1                                       
+000A6  div                                                  
+000A7  getlocal     2                                       
+000AB  getprop      "width"                                 
+000B0  mul                                                  
+000B1  getlocal     2                                       
+000B5  getprop      "height"                                
+000BA  call         2                                       
+000BD  call         1                                       
+000C0  pop                                                  
+
+loc_000C1:                                                  ; L193
+000C1  retrval                                              
+
+selectLiuCard.send
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "getLiuCardCount"                       
+0000B  swap                                                 
+0000C  call         0                                       
+0000F  setlocal     0                                       
+00013  pop                                                  
+00014  name         "jsclient"                              
+00019  getprop      "gamenet"                               
+0001E  dup                                                  
+0001F  callprop     "request"                               
+00024  swap                                                 
+00025  string       "pkroom.handler.tableMsg"               
+0002A  newinit      1                                       
+0002F  string       "MJLiu"                                 
+00034  initprop     "cmd"                                   
+00039  getlocal     0                                       
+0003D  getarg       0                                       ; arg[0]
+00040  getelem                                              
+00041  initprop     "card"                                  
+00046  endinit                                              
+00047  call         2                                       
+0004A  pop                                                  
+0004B  name         "selectLiuCard"                         
+00050  dup                                                  
+00051  callprop     "close"                                 
+00056  swap                                                 
+00057  call         0                                       
+0005A  pop                                                  
+0005B  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.backGround.liu._run
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "responsiveWithIcon"                    
+0000B  swap                                                 
+0000C  this                                                 
+0000D  call         1                                       
+00010  pop                                                  
+00011  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.backGround._run
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "responsiveLayout"                      
+0000B  swap                                                 
+0000C  this                                                 
+0000D  call         1                                       
+00010  pop                                                  
+00011  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards0._click
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "send"                                  
+0000B  swap                                                 
+0000C  zero                                                 
+0000D  call         1                                       
+00010  pop                                                  
+00011  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards0._run
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "setCardPicWithId"                      
+0000B  swap                                                 
+0000C  this                                                 
+0000D  zero                                                 
+0000E  call         2                                       
+00011  pop                                                  
+00012  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards0._event.switchCard
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "setCardPicWithId"                      
+0000B  swap                                                 
+0000C  this                                                 
+0000D  zero                                                 
+0000E  call         2                                       
+00011  pop                                                  
+00012  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards1._click
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "send"                                  
+0000B  swap                                                 
+0000C  one                                                  
+0000D  call         1                                       
+00010  pop                                                  
+00011  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards1._run
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "setCardPicWithId"                      
+0000B  swap                                                 
+0000C  this                                                 
+0000D  one                                                  
+0000E  call         2                                       
+00011  pop                                                  
+00012  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards1._event.switchCard
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "setCardPicWithId"                      
+0000B  swap                                                 
+0000C  this                                                 
+0000D  one                                                  
+0000E  call         2                                       
+00011  pop                                                  
+00012  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards2._click
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "send"                                  
+0000B  swap                                                 
+0000C  int8         2                                       
+0000E  call         1                                       
+00011  pop                                                  
+00012  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards2._run
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "setCardPicWithId"                      
+0000B  swap                                                 
+0000C  this                                                 
+0000D  int8         2                                       
+0000F  call         2                                       
+00012  pop                                                  
+00013  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards2._event.switchCard
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "setCardPicWithId"                      
+0000B  swap                                                 
+0000C  this                                                 
+0000D  int8         2                                       
+0000F  call         2                                       
+00012  pop                                                  
+00013  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards3._click
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "send"                                  
+0000B  swap                                                 
+0000C  int8         3                                       
+0000E  call         1                                       
+00011  pop                                                  
+00012  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards3._run
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "setCardPicWithId"                      
+0000B  swap                                                 
+0000C  this                                                 
+0000D  int8         3                                       
+0000F  call         2                                       
+00012  pop                                                  
+00013  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards3._event.switchCard
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "setCardPicWithId"                      
+0000B  swap                                                 
+0000C  this                                                 
+0000D  int8         3                                       
+0000F  call         2                                       
+00012  pop                                                  
+00013  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards4._click
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "send"                                  
+0000B  swap                                                 
+0000C  int8         4                                       
+0000E  call         1                                       
+00011  pop                                                  
+00012  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards4._run
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "setCardPicWithId"                      
+0000B  swap                                                 
+0000C  this                                                 
+0000D  int8         4                                       
+0000F  call         2                                       
+00012  pop                                                  
+00013  retrval                                              
+
+SelectLiuCardLayer<.jsBind.backGround.selectingCards.cards4._event.switchCard
+00000  name         "selectLiuCard"                         
+00005  dup                                                  
+00006  callprop     "setCardPicWithId"                      
+0000B  swap                                                 
+0000C  this                                                 
+0000D  int8         4                                       
+0000F  call         2                                       
+00012  pop                                                  
+00013  retrval                                              
+
+SelectLiuCardLayer<.ctor
+00000  this                                                 
+00001  dup                                                  
+00002  callprop     "_super"                                
+00007  swap                                                 
+00008  call         0                                       
+0000B  pop                                                  
+0000C  name         "ccs"                                   
+00011  dup                                                  
+00012  callprop     "load"                                  
+00017  swap                                                 
+00018  name         "res"                                   
+0001D  getprop      "SelectLiuCard_json"                    
+00022  call         1                                       
+00025  getprop      "node"                                  
+0002A  setlocal     0                                       
+0002E  pop                                                  
+0002F  name         "ConnectUI2Logic"                       
+00034  implicitthis "ConnectUI2Logic"                       
+00039  getlocal     0                                       
+0003D  this                                                 
+0003E  getprop      "jsBind"                                
+00043  call         2                                       
+00046  pop                                                  
+00047  this                                                 
+00048  dup                                                  
+00049  callprop     "addChild"                              
+0004E  swap                                                 
+0004F  getlocal     0                                       
+00053  call         1                                       
+00056  pop                                                  
+00057  true                                                 
+00058  return                                               
+00059  retrval                                              
+

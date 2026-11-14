@@ -1,0 +1,330 @@
+{
+  "ID": "325e0a53-4da1-45c8-be96-ee92b4d7064f",
+  "Version": "2.3.4",
+  "Name": "LoginSelect",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 180,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -959.0,
+            "RightMargin": -961.0,
+            "TopMargin": -541.0,
+            "BottomMargin": -539.0,
+            "Tag": 181,
+            "ActionTag": 712661478,
+            "Size": {
+              "X": 1920.0,
+              "Y": 1080.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "login/login_hyzp_img_gddldb.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 15,
+            "Scale9Width": 160,
+            "Scale9Height": 160,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 17.797,
+              "Y": 1.515
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -482.203,
+            "RightMargin": -517.797,
+            "TopMargin": -286.515,
+            "BottomMargin": -283.485,
+            "Tag": 182,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "login/login_hyzp_img_gddl.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 483.5,
+                  "Y": 505.4673
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.4835,
+                  "Y": 0.8868
+                },
+                "PreSize": {
+                  "X": 0.261,
+                  "Y": 0.1667
+                },
+                "LeftMargin": 353.0,
+                "RightMargin": 386.0,
+                "TopMargin": 17.0327,
+                "BottomMargin": 457.9673,
+                "Tag": 183,
+                "ActionTag": -1872287647,
+                "Size": {
+                  "X": 261.0,
+                  "Y": 95.0
+                },
+                "Name": "title",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "login/login_hyzp_btn_lb_n.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 42,
+                "Scale9Width": 130,
+                "Scale9Height": 192,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 486.1,
+                  "Y": 233.358
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4861,
+                  "Y": 0.4094
+                },
+                "PreSize": {
+                  "X": 0.214,
+                  "Y": 0.4842
+                },
+                "LeftMargin": 379.1,
+                "RightMargin": 406.9,
+                "TopMargin": 198.642,
+                "BottomMargin": 95.358,
+                "Tag": 183,
+                "ActionTag": -1067039553,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 276.0
+                },
+                "Name": "liaoBei",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "login/login_hyzp_btn_dl_n.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 42,
+                "Scale9Width": 130,
+                "Scale9Height": 190,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 188.8,
+                  "Y": 233.358
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1888,
+                  "Y": 0.4094
+                },
+                "PreSize": {
+                  "X": 0.214,
+                  "Y": 0.4807
+                },
+                "LeftMargin": 81.8,
+                "RightMargin": 704.2,
+                "TopMargin": 199.642,
+                "BottomMargin": 96.358,
+                "Tag": 6,
+                "ActionTag": -1376270295,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 274.0
+                },
+                "Name": "duoLiao",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "login/login_hyzp_btn_xl_n.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 42,
+                "Scale9OriginY": 42,
+                "Scale9Width": 130,
+                "Scale9Height": 190,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 783.4,
+                  "Y": 231.192
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7834,
+                  "Y": 0.4056
+                },
+                "PreSize": {
+                  "X": 0.214,
+                  "Y": 0.4807
+                },
+                "LeftMargin": 676.4,
+                "RightMargin": 109.6,
+                "TopMargin": 201.808,
+                "BottomMargin": 94.192,
+                "Tag": 551,
+                "ActionTag": -1269782275,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 274.0
+                },
+                "Name": "xianLiao",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 211776677,
+            "Size": {
+              "X": 1000.0,
+              "Y": 570.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "login/login_hyzp_btn_dl_n.png",
+        "login/login_hyzp_btn_lb_n.png",
+        "login/login_hyzp_btn_xl_n.png",
+        "login/login_hyzp_img_gddl.png",
+        "login/login_hyzp_img_gddldb.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

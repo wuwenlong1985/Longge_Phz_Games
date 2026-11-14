@@ -1,0 +1,386 @@
+{
+  "ID": "22f1f5a2-124a-41b4-a1c8-ddb883e43167",
+  "Version": "2.3.4",
+  "Name": "GuildAct_Rule",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 133,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 191,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -422,
+            "Scale9OriginY": -237,
+            "Scale9Width": 844,
+            "Scale9Height": 474,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 134,
+            "ActionTag": -484725034,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "back",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "guildActivity/guildLottery/other/ZTC.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 162,
+            "Scale9OriginY": 99,
+            "Scale9Width": 407,
+            "Scale9Height": 234,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.5711,
+              "Y": 0.6
+            },
+            "LeftMargin": 274.5,
+            "RightMargin": 274.5,
+            "TopMargin": 144.0,
+            "BottomMargin": 144.0,
+            "Tag": 135,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guildActivity/guildLottery/other/title_hdgz.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 92,
+                "Scale9OriginY": 23,
+                "Scale9Width": 97,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 365.5,
+                  "Y": 432.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 1.0
+                },
+                "PreSize": {
+                  "X": 0.3844,
+                  "Y": 0.1667
+                },
+                "LeftMargin": 225.0,
+                "RightMargin": 225.0,
+                "TopMargin": -36.0,
+                "BottomMargin": 396.0,
+                "Tag": 136,
+                "ActionTag": -622306750,
+                "Size": {
+                  "X": 281.0,
+                  "Y": 72.0
+                },
+                "Name": "title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "guildActivity/guildLottery/view/btn_close_press.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "guildActivity/guildLottery/view/btn_close_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "guildActivity/guildLottery/view/btn_close_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 30,
+                "Scale9Height": 92,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 731.0,
+                  "Y": 401.76
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.93
+                },
+                "PreSize": {
+                  "X": 0.0821,
+                  "Y": 0.2639
+                },
+                "LeftMargin": 701.0,
+                "RightMargin": -30.0,
+                "TopMargin": -26.76,
+                "BottomMargin": 344.76,
+                "Tag": 106,
+                "ActionTag": 1211899564,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 114.0
+                },
+                "Name": "closeBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 723,
+                  "Height": 427
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 365.5,
+                  "Y": 203.04
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.47
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.94,
+                  "Y": 0.86
+                },
+                "LeftMargin": 21.93,
+                "RightMargin": 21.93,
+                "TopMargin": 43.2,
+                "BottomMargin": 17.28,
+                "Tag": 137,
+                "Children": [
+                  {
+                    "FontSize": 22,
+                    "LabelText": "恭喜玩家 1234567890      抽到苹果手机MXS一台\n恭喜玩家 1234567890      抽到苹果手机MXS一台\n恭喜玩家 1234567890      抽到苹果手机MXS一台\n恭喜玩家 1234567890      抽到苹果手机MXS一台\n恭喜玩家 1234567890      抽到苹果手机MXS一台\n恭喜玩家 1234567890      抽到苹果手机MXS一台\n恭喜玩家 1234567890      抽到苹果手机MXS一台\n恭喜玩家 1234567890      抽到苹果手机MXS一台\n恭喜玩家 1234567890      抽到苹果手机MXS一台\n恭喜玩家 1234567890      抽到苹果手机MXS一台",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 427.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 137,
+                      "G": 64,
+                      "B": 15
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 1.0
+                    },
+                    "PreSize": {
+                      "X": 0.6694,
+                      "Y": 0.5152
+                    },
+                    "RightMargin": 239.0,
+                    "BottomMargin": 207.0,
+                    "Tag": 271,
+                    "ActionTag": 88687178,
+                    "Size": {
+                      "X": 484.0,
+                      "Y": 220.0
+                    },
+                    "Name": "textLab",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -548734450,
+                "Size": {
+                  "X": 687.14,
+                  "Y": 371.52
+                },
+                "Name": "TextList",
+                "ctype": "ScrollViewObjectData"
+              }
+            ],
+            "ActionTag": 1769868404,
+            "Size": {
+              "X": 731.0,
+              "Y": 432.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "guildActivity/guildLottery/other/title_hdgz.png",
+        "guildActivity/guildLottery/other/ZTC.png",
+        "guildActivity/guildLottery/view/btn_close_normal.png",
+        "guildActivity/guildLottery/view/btn_close_press.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

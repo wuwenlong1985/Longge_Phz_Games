@@ -1,0 +1,4746 @@
+{
+  "ID": "c31bd509-d229-4ba8-9318-94dbd8d8ef03",
+  "Version": "2.3.4",
+  "Name": "LotteryLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 98,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 204,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 635.392,
+              "Y": 363.168
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.4964,
+              "Y": 0.5044
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -4.608,
+            "RightMargin": 4.608,
+            "TopMargin": -3.168,
+            "BottomMargin": 3.168,
+            "Tag": 99,
+            "ActionTag": -1981513473,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Alpha": 204,
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "playlog/floor_08.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 365,
+            "Scale9OriginY": 196,
+            "Scale9Width": 550,
+            "Scale9Height": 328,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 103,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/Title_xingyunchoujiang.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 117,
+                "Scale9OriginY": 34,
+                "Scale9Width": 123,
+                "Scale9Height": 36,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 667.0786
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9265
+                },
+                "PreSize": {
+                  "X": 0.2789,
+                  "Y": 0.1444
+                },
+                "LeftMargin": 461.5,
+                "RightMargin": 461.5,
+                "TopMargin": 0.9214,
+                "BottomMargin": 615.0786,
+                "Tag": 584,
+                "ActionTag": 936909029,
+                "Size": {
+                  "X": 357.0,
+                  "Y": 104.0
+                },
+                "Name": "Image_62",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/diban_da.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 299,
+                "Scale9OriginY": 147,
+                "Scale9Width": 433,
+                "Scale9Height": 224,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.8055,
+                  "Y": 0.7194
+                },
+                "LeftMargin": 124.5,
+                "RightMargin": 124.5,
+                "TopMargin": 101.0,
+                "BottomMargin": 101.0,
+                "Tag": 534,
+                "ActionTag": -388253122,
+                "Size": {
+                  "X": 1031.0,
+                  "Y": 518.0
+                },
+                "Name": "bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "playlog/btn_x_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "playlog/btn_x_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 56,
+                "Scale9Height": 65,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1125.5641,
+                  "Y": 659.5793
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8793,
+                  "Y": 0.9161
+                },
+                "PreSize": {
+                  "X": 0.0672,
+                  "Y": 0.1208
+                },
+                "LeftMargin": 1082.5641,
+                "RightMargin": 111.4359,
+                "TopMargin": 16.9207,
+                "BottomMargin": 616.0793,
+                "Tag": 115,
+                "ActionTag": -112115950,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 87.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 400.0,
+                  "Y": 362.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3125,
+                  "Y": 0.5042
+                },
+                "PreSize": {
+                  "X": 0.3922,
+                  "Y": 0.6972
+                },
+                "LeftMargin": 149.0,
+                "RightMargin": 629.0,
+                "TopMargin": 106.0001,
+                "BottomMargin": 111.9999,
+                "Tag": 536,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/disk.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 82,
+                    "Scale9OriginY": 82,
+                    "Scale9Width": 87,
+                    "Scale9Height": 87,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 125.5,
+                      "Y": 376.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.25,
+                      "Y": 0.75
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "RightMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 537,
+                    "ActionTag": 494284538,
+                    "Size": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Name": "circle1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/disk.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 82,
+                    "Scale9OriginY": 82,
+                    "Scale9Width": 87,
+                    "Scale9Height": 87,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 376.5,
+                      "Y": 376.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewY": -180.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.75,
+                      "Y": 0.75
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "LeftMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 538,
+                    "ActionTag": 798664291,
+                    "Size": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Name": "circle2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/disk.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 251,
+                    "Scale9Height": 251,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 376.5,
+                      "Y": 125.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 180.0,
+                    "RotationSkewY": 180.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.75,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "LeftMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "Tag": 540,
+                    "ActionTag": 470881767,
+                    "Size": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Name": "circle3",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/disk.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 251,
+                    "Scale9Height": 251,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 125.5,
+                      "Y": 125.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 180.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.25,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "Tag": 539,
+                    "ActionTag": -302567220,
+                    "Size": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Name": "circle4",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 122,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "1元话费",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -35.0,
+                        "RightMargin": -35.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 123,
+                        "ActionTag": -369889066,
+                        "Size": {
+                          "X": 70.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/1yuan.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "RotationSkewX": -90.0,
+                        "RotationSkewY": -90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 125,
+                        "ActionTag": 1268690719,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1608833951,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award1",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 30.0,
+                    "RotationSkewY": 30.0,
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 162,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "100元话费",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -45.0,
+                        "RightMargin": -45.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 163,
+                        "ActionTag": -2121412188,
+                        "Size": {
+                          "X": 90.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/100yuan.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "RotationSkewX": -90.0,
+                        "RotationSkewY": -90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 165,
+                        "ActionTag": 2115249763,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -665071262,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award2",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 60.0,
+                    "RotationSkewY": 60.0,
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 172,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "10元话费",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -40.0,
+                        "RightMargin": -40.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 173,
+                        "ActionTag": 1552009118,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/10yuan.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "RotationSkewX": -90.0,
+                        "RotationSkewY": -90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 175,
+                        "ActionTag": 1034550402,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 679574984,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award3",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 90.0,
+                    "RotationSkewY": 90.0,
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 117,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "2元话费",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -35.0,
+                        "RightMargin": -35.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 118,
+                        "ActionTag": -1768869785,
+                        "Size": {
+                          "X": 70.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/2yuan.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "RotationSkewX": -90.0,
+                        "RotationSkewY": -90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 120,
+                        "ActionTag": -247053838,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1210422737,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award4",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 120.0,
+                    "RotationSkewY": 120.0,
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 127,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "50元话费",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -40.0,
+                        "RightMargin": -40.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 128,
+                        "ActionTag": 503223518,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/50yuan.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "RotationSkewX": -90.0,
+                        "RotationSkewY": -90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 130,
+                        "ActionTag": 136941569,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 45188925,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award5",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 150.0,
+                    "RotationSkewY": 150.0,
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 142,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "500金币",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -35.0,
+                        "RightMargin": -35.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 143,
+                        "ActionTag": -561813838,
+                        "Size": {
+                          "X": 70.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/jinbi04.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "RotationSkewX": -90.0,
+                        "RotationSkewY": -90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 145,
+                        "ActionTag": -780743860,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1521794682,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award6",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 180.0,
+                    "RotationSkewY": 180.0,
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 167,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "3元话费",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -35.0,
+                        "RightMargin": -35.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 168,
+                        "ActionTag": 24105952,
+                        "Size": {
+                          "X": 70.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/3yuan.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "RotationSkewX": 90.0,
+                        "RotationSkewY": 90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 170,
+                        "ActionTag": -924867619,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -1210742744,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award7",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 210.0,
+                    "RotationSkewY": 210.0,
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 157,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "100金币",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -35.0,
+                        "RightMargin": -35.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 158,
+                        "ActionTag": -1312469981,
+                        "Size": {
+                          "X": 70.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/jinbi02.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "RotationSkewX": 90.0,
+                        "RotationSkewY": 90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 160,
+                        "ActionTag": -1431271590,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 965724567,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award8",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 240.0,
+                    "RotationSkewY": 240.0,
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 147,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "5元话费",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -35.0,
+                        "RightMargin": -35.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 148,
+                        "ActionTag": -285686925,
+                        "Size": {
+                          "X": 70.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/5yuan.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "RotationSkewX": 90.0,
+                        "RotationSkewY": 90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 150,
+                        "ActionTag": 2076763835,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1764517151,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award9",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 270.0,
+                    "RotationSkewY": 270.0,
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 152,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "OPPO R15",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -40.0,
+                        "RightMargin": -40.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 153,
+                        "ActionTag": -510886418,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/r15.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.4,
+                          "ScaleY": 0.4
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 155,
+                        "ActionTag": -455258028,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 1708396729,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award10",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 300.0,
+                    "RotationSkewY": 300.0,
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 132,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "50金币",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -30.0,
+                        "RightMargin": -30.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 133,
+                        "ActionTag": -824241992,
+                        "Size": {
+                          "X": 60.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/jinbi01.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.55,
+                          "ScaleY": 0.55
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 135,
+                        "ActionTag": -211251879,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 2138966677,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award11",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 330.0,
+                    "RotationSkewY": 330.0,
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 251.0,
+                    "RightMargin": 251.0,
+                    "TopMargin": 251.0,
+                    "BottomMargin": 251.0,
+                    "Tag": 137,
+                    "Children": [
+                      {
+                        "FontSize": 20,
+                        "LabelText": "200金币",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 201.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 128,
+                          "G": 75,
+                          "B": 36
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -35.0,
+                        "RightMargin": -35.0,
+                        "TopMargin": -211.0,
+                        "BottomMargin": 191.0,
+                        "Tag": 138,
+                        "ActionTag": -1664207033,
+                        "Size": {
+                          "X": 70.0,
+                          "Y": 20.0
+                        },
+                        "Name": "name",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lottery/rewards/jinbi03.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 17,
+                        "Scale9OriginY": 26,
+                        "Scale9Width": 143,
+                        "Scale9Height": 142,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 140.0
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "RotationSkewX": 90.0,
+                        "RotationSkewY": 90.0,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -88.5,
+                        "RightMargin": -88.5,
+                        "TopMargin": -237.0,
+                        "BottomMargin": 43.0,
+                        "Tag": 140,
+                        "ActionTag": 808542494,
+                        "Size": {
+                          "X": 177.0,
+                          "Y": 194.0
+                        },
+                        "Name": "icon",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -337180294,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "award12",
+                    "ctype": "SingleNodeObjectData"
+                  }
+                ],
+                "ActionTag": -501127595,
+                "Size": {
+                  "X": 502.0,
+                  "Y": 502.0
+                },
+                "Name": "circleBG",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 400.0,
+                  "Y": 363.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3125,
+                  "Y": 0.5042
+                },
+                "PreSize": {
+                  "X": 0.3922,
+                  "Y": 0.6972
+                },
+                "LeftMargin": 149.0,
+                "RightMargin": 629.0,
+                "TopMargin": 106.0,
+                "BottomMargin": 112.0,
+                "Tag": 557,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 556,
+                    "ActionTag": -381905430,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 15.0,
+                    "RotationSkewY": 15.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 558,
+                    "ActionTag": -2052048284,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 60.0,
+                    "RotationSkewY": 60.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 559,
+                    "ActionTag": 1812337155,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light3",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 75.0,
+                    "RotationSkewY": 75.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 560,
+                    "ActionTag": -242863851,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light4",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 120.0,
+                    "RotationSkewY": 120.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 561,
+                    "ActionTag": -1371733882,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light5",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 135.0,
+                    "RotationSkewY": 135.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 562,
+                    "ActionTag": 131249507,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light6",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 180.0,
+                    "RotationSkewY": 180.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 563,
+                    "ActionTag": -1238700239,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light7",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 195.0,
+                    "RotationSkewY": 195.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 564,
+                    "ActionTag": 467462061,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light8",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 240.0,
+                    "RotationSkewY": 240.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 565,
+                    "ActionTag": -1557747987,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light9",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 255.0,
+                    "RotationSkewY": 255.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 566,
+                    "ActionTag": 1114768702,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light10",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 300.0,
+                    "RotationSkewY": 300.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 567,
+                    "ActionTag": -1970791833,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light11",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_01.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 315.0,
+                    "RotationSkewY": 315.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 568,
+                    "ActionTag": -1990795158,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light12",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1203111294,
+                "Size": {
+                  "X": 502.0,
+                  "Y": 502.0
+                },
+                "Name": "lightLayout1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 400.0,
+                  "Y": 363.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 30.0,
+                "RotationSkewY": 30.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3125,
+                  "Y": 0.5042
+                },
+                "PreSize": {
+                  "X": 0.3922,
+                  "Y": 0.6972
+                },
+                "LeftMargin": 149.0,
+                "RightMargin": 629.0,
+                "TopMargin": 106.0,
+                "BottomMargin": 112.0,
+                "Tag": 571,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 572,
+                    "ActionTag": -625472389,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 15.0,
+                    "RotationSkewY": 15.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 573,
+                    "ActionTag": 1900911656,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 60.0,
+                    "RotationSkewY": 60.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 574,
+                    "ActionTag": 891621937,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light3",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 75.0,
+                    "RotationSkewY": 75.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 575,
+                    "ActionTag": -118599318,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light4",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 120.0,
+                    "RotationSkewY": 120.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 576,
+                    "ActionTag": 890882910,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light5",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 135.0,
+                    "RotationSkewY": 135.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 577,
+                    "ActionTag": -57429029,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light6",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 180.0,
+                    "RotationSkewY": 180.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 578,
+                    "ActionTag": 924696480,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light7",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 195.0,
+                    "RotationSkewY": 195.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 579,
+                    "ActionTag": 1065891162,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light8",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 240.0,
+                    "RotationSkewY": 240.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 580,
+                    "ActionTag": 545050579,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light9",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 255.0,
+                    "RotationSkewY": 255.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 581,
+                    "ActionTag": 172631862,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light10",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 300.0,
+                    "RotationSkewY": 300.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 582,
+                    "ActionTag": -824260452,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light11",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lottery/lamp_02.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 19,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 20,
+                    "Scale9Height": 20,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": -3.55
+                    },
+                    "Position": {
+                      "X": 251.0,
+                      "Y": 251.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "RotationSkewX": 315.0,
+                    "RotationSkewY": 315.0,
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1155,
+                      "Y": 0.1155
+                    },
+                    "LeftMargin": 222.0,
+                    "RightMargin": 222.0,
+                    "TopMargin": -12.9,
+                    "BottomMargin": 456.9,
+                    "Tag": 583,
+                    "ActionTag": 1997488534,
+                    "Size": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Name": "light12",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 2124745087,
+                "Size": {
+                  "X": 502.0,
+                  "Y": 502.0
+                },
+                "Name": "lightLayout2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/btn_start_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/btn_start_normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 130,
+                "Scale9Height": 160,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 400.0,
+                  "Y": 370.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3125,
+                  "Y": 0.5139
+                },
+                "PreSize": {
+                  "X": 0.125,
+                  "Y": 0.2528
+                },
+                "LeftMargin": 320.0,
+                "RightMargin": 800.0,
+                "TopMargin": 259.0,
+                "BottomMargin": 279.0,
+                "Tag": 166,
+                "ActionTag": 1799574002,
+                "Size": {
+                  "X": 160.0,
+                  "Y": 182.0
+                },
+                "Name": "btnLotteryAction",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/diban003.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 126,
+                "Scale9OriginY": 121,
+                "Scale9Width": 131,
+                "Scale9Height": 126,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 890.0,
+                  "Y": 397.8186
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6953,
+                  "Y": 0.5525
+                },
+                "PreSize": {
+                  "X": 0.2992,
+                  "Y": 0.5833
+                },
+                "LeftMargin": 698.5,
+                "RightMargin": 198.5,
+                "TopMargin": 112.1814,
+                "BottomMargin": 187.8186,
+                "Tag": 533,
+                "Children": [
+                  {
+                    "FontSize": 28,
+                    "LabelText": "奖励公告",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 191.5,
+                      "Y": 394.5521
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 146,
+                      "G": 14,
+                      "B": 14
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.9394
+                    },
+                    "PreSize": {
+                      "X": 0.2924,
+                      "Y": 0.0667
+                    },
+                    "LeftMargin": 135.5,
+                    "RightMargin": 135.5,
+                    "TopMargin": 11.4479,
+                    "BottomMargin": 380.5521,
+                    "Tag": 535,
+                    "ActionTag": -1199256976,
+                    "Size": {
+                      "X": 112.0,
+                      "Y": 28.0
+                    },
+                    "Name": "title",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "ClipAble": true,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 191.4999,
+                      "Y": 193.0003
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.4595
+                    },
+                    "PreSize": {
+                      "X": 0.9217,
+                      "Y": 0.881
+                    },
+                    "LeftMargin": 14.9999,
+                    "RightMargin": 15.0001,
+                    "TopMargin": 41.9997,
+                    "BottomMargin": 8.0003,
+                    "Tag": 117,
+                    "ActionTag": 607206851,
+                    "Size": {
+                      "X": 353.0,
+                      "Y": 370.0
+                    },
+                    "Name": "lotteryInfoLayout",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 0,
+                    "ComboBoxIndex": 1,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 191.5,
+                      "Y": 40.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.0952
+                    },
+                    "PreSize": {
+                      "X": 0.9138,
+                      "Y": 0.0952
+                    },
+                    "LeftMargin": 16.5,
+                    "RightMargin": 16.5,
+                    "TopMargin": 380.0,
+                    "Tag": 201,
+                    "Children": [
+                      {
+                        "FontSize": 26,
+                        "LabelText": "玩家：0000000",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 15.0,
+                          "Y": 20.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 151,
+                          "G": 152,
+                          "B": 115
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0429,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.4829,
+                          "Y": 0.65
+                        },
+                        "LeftMargin": 15.0,
+                        "RightMargin": 166.0,
+                        "TopMargin": 7.0,
+                        "BottomMargin": 7.0,
+                        "Tag": 202,
+                        "ActionTag": 1584370851,
+                        "Size": {
+                          "X": 169.0,
+                          "Y": 26.0
+                        },
+                        "Name": "playerid",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 26,
+                        "LabelText": "iPhone X一部",
+                        "HorizontalAlignmentType": "HT_Right",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 335.0,
+                          "Y": 20.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 151,
+                          "G": 152,
+                          "B": 115
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.9571,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.4457,
+                          "Y": 0.65
+                        },
+                        "LeftMargin": 179.0,
+                        "RightMargin": 15.0,
+                        "TopMargin": 7.0,
+                        "BottomMargin": 7.0,
+                        "Tag": 203,
+                        "ActionTag": 1912358978,
+                        "Size": {
+                          "X": 156.0,
+                          "Y": 26.0
+                        },
+                        "Name": "itemname",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 2028806391,
+                    "Size": {
+                      "X": 350.0,
+                      "Y": 40.0
+                    },
+                    "Name": "infoitem",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -1342470665,
+                "Size": {
+                  "X": 383.0,
+                  "Y": 420.0
+                },
+                "Name": "infoboard",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/hdgz_down.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/hdgz_up.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 151,
+                "Scale9Height": 29,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 792.5764,
+                  "Y": 149.5552
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6192,
+                  "Y": 0.2077
+                },
+                "PreSize": {
+                  "X": 0.1414,
+                  "Y": 0.0708
+                },
+                "LeftMargin": 702.0764,
+                "RightMargin": 396.9236,
+                "TopMargin": 544.9448,
+                "BottomMargin": 124.0552,
+                "Tag": 119,
+                "ActionTag": 764648857,
+                "Size": {
+                  "X": 181.0,
+                  "Y": 51.0
+                },
+                "Name": "btnRule",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/wdjl_down.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/wdjl_up.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 151,
+                "Scale9Height": 29,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 988.644,
+                  "Y": 149.3118
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7724,
+                  "Y": 0.2074
+                },
+                "PreSize": {
+                  "X": 0.1414,
+                  "Y": 0.0708
+                },
+                "LeftMargin": 898.144,
+                "RightMargin": 200.856,
+                "TopMargin": 545.1882,
+                "BottomMargin": 123.8118,
+                "Tag": 120,
+                "ActionTag": -1661064737,
+                "Size": {
+                  "X": 181.0,
+                  "Y": 51.0
+                },
+                "Name": "btnMyAward",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "可抽奖次数：0/0",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 149.3654,
+                  "Y": 63.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 146,
+                  "G": 14,
+                  "B": 14
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1167,
+                  "Y": 0.0875
+                },
+                "PreSize": {
+                  "X": 0.1641,
+                  "Y": 0.0389
+                },
+                "LeftMargin": 149.3654,
+                "RightMargin": 920.6346,
+                "TopMargin": 643.0,
+                "BottomMargin": 49.0,
+                "Tag": 175,
+                "ActionTag": 1197860334,
+                "Size": {
+                  "X": 210.0,
+                  "Y": 28.0
+                },
+                "Name": "Text_Count",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/floor_xycj_02.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 61,
+                "Scale9OriginY": 10,
+                "Scale9Width": 65,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 755.9764,
+                  "Y": 63.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5906,
+                  "Y": 0.0875
+                },
+                "PreSize": {
+                  "X": 0.1461,
+                  "Y": 0.0458
+                },
+                "LeftMargin": 662.4764,
+                "RightMargin": 430.5236,
+                "TopMargin": 640.5,
+                "BottomMargin": 46.5,
+                "Tag": 176,
+                "ActionTag": 1263173467,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 33.0
+                },
+                "Name": "Image_bg_ck_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao01.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 688.9829,
+                  "Y": 63.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5383,
+                  "Y": 0.0875
+                },
+                "PreSize": {
+                  "X": 0.0414,
+                  "Y": 0.0681
+                },
+                "LeftMargin": 662.4829,
+                "RightMargin": 564.5171,
+                "TopMargin": 632.5,
+                "BottomMargin": 38.5,
+                "Tag": 177,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "完成5场牌局",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 112.5317,
+                      "Y": 22.9113
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 2.1232,
+                      "Y": 0.4676
+                    },
+                    "PreSize": {
+                      "X": 2.0755,
+                      "Y": 0.4082
+                    },
+                    "LeftMargin": 57.5317,
+                    "RightMargin": -114.5317,
+                    "TopMargin": 16.0887,
+                    "BottomMargin": 12.9113,
+                    "Tag": 178,
+                    "ActionTag": -98007897,
+                    "Size": {
+                      "X": 110.0,
+                      "Y": 20.0
+                    },
+                    "Name": "Text_Info",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -2069898233,
+                "Size": {
+                  "X": 53.0,
+                  "Y": 49.0
+                },
+                "Name": "CheckBox_1",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/floor_xycj_02.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 61,
+                "Scale9OriginY": 10,
+                "Scale9Width": 65,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1029.4698,
+                  "Y": 63.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8043,
+                  "Y": 0.0875
+                },
+                "PreSize": {
+                  "X": 0.1461,
+                  "Y": 0.0458
+                },
+                "LeftMargin": 935.9698,
+                "RightMargin": 157.0302,
+                "TopMargin": 640.5,
+                "BottomMargin": 46.5,
+                "Tag": 179,
+                "ActionTag": -1115683595,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 33.0
+                },
+                "Name": "Image_bg_ck_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao01.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 962.4698,
+                  "Y": 63.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7519,
+                  "Y": 0.0875
+                },
+                "PreSize": {
+                  "X": 0.0414,
+                  "Y": 0.0681
+                },
+                "LeftMargin": 935.9698,
+                "RightMargin": 291.0302,
+                "TopMargin": 632.5,
+                "BottomMargin": 38.5,
+                "Tag": 180,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "达成4次大赢家",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 112.5317,
+                      "Y": 22.9113
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 2.1232,
+                      "Y": 0.4676
+                    },
+                    "PreSize": {
+                      "X": 2.4528,
+                      "Y": 0.4082
+                    },
+                    "LeftMargin": 47.5317,
+                    "RightMargin": -124.5317,
+                    "TopMargin": 16.0887,
+                    "BottomMargin": 12.9113,
+                    "Tag": 181,
+                    "ActionTag": 2089500793,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "Name": "Text_Info",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 538300982,
+                "Size": {
+                  "X": 53.0,
+                  "Y": 49.0
+                },
+                "Name": "CheckBox_2",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/floor_xycj_02.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 61,
+                "Scale9OriginY": 10,
+                "Scale9Width": 65,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 670.1113,
+                  "Y": 43.006
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5235,
+                  "Y": 0.0597
+                },
+                "PreSize": {
+                  "X": 0.1461,
+                  "Y": 0.0458
+                },
+                "LeftMargin": 576.6113,
+                "RightMargin": 516.3887,
+                "TopMargin": 660.494,
+                "BottomMargin": 26.506,
+                "Tag": 182,
+                "ActionTag": -2145298496,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 33.0
+                },
+                "Name": "Image_bg_ck_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao01.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 603.1161,
+                  "Y": 45.3658
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4712,
+                  "Y": 0.063
+                },
+                "PreSize": {
+                  "X": 0.0414,
+                  "Y": 0.0681
+                },
+                "LeftMargin": 576.6161,
+                "RightMargin": 650.3839,
+                "TopMargin": 650.1342,
+                "BottomMargin": 20.8658,
+                "Tag": 183,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "进行100场游戏",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 112.5317,
+                      "Y": 22.9113
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 2.1232,
+                      "Y": 0.4676
+                    },
+                    "PreSize": {
+                      "X": 2.4528,
+                      "Y": 0.4082
+                    },
+                    "LeftMargin": 47.5317,
+                    "RightMargin": -124.5317,
+                    "TopMargin": 16.0887,
+                    "BottomMargin": 12.9113,
+                    "Tag": 184,
+                    "ActionTag": 1460951457,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "Text_Info",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 2072109606,
+                "Size": {
+                  "X": 53.0,
+                  "Y": 49.0
+                },
+                "VisibleForFrame": false,
+                "Name": "CheckBox_3",
+                "ctype": "CheckBoxObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/floor_xycj_02.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 61,
+                "Scale9OriginY": 10,
+                "Scale9Width": 65,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 946.4651,
+                  "Y": 44.4617
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7394,
+                  "Y": 0.0618
+                },
+                "PreSize": {
+                  "X": 0.1461,
+                  "Y": 0.0458
+                },
+                "LeftMargin": 852.9651,
+                "RightMargin": 240.0349,
+                "TopMargin": 659.0383,
+                "BottomMargin": 27.9617,
+                "Tag": 185,
+                "ActionTag": -397665624,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 33.0
+                },
+                "Name": "Image_bg_ck_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "CheckedState": true,
+                "NormalBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "PressedBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "DisableBackFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "NodeNormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao01.png",
+                  "Plist": ""
+                },
+                "NodeDisableFileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/duihao02.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 879.468,
+                  "Y": 46.8215
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6871,
+                  "Y": 0.065
+                },
+                "PreSize": {
+                  "X": 0.0414,
+                  "Y": 0.0681
+                },
+                "LeftMargin": 852.968,
+                "RightMargin": 374.032,
+                "TopMargin": 648.6785,
+                "BottomMargin": 22.3215,
+                "Tag": 186,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "进行100场游戏",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 112.5317,
+                      "Y": 22.9113
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 2.1232,
+                      "Y": 0.4676
+                    },
+                    "PreSize": {
+                      "X": 2.4528,
+                      "Y": 0.4082
+                    },
+                    "LeftMargin": 47.5317,
+                    "RightMargin": -124.5317,
+                    "TopMargin": 16.0887,
+                    "BottomMargin": 12.9113,
+                    "Tag": 187,
+                    "ActionTag": 1813754103,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 20.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "Text_Info",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 293005791,
+                "Size": {
+                  "X": 53.0,
+                  "Y": 49.0
+                },
+                "VisibleForFrame": false,
+                "Name": "CheckBox_4",
+                "ctype": "CheckBoxObjectData"
+              }
+            ],
+            "ActionTag": 1692282948,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "background",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "lottery/btn_start_normal.png",
+        "lottery/btn_start_press.png",
+        "lottery/diban_da.png",
+        "lottery/diban003.png",
+        "lottery/disk.png",
+        "lottery/duihao01.png",
+        "lottery/duihao02.png",
+        "lottery/floor_xycj_02.png",
+        "lottery/hdgz_down.png",
+        "lottery/hdgz_up.png",
+        "lottery/lamp_01.png",
+        "lottery/lamp_02.png",
+        "lottery/rewards/100yuan.png",
+        "lottery/rewards/10yuan.png",
+        "lottery/rewards/1yuan.png",
+        "lottery/rewards/2yuan.png",
+        "lottery/rewards/3yuan.png",
+        "lottery/rewards/50yuan.png",
+        "lottery/rewards/5yuan.png",
+        "lottery/rewards/jinbi01.png",
+        "lottery/rewards/jinbi02.png",
+        "lottery/rewards/jinbi03.png",
+        "lottery/rewards/jinbi04.png",
+        "lottery/rewards/r15.png",
+        "lottery/Title_xingyunchoujiang.png",
+        "lottery/wdjl_down.png",
+        "lottery/wdjl_up.png",
+        "playlog/btn_x_normal.png",
+        "playlog/btn_x_press.png",
+        "playlog/floor_08.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

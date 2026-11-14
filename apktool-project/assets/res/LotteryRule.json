@@ -1,0 +1,429 @@
+{
+  "ID": "4efc07cc-5227-4aff-b8de-0d851cb59104",
+  "Version": "2.3.4",
+  "Name": "LotteryRule",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 102,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 204,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 121,
+            "ActionTag": -1768884330,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Alpha": 204,
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "chat/bac_03.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 241,
+            "Scale9OriginY": 192,
+            "Scale9Width": 675,
+            "Scale9Height": 285,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.9039,
+              "Y": 0.9292
+            },
+            "LeftMargin": 61.5,
+            "RightMargin": 61.5,
+            "TopMargin": 25.5,
+            "BottomMargin": 25.5,
+            "Tag": 122,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/Title_huodongguize.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 126,
+                "Scale9OriginY": 25,
+                "Scale9Width": 41,
+                "Scale9Height": 36,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 578.5,
+                  "Y": 600.4781
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8976
+                },
+                "PreSize": {
+                  "X": 0.2532,
+                  "Y": 0.1286
+                },
+                "LeftMargin": 432.0,
+                "RightMargin": 432.0,
+                "TopMargin": 25.5219,
+                "BottomMargin": 557.4781,
+                "Tag": 123,
+                "ActionTag": 1850377763,
+                "Size": {
+                  "X": 293.0,
+                  "Y": 86.0
+                },
+                "Name": "title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "email/close_press.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "email/close.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 52,
+                "Scale9Height": 60,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1004.3297,
+                  "Y": 603.6042
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.868,
+                  "Y": 0.9022
+                },
+                "PreSize": {
+                  "X": 0.0709,
+                  "Y": 0.1226
+                },
+                "LeftMargin": 963.3297,
+                "RightMargin": 111.6703,
+                "TopMargin": 24.3958,
+                "BottomMargin": 562.6042,
+                "Tag": 167,
+                "ActionTag": 1253690954,
+                "Size": {
+                  "X": 82.0,
+                  "Y": 82.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lottery/diban000.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 299,
+                "Scale9OriginY": 147,
+                "Scale9Width": 310,
+                "Scale9Height": 153,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 578.5,
+                  "Y": 307.4724
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4596
+                },
+                "PreSize": {
+                  "X": 0.7848,
+                  "Y": 0.7474
+                },
+                "LeftMargin": 124.5,
+                "RightMargin": 124.5,
+                "TopMargin": 111.5276,
+                "BottomMargin": 57.4724,
+                "Tag": 242,
+                "ActionTag": 359448665,
+                "Size": {
+                  "X": 908.0,
+                  "Y": 500.0
+                },
+                "Name": "bgImage",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsBounceEnabled": true,
+                "InnerNodeSize": {
+                  "Width": 888,
+                  "Height": 480
+                },
+                "ScrollDirectionType": "Vertical",
+                "ClipAble": true,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "FirstColor": {
+                  "G": 150,
+                  "B": 100
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 578.5,
+                  "Y": 69.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1046
+                },
+                "PreSize": {
+                  "X": 0.7675,
+                  "Y": 0.7175
+                },
+                "LeftMargin": 134.5,
+                "RightMargin": 134.5,
+                "TopMargin": 119.0001,
+                "BottomMargin": 69.9999,
+                "Tag": 64,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 22,
+                    "LabelText": "~~亲爱的皮皮跑胡子玩家，年中感恩回馈，特推出幸运转盘活动~~\n活动时间：2018.05.31~2018.06.06 \n\n参与方式：每天达成“参与5个场次”、“获得4次大赢家” 这两个条件后，会各获得1次\n抽奖机会抽奖即可获得手机、话费、金币等幸运礼品~\n（注意：每天抽奖次数会在当天的24点重置，请获得抽奖次数后尽快抽取）\n\n手机类礼品兑换流程：\n抽到手机礼品后，会获得一个兑换码。请及时联系兑换系统客服，提交您的兑换码，\n验证身份。验证通过后客服会在5个工作日内为您寄出实物礼品\n获得兑换码后请在7天内联系客服，超时则兑换码失效，不能换回礼品\n\n话费类礼品兑换流程：\n抽到后请在当天内完成领取充值操作，否则失效，无法领取。\n\n金币类礼品抽取后自动为您到账\n\n祝您游戏愉快！",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 1.0
+                    },
+                    "Position": {
+                      "X": 7.1086,
+                      "Y": 470.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 128,
+                      "G": 75,
+                      "B": 36
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.008,
+                      "Y": 0.9792
+                    },
+                    "PreSize": {
+                      "X": 0.991,
+                      "Y": 0.9792
+                    },
+                    "LeftMargin": 7.1086,
+                    "RightMargin": 0.8914,
+                    "TopMargin": 10.0,
+                    "Tag": 65,
+                    "ActionTag": 1236740022,
+                    "Size": {
+                      "X": 880.0,
+                      "Y": 470.0
+                    },
+                    "Name": "content",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 792793433,
+                "Size": {
+                  "X": 888.0,
+                  "Y": 480.0
+                },
+                "Name": "container",
+                "ctype": "ScrollViewObjectData"
+              }
+            ],
+            "ActionTag": 1851693873,
+            "Size": {
+              "X": 1157.0,
+              "Y": 669.0
+            },
+            "Name": "background",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "chat/bac_03.png",
+        "Default/Button_Disable.png",
+        "email/close.png",
+        "email/close_press.png",
+        "lottery/diban000.png",
+        "lottery/Title_huodongguize.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

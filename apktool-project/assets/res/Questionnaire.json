@@ -1,0 +1,3962 @@
+{
+  "ID": "2006d19e-f261-41b5-b90b-cb4dea0c094d",
+  "Version": "2.3.4",
+  "Name": "Questionnaire",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 54,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -422,
+            "Scale9OriginY": -237,
+            "Scale9Width": 844,
+            "Scale9Height": 474,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 55,
+            "ActionTag": -920980281,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "block",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "newJoinRoom/gghd_pnl_2.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 26,
+            "Scale9OriginY": 26,
+            "Scale9Width": 28,
+            "Scale9Height": 28,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8484,
+              "Y": 0.8611
+            },
+            "LeftMargin": 97.0,
+            "RightMargin": 97.0,
+            "TopMargin": 50.0,
+            "BottomMargin": 50.0,
+            "Tag": 56,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "newJoinRoom/gghd_pnl_1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 358,
+                "Scale9OriginY": 29,
+                "Scale9Width": 370,
+                "Scale9Height": 30,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 543.0,
+                  "Y": 582.7352
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9399
+                },
+                "PreSize": {
+                  "X": 1.0009,
+                  "Y": 0.1419
+                },
+                "LeftMargin": -0.5,
+                "RightMargin": -0.5,
+                "TopMargin": -6.7352,
+                "BottomMargin": 538.7352,
+                "Tag": 168,
+                "ActionTag": -691665531,
+                "Size": {
+                  "X": 1087.0,
+                  "Y": 88.0
+                },
+                "Name": "title_bar",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "question/tit_yjwjdc.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 59,
+                "Scale9OriginY": 18,
+                "Scale9Width": 168,
+                "Scale9Height": 14,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 543.0,
+                  "Y": 579.109
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.934
+                },
+                "PreSize": {
+                  "X": 0.2634,
+                  "Y": 0.0806
+                },
+                "LeftMargin": 400.0,
+                "RightMargin": 400.0,
+                "TopMargin": 15.891,
+                "BottomMargin": 554.109,
+                "Tag": 18,
+                "ActionTag": -1444313822,
+                "Size": {
+                  "X": 286.0,
+                  "Y": 50.0
+                },
+                "Name": "title",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "newJoinRoom/qzj_btn_close.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "newJoinRoom/qzj_btn_close.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "newJoinRoom/qzj_btn_close.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 18,
+                "Scale9Height": 27,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1039.7113,
+                  "Y": 578.4333
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9574,
+                  "Y": 0.933
+                },
+                "PreSize": {
+                  "X": 0.0442,
+                  "Y": 0.079
+                },
+                "LeftMargin": 1015.7113,
+                "RightMargin": 22.2887,
+                "TopMargin": 17.0667,
+                "BottomMargin": 553.9333,
+                "Tag": 57,
+                "ActionTag": 1090029591,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 49.0
+                },
+                "Name": "close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 543.0,
+                  "Y": 272.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.44
+                },
+                "PercentWidthEnable": true,
+                "PercentWidthEnabled": true,
+                "PreSize": {
+                  "X": 0.96,
+                  "Y": 0.8258
+                },
+                "LeftMargin": 21.72,
+                "RightMargin": 21.72,
+                "TopMargin": 91.2,
+                "BottomMargin": 16.8,
+                "Tag": 272,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "question/bg_dcwj.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 15,
+                    "Scale9Width": 1040,
+                    "Scale9Height": 375,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 521.28,
+                      "Y": 256.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 273,
+                    "ActionTag": -597025462,
+                    "Size": {
+                      "X": 1042.5599,
+                      "Y": 512.0
+                    },
+                    "Name": "pic",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsBounceEnabled": true,
+                    "InnerNodeSize": {
+                      "Width": 1000,
+                      "Height": 3200
+                    },
+                    "ScrollDirectionType": "Vertical",
+                    "ClipAble": true,
+                    "BackColorAlpha": 88,
+                    "SingleColor": {
+                      "B": 0
+                    },
+                    "FirstColor": {
+                      "G": 150,
+                      "B": 100
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 521.28,
+                      "Y": 256.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 0.96,
+                      "Y": 0.94
+                    },
+                    "LeftMargin": 20.8512,
+                    "RightMargin": 20.8512,
+                    "TopMargin": 15.36,
+                    "BottomMargin": 15.36,
+                    "Tag": 281,
+                    "Children": [
+                      {
+                        "FontSize": 30,
+                        "LabelText": "如果您有其他的任何意见或建议，请您联系客服，期待您的意见.",
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 497.6,
+                          "Y": 256.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 77,
+                          "G": 77,
+                          "B": 77
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4972,
+                          "Y": 0.08
+                        },
+                        "PreSize": {
+                          "X": 0.8543,
+                          "Y": 0.0094
+                        },
+                        "LeftMargin": 70.1,
+                        "RightMargin": 75.7576,
+                        "TopMargin": 2929.0,
+                        "BottomMargin": 241.0,
+                        "Tag": 1291,
+                        "ActionTag": -1992374593,
+                        "Size": {
+                          "X": 855.0,
+                          "Y": 30.0
+                        },
+                        "Name": "tip",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 14,
+                        "ButtonText": "",
+                        "TextColor": {
+                          "R": 65,
+                          "G": 65,
+                          "B": 70
+                        },
+                        "DisabledFileData": {
+                          "Type": "Normal",
+                          "Path": "question/btn_tjwj_p.png",
+                          "Plist": ""
+                        },
+                        "PressedFileData": {
+                          "Type": "Normal",
+                          "Path": "question/btn_tjwj_p.png",
+                          "Plist": ""
+                        },
+                        "NormalFileData": {
+                          "Type": "Normal",
+                          "Path": "question/btn_tjwj_n.png",
+                          "Plist": ""
+                        },
+                        "Scale9Enable": true,
+                        "Scale9OriginX": 15,
+                        "Scale9OriginY": 11,
+                        "Scale9Width": 215,
+                        "Scale9Height": 63,
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 497.6,
+                          "Y": 128.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4972,
+                          "Y": 0.04
+                        },
+                        "PreSize": {
+                          "X": 0.2448,
+                          "Y": 0.0266
+                        },
+                        "LeftMargin": 375.1,
+                        "RightMargin": 380.7576,
+                        "TopMargin": 3029.5,
+                        "BottomMargin": 85.5,
+                        "Tag": 271,
+                        "ActionTag": 2046631505,
+                        "Size": {
+                          "X": 245.0,
+                          "Y": 85.0
+                        },
+                        "Name": "btn_commit",
+                        "ctype": "ButtonObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 1.0
+                        },
+                        "Position": {
+                          "X": 498.8,
+                          "Y": 3168.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4984,
+                          "Y": 0.99
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9744,
+                          "Y": 0.1375
+                        },
+                        "LeftMargin": 11.2,
+                        "RightMargin": 14.4575,
+                        "TopMargin": 32.0,
+                        "BottomMargin": 2728.0,
+                        "Tag": 1247,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 40,
+                            "LabelText": "1.近期是否有遇到返回房间失败卡在牌友群大厅无法进入房间，需要重启游戏方才进入房间的问题？",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 1.0
+                            },
+                            "Position": {
+                              "X": 490.3423,
+                              "Y": 431.2
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 114,
+                              "G": 74,
+                              "B": 35
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5028,
+                              "Y": 0.98
+                            },
+                            "PercentWidthEnable": true,
+                            "PercentWidthEnabled": true,
+                            "PreSize": {
+                              "X": 0.9556,
+                              "Y": 0.2273
+                            },
+                            "LeftMargin": 24.3999,
+                            "RightMargin": 18.9152,
+                            "TopMargin": 8.8,
+                            "BottomMargin": 331.2,
+                            "Tag": 1246,
+                            "ActionTag": -760971725,
+                            "Size": {
+                              "X": 931.8848,
+                              "Y": 100.0
+                            },
+                            "Name": "tip_q_1",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "CheckedState": true,
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 299.2
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.68
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.0977
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 119.3,
+                            "BottomMargin": 277.7,
+                            "Tag": 1254,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "a. 从未遇到",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 4.5116,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -202.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1255,
+                                "ActionTag": -1842992436,
+                                "Size": {
+                                  "X": 194.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": -1928007552,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_0",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 211.2
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.48
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.0977
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 207.3,
+                            "BottomMargin": 189.7,
+                            "Tag": 1248,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "b. 小于3次",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 4.1163,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -185.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1249,
+                                "ActionTag": 2070285289,
+                                "Size": {
+                                  "X": 177.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": -242659730,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_1",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 123.2
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.28
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.0977
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 295.3,
+                            "BottomMargin": 101.7,
+                            "Tag": 1250,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "c. 3次-5次",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 4.1395,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -186.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1251,
+                                "ActionTag": 403869841,
+                                "Size": {
+                                  "X": 178.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": -1965688120,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_2",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 35.2
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.08
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.0977
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 383.3,
+                            "BottomMargin": 13.7,
+                            "Tag": 1252,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "d. 5次以上",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 4.1163,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -185.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1253,
+                                "ActionTag": -249338582,
+                                "Size": {
+                                  "X": 177.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": -114792429,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_3",
+                            "ctype": "CheckBoxObjectData"
+                          }
+                        ],
+                        "ActionTag": -1758401851,
+                        "Size": {
+                          "X": 975.2,
+                          "Y": 440.0
+                        },
+                        "Name": "Panel_Q_0",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 1.0
+                        },
+                        "Position": {
+                          "X": 498.8,
+                          "Y": 2656.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4984,
+                          "Y": 0.83
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9744,
+                          "Y": 0.125
+                        },
+                        "LeftMargin": 11.2,
+                        "RightMargin": 14.4575,
+                        "TopMargin": 544.0,
+                        "BottomMargin": 2256.0,
+                        "Tag": 1256,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 40,
+                            "LabelText": "2. 如出现过问题1的情况，于7月7日后是否再次出现次问题？",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 1.0
+                            },
+                            "Position": {
+                              "X": 490.3423,
+                              "Y": 392.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 114,
+                              "G": 74,
+                              "B": 35
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5028,
+                              "Y": 0.98
+                            },
+                            "PercentWidthEnable": true,
+                            "PercentWidthEnabled": true,
+                            "PreSize": {
+                              "X": 0.9556,
+                              "Y": 0.25
+                            },
+                            "LeftMargin": 24.3999,
+                            "RightMargin": 18.9152,
+                            "TopMargin": 8.0,
+                            "BottomMargin": 292.0,
+                            "Tag": 1257,
+                            "ActionTag": 313872464,
+                            "Size": {
+                              "X": 931.8848,
+                              "Y": 100.0
+                            },
+                            "Name": "tip_q_1",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "CheckedState": true,
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 264.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.66
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.1075
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 114.5,
+                            "BottomMargin": 242.5,
+                            "Tag": 1258,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "a. 有",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 2.0698,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -97.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1259,
+                                "ActionTag": 932383907,
+                                "Size": {
+                                  "X": 89.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": -1636985977,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_0",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 184.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.46
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.1075
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 194.5,
+                            "BottomMargin": 162.5,
+                            "Tag": 1260,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "b. 没有",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 2.8837,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -132.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1261,
+                                "ActionTag": 159893415,
+                                "Size": {
+                                  "X": 124.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 1715282120,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_1",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 104.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.26
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.1075
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 274.5,
+                            "BottomMargin": 82.5,
+                            "Tag": 1262,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "c.从未发生过问题1的情况",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 9.3953,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -412.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1263,
+                                "ActionTag": -397233272,
+                                "Size": {
+                                  "X": 404.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": -701760703,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_2",
+                            "ctype": "CheckBoxObjectData"
+                          }
+                        ],
+                        "ActionTag": -850865131,
+                        "Size": {
+                          "X": 975.2,
+                          "Y": 400.0
+                        },
+                        "Name": "Panel_Q_1",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 1.0
+                        },
+                        "Position": {
+                          "X": 498.8,
+                          "Y": 2272.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4984,
+                          "Y": 0.71
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9744,
+                          "Y": 0.125
+                        },
+                        "LeftMargin": 11.2,
+                        "RightMargin": 14.4575,
+                        "TopMargin": 928.0,
+                        "BottomMargin": 1872.0,
+                        "Tag": 83,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 40,
+                            "LabelText": "3. 您是否希望增加4人打筒子不分组玩法（4人分别算分）？",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 1.0
+                            },
+                            "Position": {
+                              "X": 490.3423,
+                              "Y": 392.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 114,
+                              "G": 74,
+                              "B": 35
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5028,
+                              "Y": 0.98
+                            },
+                            "PercentWidthEnable": true,
+                            "PercentWidthEnabled": true,
+                            "PreSize": {
+                              "X": 0.9556,
+                              "Y": 0.25
+                            },
+                            "LeftMargin": 24.3999,
+                            "RightMargin": 18.9152,
+                            "TopMargin": 8.0,
+                            "BottomMargin": 292.0,
+                            "Tag": 84,
+                            "ActionTag": 931444884,
+                            "Size": {
+                              "X": 931.8848,
+                              "Y": 100.0
+                            },
+                            "Name": "tip_q_1",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "CheckedState": true,
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 260.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.65
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.1075
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 118.5,
+                            "BottomMargin": 238.5,
+                            "Tag": 85,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "a. 希望",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 2.8837,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -132.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 86,
+                                "ActionTag": -1788521320,
+                                "Size": {
+                                  "X": 124.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 1893186436,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_0",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 180.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.45
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.1075
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 198.5,
+                            "BottomMargin": 158.5,
+                            "Tag": 87,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "b. 无所谓",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 3.6977,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -167.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 88,
+                                "ActionTag": -1685944740,
+                                "Size": {
+                                  "X": 159.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 1314138374,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_1",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 100.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.25
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.1075
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 278.5,
+                            "BottomMargin": 78.5,
+                            "Tag": 89,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "c.不希望",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 3.2791,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -149.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 90,
+                                "ActionTag": -1556931380,
+                                "Size": {
+                                  "X": 141.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 1016787977,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_2",
+                            "ctype": "CheckBoxObjectData"
+                          }
+                        ],
+                        "ActionTag": -444034654,
+                        "Size": {
+                          "X": 975.2,
+                          "Y": 400.0
+                        },
+                        "Name": "Panel_Q_2",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 1.0
+                        },
+                        "Position": {
+                          "X": 498.8,
+                          "Y": 1856.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4984,
+                          "Y": 0.58
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9744,
+                          "Y": 0.1563
+                        },
+                        "LeftMargin": 11.2,
+                        "RightMargin": 14.4575,
+                        "TopMargin": 1344.0,
+                        "BottomMargin": 1356.0,
+                        "Tag": 1266,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 40,
+                            "LabelText": "4. 您对托管机器人是否满意？",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 1.0
+                            },
+                            "Position": {
+                              "X": 490.3423,
+                              "Y": 490.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 114,
+                              "G": 74,
+                              "B": 35
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5028,
+                              "Y": 0.98
+                            },
+                            "PercentWidthEnable": true,
+                            "PercentWidthEnabled": true,
+                            "PreSize": {
+                              "X": 0.9556,
+                              "Y": 0.2
+                            },
+                            "LeftMargin": 24.3999,
+                            "RightMargin": 18.9152,
+                            "TopMargin": 10.0,
+                            "BottomMargin": 390.0,
+                            "Tag": 1267,
+                            "ActionTag": 1600193294,
+                            "Size": {
+                              "X": 931.8848,
+                              "Y": 100.0
+                            },
+                            "Name": "tip_q_1",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "CheckedState": true,
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 375.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.75
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.086
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 103.5,
+                            "BottomMargin": 353.5,
+                            "Tag": 1268,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "a.满意",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 2.4651,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -114.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1269,
+                                "ActionTag": -1350518781,
+                                "Size": {
+                                  "X": 106.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 1189710275,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_0",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 300.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.6
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.086
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 178.5,
+                            "BottomMargin": 278.5,
+                            "Tag": 1270,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "b.一般",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 2.4651,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -114.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1271,
+                                "ActionTag": 1326862304,
+                                "Size": {
+                                  "X": 106.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 1766576089,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_1",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 225.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.45
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.086
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 253.5,
+                            "BottomMargin": 203.5,
+                            "Tag": 1272,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "c.不满意，请您填写建议",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 8.9767,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -394.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1273,
+                                "ActionTag": 1934602762,
+                                "Size": {
+                                  "X": 386.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": -133514759,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_2",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "guildwood/guildsetting/base/jcsz_bg_InputField.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 246,
+                            "Scale9OriginY": 48,
+                            "Scale9Width": 254,
+                            "Scale9Height": 50,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 490.3423,
+                              "Y": 100.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5028,
+                              "Y": 0.2
+                            },
+                            "PreSize": {
+                              "X": 0.765,
+                              "Y": 0.292
+                            },
+                            "LeftMargin": 117.3423,
+                            "RightMargin": 111.8577,
+                            "TopMargin": 327.0,
+                            "BottomMargin": 27.0,
+                            "Tag": 1274,
+                            "ActionTag": -1695143689,
+                            "Size": {
+                              "X": 746.0,
+                              "Y": 146.0
+                            },
+                            "Name": "input_bg",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 2000559558,
+                        "Size": {
+                          "X": 975.2,
+                          "Y": 500.0
+                        },
+                        "Name": "Panel_Q_3",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 1.0
+                        },
+                        "Position": {
+                          "X": 498.8,
+                          "Y": 1312.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4984,
+                          "Y": 0.41
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9744,
+                          "Y": 0.1406
+                        },
+                        "LeftMargin": 11.2,
+                        "RightMargin": 14.4575,
+                        "TopMargin": 1888.0,
+                        "BottomMargin": 862.0,
+                        "Tag": 1275,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 40,
+                            "LabelText": "5.您是否有想要增加的玩法？",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 1.0
+                            },
+                            "Position": {
+                              "X": 490.3423,
+                              "Y": 441.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 114,
+                              "G": 74,
+                              "B": 35
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5028,
+                              "Y": 0.98
+                            },
+                            "PercentWidthEnable": true,
+                            "PercentWidthEnabled": true,
+                            "PreSize": {
+                              "X": 0.9556,
+                              "Y": 0.2
+                            },
+                            "LeftMargin": 24.3999,
+                            "RightMargin": 18.9152,
+                            "TopMargin": 9.0,
+                            "BottomMargin": 351.0,
+                            "Tag": 1276,
+                            "ActionTag": 176179585,
+                            "Size": {
+                              "X": 931.8848,
+                              "Y": 90.0
+                            },
+                            "Name": "tip_q_1",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "CheckedState": true,
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 306.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.68
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.0956
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 122.5,
+                            "BottomMargin": 284.5,
+                            "Tag": 1277,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "a.没有",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 2.4651,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -114.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1278,
+                                "ActionTag": -1120373198,
+                                "Size": {
+                                  "X": 106.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 1696534203,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_0",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 216.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.48
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.0956
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 212.5,
+                            "BottomMargin": 194.5,
+                            "Tag": 1279,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "b.有，请您举例说明",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 7.3488,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -324.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1280,
+                                "ActionTag": -2081726906,
+                                "Size": {
+                                  "X": 316.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": 2016459825,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_1",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "guildwood/guildsetting/base/jcsz_bg_InputField.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 246,
+                            "Scale9OriginY": 48,
+                            "Scale9Width": 254,
+                            "Scale9Height": 50,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 490.3423,
+                              "Y": 103.5
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5028,
+                              "Y": 0.23
+                            },
+                            "PreSize": {
+                              "X": 0.765,
+                              "Y": 0.3244
+                            },
+                            "LeftMargin": 117.3423,
+                            "RightMargin": 111.8577,
+                            "TopMargin": 273.5,
+                            "BottomMargin": 30.5,
+                            "Tag": 1283,
+                            "ActionTag": -1739789721,
+                            "Size": {
+                              "X": 746.0,
+                              "Y": 146.0
+                            },
+                            "Name": "input_bg",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 2038003458,
+                        "Size": {
+                          "X": 975.2,
+                          "Y": 450.0
+                        },
+                        "Name": "Panel_Q_4",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 1.0
+                        },
+                        "Position": {
+                          "X": 498.8,
+                          "Y": 800.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4984,
+                          "Y": 0.25
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PreSize": {
+                          "X": 0.9744,
+                          "Y": 0.1344
+                        },
+                        "LeftMargin": 11.2,
+                        "RightMargin": 14.4575,
+                        "TopMargin": 2400.0,
+                        "BottomMargin": 370.0,
+                        "Tag": 1284,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 40,
+                            "LabelText": "6.对于游戏，是否有任何让您不满意需要改进的地方？",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 1.0
+                            },
+                            "Position": {
+                              "X": 490.3423,
+                              "Y": 421.4
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "R": 114,
+                              "G": 74,
+                              "B": 35
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5028,
+                              "Y": 0.98
+                            },
+                            "PercentWidthEnable": true,
+                            "PercentWidthEnabled": true,
+                            "PreSize": {
+                              "X": 0.9556,
+                              "Y": 0.2326
+                            },
+                            "LeftMargin": 24.3999,
+                            "RightMargin": 18.9152,
+                            "TopMargin": 8.6,
+                            "BottomMargin": 321.4,
+                            "Tag": 1285,
+                            "ActionTag": 290958583,
+                            "Size": {
+                              "X": 931.8848,
+                              "Y": 100.0
+                            },
+                            "Name": "tip_q_1",
+                            "ctype": "TextObjectData"
+                          },
+                          {
+                            "CheckedState": true,
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 301.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.7
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.1
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 107.5,
+                            "BottomMargin": 279.5,
+                            "Tag": 1286,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "a.没有",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 2.4651,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -114.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1287,
+                                "ActionTag": -379477926,
+                                "Size": {
+                                  "X": 106.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": -1315723003,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_0",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "NormalBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "PressedBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "DisableBackFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "NodeNormalFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_n.png",
+                              "Plist": ""
+                            },
+                            "NodeDisableFileData": {
+                              "Type": "Normal",
+                              "Path": "question/btn_CheckBox_p.png",
+                              "Plist": ""
+                            },
+                            "TouchEnable": true,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 98.1856,
+                              "Y": 219.3
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.1007,
+                              "Y": 0.51
+                            },
+                            "PreSize": {
+                              "X": 0.0441,
+                              "Y": 0.1
+                            },
+                            "LeftMargin": 76.6856,
+                            "RightMargin": 855.5144,
+                            "TopMargin": 189.2,
+                            "BottomMargin": 197.8,
+                            "Tag": 1288,
+                            "Children": [
+                              {
+                                "FontSize": 35,
+                                "LabelText": "b.有，请填写您的建议",
+                                "VerticalAlignmentType": "VT_Center",
+                                "OutlineColor": {
+                                  "G": 0,
+                                  "B": 0
+                                },
+                                "ShadowColor": {
+                                  "R": 110,
+                                  "G": 110,
+                                  "B": 110
+                                },
+                                "ShadowOffsetX": 2.0,
+                                "ShadowOffsetY": -2.0,
+                                "AnchorPoint": {
+                                  "ScaleY": 0.5
+                                },
+                                "Position": {
+                                  "X": 51.6,
+                                  "Y": 21.5
+                                },
+                                "Scale": {
+                                  "ScaleX": 1.0,
+                                  "ScaleY": 1.0
+                                },
+                                "CColor": {
+                                  "R": 114,
+                                  "G": 74,
+                                  "B": 35
+                                },
+                                "IconVisible": false,
+                                "PositionPercentXEnabled": true,
+                                "PositionPercentYEnabled": true,
+                                "PrePosition": {
+                                  "X": 1.2,
+                                  "Y": 0.5
+                                },
+                                "PreSize": {
+                                  "X": 8.1628,
+                                  "Y": 0.814
+                                },
+                                "LeftMargin": 51.6,
+                                "RightMargin": -359.6,
+                                "TopMargin": 4.0,
+                                "BottomMargin": 4.0,
+                                "Tag": 1289,
+                                "ActionTag": 848277852,
+                                "Size": {
+                                  "X": 351.0,
+                                  "Y": 35.0
+                                },
+                                "Name": "txt",
+                                "ctype": "TextObjectData"
+                              }
+                            ],
+                            "ActionTag": -1123515978,
+                            "Size": {
+                              "X": 43.0,
+                              "Y": 43.0
+                            },
+                            "Name": "CheckBox_1",
+                            "ctype": "CheckBoxObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "Normal",
+                              "Path": "guildwood/guildsetting/base/jcsz_bg_InputField.png",
+                              "Plist": ""
+                            },
+                            "Scale9OriginX": 246,
+                            "Scale9OriginY": 48,
+                            "Scale9Width": 254,
+                            "Scale9Height": 50,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 490.3423,
+                              "Y": 98.9
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5028,
+                              "Y": 0.23
+                            },
+                            "PreSize": {
+                              "X": 0.765,
+                              "Y": 0.3395
+                            },
+                            "LeftMargin": 117.3423,
+                            "RightMargin": 111.8577,
+                            "TopMargin": 258.1,
+                            "BottomMargin": 25.9,
+                            "Tag": 1290,
+                            "ActionTag": 682904216,
+                            "Size": {
+                              "X": 746.0,
+                              "Y": 146.0
+                            },
+                            "Name": "input_bg",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1755385709,
+                        "Size": {
+                          "X": 975.2,
+                          "Y": 430.0
+                        },
+                        "Name": "Panel_Q_5",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": -1637316736,
+                    "Size": {
+                      "X": 1000.8575,
+                      "Y": 481.28
+                    },
+                    "Name": "ScrollView",
+                    "ctype": "ScrollViewObjectData"
+                  }
+                ],
+                "ActionTag": -396989942,
+                "Size": {
+                  "X": 1042.5599,
+                  "Y": 512.0
+                },
+                "Name": "content",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1339739171,
+            "Size": {
+              "X": 1086.0,
+              "Y": 620.0
+            },
+            "Name": "back",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 168,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 845,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "guildnew/guild_bg_622_444.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 30,
+                "Scale9OriginY": 30,
+                "Scale9Width": 502,
+                "Scale9Height": 384,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 360.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.4859,
+                  "Y": 0.6167
+                },
+                "LeftMargin": 329.0,
+                "RightMargin": 329.0,
+                "TopMargin": 138.0,
+                "BottomMargin": 138.0,
+                "Tag": 846,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/ImageFile.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 46,
+                    "Scale9Height": 46,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 311.0,
+                      "Y": 399.6
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.9
+                    },
+                    "PreSize": {
+                      "X": 0.074,
+                      "Y": 0.1036
+                    },
+                    "LeftMargin": 288.0,
+                    "RightMargin": 288.0,
+                    "TopMargin": 21.4,
+                    "BottomMargin": 376.6,
+                    "Tag": 864,
+                    "ActionTag": -1938166393,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "Name": "title",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/ImageFile.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 46,
+                    "Scale9Height": 46,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 186.6,
+                      "Y": 257.52
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.3,
+                      "Y": 0.58
+                    },
+                    "PreSize": {
+                      "X": 0.1447,
+                      "Y": 0.2027
+                    },
+                    "LeftMargin": 141.6,
+                    "RightMargin": 390.4,
+                    "TopMargin": 141.48,
+                    "BottomMargin": 212.52,
+                    "Tag": 860,
+                    "Children": [
+                      {
+                        "FontSize": 25,
+                        "LabelText": "奖品名称七个字",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 1.0
+                        },
+                        "Position": {
+                          "X": 45.0,
+                          "Y": -18.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 139,
+                          "G": 105,
+                          "B": 20
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": -0.2
+                        },
+                        "PreSize": {
+                          "X": 1.9444,
+                          "Y": 0.2778
+                        },
+                        "LeftMargin": -42.5,
+                        "RightMargin": -42.5,
+                        "TopMargin": 108.0,
+                        "BottomMargin": -43.0,
+                        "Tag": 861,
+                        "ActionTag": -2092733228,
+                        "Size": {
+                          "X": 175.0,
+                          "Y": 25.0
+                        },
+                        "Name": "desc",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 946295919,
+                    "Size": {
+                      "X": 90.0,
+                      "Y": 90.0
+                    },
+                    "Name": "reward_0",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/ImageFile.png",
+                      "Plist": ""
+                    },
+                    "Scale9Width": 46,
+                    "Scale9Height": 46,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 435.4,
+                      "Y": 257.52
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.7,
+                      "Y": 0.58
+                    },
+                    "PreSize": {
+                      "X": 0.1447,
+                      "Y": 0.2027
+                    },
+                    "LeftMargin": 390.4,
+                    "RightMargin": 141.6,
+                    "TopMargin": 141.48,
+                    "BottomMargin": 212.52,
+                    "Tag": 862,
+                    "Children": [
+                      {
+                        "FontSize": 25,
+                        "LabelText": "奖品名称七个字",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 1.0
+                        },
+                        "Position": {
+                          "X": 45.0,
+                          "Y": -18.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "R": 139,
+                          "G": 105,
+                          "B": 20
+                        },
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": -0.2
+                        },
+                        "PreSize": {
+                          "X": 1.9444,
+                          "Y": 0.2778
+                        },
+                        "LeftMargin": -42.5,
+                        "RightMargin": -42.5,
+                        "TopMargin": 108.0,
+                        "BottomMargin": -43.0,
+                        "Tag": 863,
+                        "ActionTag": 2090917080,
+                        "Size": {
+                          "X": 175.0,
+                          "Y": 25.0
+                        },
+                        "Name": "desc",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": 1326323673,
+                    "Size": {
+                      "X": 90.0,
+                      "Y": 90.0
+                    },
+                    "Name": "reward_1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/btn_guild_match_reward_get_p.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/btn_guild_match_reward_get_p.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "guildnew/btn_guild_match_reward_get_n.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 251,
+                    "Scale9Height": 55,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 311.0,
+                      "Y": 66.6
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.15
+                    },
+                    "PreSize": {
+                      "X": 0.4518,
+                      "Y": 0.1734
+                    },
+                    "LeftMargin": 170.5,
+                    "RightMargin": 170.5,
+                    "TopMargin": 338.9,
+                    "BottomMargin": 28.1,
+                    "Tag": 859,
+                    "ActionTag": -1750589807,
+                    "Size": {
+                      "X": 281.0,
+                      "Y": 77.0
+                    },
+                    "Name": "btn_hide",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 2122835590,
+                "Size": {
+                  "X": 622.0,
+                  "Y": 444.0
+                },
+                "Name": "bg",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1682671762,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "front",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/ImageFile.png",
+        "guildnew/btn_guild_match_reward_get_n.png",
+        "guildnew/btn_guild_match_reward_get_p.png",
+        "guildnew/guild_bg_622_444.png",
+        "guildwood/guildsetting/base/jcsz_bg_InputField.png",
+        "newJoinRoom/gghd_pnl_1.png",
+        "newJoinRoom/gghd_pnl_2.png",
+        "newJoinRoom/qzj_btn_close.png",
+        "question/bg_dcwj.png",
+        "question/btn_CheckBox_n.png",
+        "question/btn_CheckBox_p.png",
+        "question/btn_tjwj_n.png",
+        "question/btn_tjwj_p.png",
+        "question/tit_yjwjdc.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

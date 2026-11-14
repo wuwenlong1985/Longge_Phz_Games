@@ -1,0 +1,23 @@
+# Generated package artifacts
+/dist/
+*.apk
+*.aab
+*.apks
+*.unsigned.apk
+*.aligned.apk
+*.log
+
+# Local signing credentials
+/signing/*.keystore
+/signing/*.jks
+/signing/*.p12
+
+# Apktool intermediates and original signing metadata
+/apktool-project/build/
+/apktool-project/original/
+/apktool-project/assets/aLiDunKey.txt
+
+# Local machine configuration
+local.properties
+.idea/
+*.iml
