@@ -21,7 +21,14 @@
 
 ## 构建
 
-需要 JDK 21、Apktool 2.12.1 和 Android Build Tools（含 `aapt2`、`zipalign`、`apksigner`）。构建脚本默认使用本机配置的工具路径；换电脑时请先调整 `build-and-sign.ps1` 中的工具路径。
+需要 JDK、Apktool 2.12.1 和 Android Build Tools（含 `aapt2`、`zipalign`、`apksigner`）。脚本会从 `JAVA_HOME` / `PATH`、`ANDROID_SDK_ROOT` / `ANDROID_HOME` 和常见 SDK 安装目录查找依赖。若工具安装在非标准位置，可设置：
+
+```powershell
+$env:PHZ_TOOLS_ROOT = 'D:\AndroidTools'       # 内有 apktool_2.12.1.jar
+$env:ANDROID_BUILD_TOOLS = 'D:\AndroidSdk\build-tools\36.1.0'
+```
+
+也可用 `APKTOOL_JAR`、`APKTOOL_PATH`、`PHZ_BUILD_TEMP` 指定单独路径。原始 `.js` 工程不在仓库中；当前仓库提供的是可用 Apktool 重打包的 APK 工程，不是上游 ppGameEngine 完整源码工程。
 
 ```powershell
 cd <仓库目录>

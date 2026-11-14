@@ -1,20 +1,31 @@
 $ErrorActionPreference = 'Stop'
 
 $ProjectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
-$ToolsRoot = 'D:\Tools\rea-android-pipihuzi-6CDD785D'
-$Apktool = Join-Path $ToolsRoot 'apktool.bat'
-$ApktoolJar = Join-Path $ToolsRoot 'apktool_2.12.1.jar'
-$JavaHome = Join-Path $ToolsRoot 'jdk\jdk-21.0.13+9'
+$ToolsRoot = if ($env:PHZ_TOOLS_ROOT) { [System.IO.Path]::GetFullPath($env:PHZ_TOOLS_ROOT) } else { 'D:\Tools\rea-android-pipihuzi-6CDD785D' }
+$Apktool = if ($env:APKTOOL_PATH) { [System.IO.Path]::GetFullPath($env:APKTOOL_PATH) } else { Join-Path $ToolsRoot 'apktool.bat' }
+$ApktoolJar = if ($env:APKTOOL_JAR) { [System.IO.Path]::GetFullPath($env:APKTOOL_JAR) } else { Join-Path $ToolsRoot 'apktool_2.12.1.jar' }
+if (-not (Test-Path -LiteralPath $Apktool)) {
+    $ApktoolCommand = Get-Command apktool.bat,apktool -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($ApktoolCommand) { $Apktool = $ApktoolCommand.Source }
+}
+
+$JavaHome = if ($env:JAVA_HOME) { [System.IO.Path]::GetFullPath($env:JAVA_HOME) } else { Join-Path $ToolsRoot 'jdk\jdk-21.0.13+9' }
 $Java = Join-Path $JavaHome 'bin\java.exe'
 if (-not (Test-Path -LiteralPath $Java)) {
-    $Java21 = Get-ChildItem -LiteralPath 'C:\Program Files\Eclipse Adoptium' -Directory -Filter 'jre-21*' -ErrorAction SilentlyContinue | Select-Object -First 1
-    if ($Java21) { $Java = Join-Path $Java21.FullName 'bin\java.exe' }
-    else { $Java = (Get-Command java.exe -ErrorAction Stop).Source }
+    $JavaCommand = Get-Command java.exe -ErrorAction Stop
+    $Java = $JavaCommand.Source
     $JavaHome = Split-Path -Parent (Split-Path -Parent $Java)
 }
 $env:JAVA_HOME = $JavaHome
 $env:Path = (Join-Path $JavaHome 'bin') + ';' + $env:Path
-$BuildTools = 'C:\Users\24541\AppData\Local\Android\Sdk\build-tools\36.1.0'
+$BuildTools = $env:ANDROID_BUILD_TOOLS
+if (-not $BuildTools) {
+    $AndroidSdk = if ($env:ANDROID_SDK_ROOT) { $env:ANDROID_SDK_ROOT } elseif ($env:ANDROID_HOME) { $env:ANDROID_HOME } else { Join-Path $env:LOCALAPPDATA 'Android\Sdk' }
+    $BuildTools = Get-ChildItem -LiteralPath (Join-Path $AndroidSdk 'build-tools') -Directory -ErrorAction SilentlyContinue |
+        Sort-Object { try { [version]$_.Name } catch { [version]'0.0' } } -Descending |
+        Select-Object -First 1 -ExpandProperty FullName
+}
+if (-not $BuildTools) { throw 'Android Build Tools not found. Set ANDROID_SDK_ROOT or ANDROID_BUILD_TOOLS.' }
 $Zipalign = Join-Path $BuildTools 'zipalign.exe'
 $ApkSigner = Join-Path $BuildTools 'apksigner.bat'
 $Keytool = Join-Path $JavaHome 'bin\keytool.exe'
@@ -25,7 +36,7 @@ $Dist = if ([string]::IsNullOrWhiteSpace($env:PHZ_BUILD_OUTPUT_DIR)) {
     [System.IO.Path]::GetFullPath($env:PHZ_BUILD_OUTPUT_DIR)
 }
 $KeyStore = Join-Path $ProjectRoot 'signing\longge-brand.keystore'
-$TempRoot = Join-Path $ToolsRoot 'temp'
+$TempRoot = if ($env:PHZ_BUILD_TEMP) { [System.IO.Path]::GetFullPath($env:PHZ_BUILD_TEMP) } else { [System.IO.Path]::GetTempPath() }
 if (-not (Test-Path -LiteralPath $TempRoot)) { New-Item -ItemType Directory -Path $TempRoot -Force | Out-Null }
 $env:TEMP = $TempRoot
 $env:TMP = $TempRoot
